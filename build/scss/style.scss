@@ -297,7 +297,7 @@ header {
 
 /*============================== SALE ========================================*/
 .goneInFlash {
-	padding-top: 2rem;
+	padding: 2.25rem 2rem;
 	background: $backgroundColor_lightGrey;
 
 	.display {
@@ -386,9 +386,7 @@ header {
 
 /*============================== SMARTPHONE ========================================*/
 .smartphones {
-	padding: 0 2rem;
-	padding-top: 1.5rem;
-	padding-bottom: 1rem;
+	padding: 1rem;
 	background: $backgroundColor_lightGrey;
 
 	.display {
@@ -446,7 +444,7 @@ header {
 			grid-gap: 1rem;
 
 			.product {
-				padding: 2rem 0.5rem;
+				padding: 1rem 0;
 				background: $backgroundColor_White;
 
 				.new {
@@ -454,10 +452,10 @@ header {
 					left: -300px;
 
 					h2 {
-						padding: 0.2rem 0.5rem;
+						padding: 0.2rem 0.25rem;
 						color: $baseColor_white;
 						text-transform: uppercase;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_xSmall;
 						font-family: $fontStyle_option1;
 						background: $secondary_lightGreen;
 					}
@@ -465,6 +463,8 @@ header {
 
 				.content {
 					display: flex;
+					padding: 2rem;
+					padding-top: 0rem;
 					justify-content: space-between;
 
 					.text {
@@ -473,10 +473,9 @@ header {
 
 						h2 {
 							font-weight: 300;
-
 							margin-top: 1.5rem;
 							color: $baseColor_black;
-							font-size: $fontSize_large;
+							font-size: $fontSize_large-0;
 							font-family: $fontStyle_option1;
 
 							span {
@@ -491,8 +490,8 @@ header {
 						.subtitle {
 							font-weight: 100;
 							color: $baseColor_black;
-							font-size: $fontSize_small;
-							font-family: $fontStyle_option1;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_header;
 						}
 
 						.price {
