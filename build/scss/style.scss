@@ -42,6 +42,7 @@ header {
 	padding-top: 0.5rem;
 	nav {
 		display: flex;
+		padding: 0.25rem;
 		flex-direction: column;
 
 		.topSection {
@@ -72,7 +73,7 @@ header {
 		}
 
 		.borderLineMid {
-			margin: 0.5rem 0;
+			margin-top: 0.75rem;
 			border-bottom: $baseColor_lightGrey2 0.1rem solid;
 		}
 
@@ -120,6 +121,12 @@ header {
 /*============================== HERO ========================================*/
 .hero {
 	.carousel-indicators {
+		button {
+			width: 8px;
+			height: 8px;
+			margin: 0 1rem;
+			border-radius: 50%;
+		}
 	}
 
 	.carousel-inner {
