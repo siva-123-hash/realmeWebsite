@@ -134,6 +134,7 @@ header {
 			img {
 				width: 100%;
 				height: 650px;
+				max-height: 1200px;
 				object-fit: cover;
 			}
 
@@ -294,6 +295,7 @@ header {
 	}
 }
 
+/*============================== SALE ========================================*/
 .goneInFlash {
 	padding: 2rem;
 	background: $backgroundColor_lightGrey;
@@ -311,7 +313,7 @@ header {
 			display: flex;
 			padding: 0 1rem;
 			margin-top: 1.5rem;
-			grid-column-gap: 1rem;
+			grid-gap: 1rem;
 			justify-content: space-between;
 
 			.product {
@@ -376,6 +378,177 @@ header {
 						color: $baseColor_lightBlack;
 						text-decoration-line: line-through;
 					}
+				}
+			}
+		}
+	}
+}
+
+/*============================== SMARTPHONE ========================================*/
+.smartphones {
+	padding: 2rem;
+	background: $backgroundColor_lightGrey;
+
+	.display {
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+
+			.left {
+				display: flex;
+				align-items: center;
+
+				h2 {
+					font-weight: 300;
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option1;
+				}
+
+				button {
+					border: none;
+					padding: 0 1rem;
+					background: none;
+					margin-left: 1rem;
+					color: $baseColor_black;
+				}
+
+				button:hover {
+					color: $baseColor_lightBlack;
+				}
+
+				#newLaunches:hover,
+				#bestSeller:hover {
+					transition: all 0.25s ease-in;
+					border-bottom: $baseColor_black 1px solid;
+				}
+			}
+
+			.viewMore {
+				border: none;
+				padding: 0 1rem;
+				background: none;
+				color: $baseColor_black;
+			}
+
+			.viewMore:hover {
+				color: $baseColor_lightBlack;
+			}
+		}
+
+		.content {
+			display: grid;
+			margin-top: 2rem;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 2rem;
+
+			.product {
+				padding: 2rem 0.5rem;
+				background: $backgroundColor_White;
+
+				.new {
+					display: flex;
+					left: -300px;
+
+					h2 {
+						padding: 0.2rem 0.5rem;
+						color: $baseColor_white;
+						text-transform: uppercase;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_option1;
+						background: $secondary_lightGreen;
+					}
+				}
+
+				.content {
+					display: flex;
+					justify-content: space-between;
+
+					.text {
+						padding: 1rem;
+						text-align: left;
+
+						h2 {
+							font-weight: 300;
+							margin-top: 1.5rem;
+							color: $baseColor_black;
+							font-size: $fontSize_large;
+							font-family: $fontStyle_option1;
+
+							span {
+								padding: 0.1rem;
+								border-radius: 5px;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								border: $baseColor_black 0.15rem solid;
+							}
+						}
+
+						.subtitle {
+							font-weight: 100;
+							font-size: $fontSize_small;
+							color: $baseColor_black;
+							font-family: $fontStyle_option1;
+						}
+
+						.price {
+							height: 100%;
+							font-weight: 400;
+							margin-top: 2rem;
+							text-align: center;
+							color: $secondary_pinkRed;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_option1;
+
+							span {
+								font-weight: 100;
+								font-size: $fontSize_small;
+								color: $baseColor_lightBlack;
+								text-decoration-line: line-through;
+							}
+						}
+					}
+
+					img {
+						width: 40%;
+						height: 200px;
+						object-fit: contain;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (min-width: 1440px) {
+	.hero {
+		.carousel-inner {
+			.carousel-item {
+				img {
+					height: 30vw;
+					object-fit: cover;
+				}
+
+				.content {
+					display: flex;
+					bottom: 640px;
+					left: -420px;
+					flex-direction: column;
+				}
+
+				.content1 {
+					display: flex;
+					bottom: 400px;
+					right: -420px;
+					flex-direction: column;
+				}
+
+				.content2 {
+					display: flex;
+					bottom: 450px;
+					right: -420px;
+					flex-direction: column;
 				}
 			}
 		}
