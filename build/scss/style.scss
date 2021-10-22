@@ -297,7 +297,7 @@ header {
 
 /*============================== SALE ========================================*/
 .goneInFlash {
-	padding: 2rem;
+	padding-top: 2rem;
 	background: $backgroundColor_lightGrey;
 
 	.display {
@@ -386,7 +386,9 @@ header {
 
 /*============================== SMARTPHONE ========================================*/
 .smartphones {
-	padding: 2rem;
+	padding: 0 2rem;
+	padding-top: 1.5rem;
+	padding-bottom: 1rem;
 	background: $backgroundColor_lightGrey;
 
 	.display {
@@ -441,7 +443,7 @@ header {
 			display: grid;
 			margin-top: 2rem;
 			grid-template-columns: repeat(2, 1fr);
-			grid-gap: 2rem;
+			grid-gap: 1rem;
 
 			.product {
 				padding: 2rem 0.5rem;
@@ -471,6 +473,7 @@ header {
 
 						h2 {
 							font-weight: 300;
+
 							margin-top: 1.5rem;
 							color: $baseColor_black;
 							font-size: $fontSize_large;
@@ -487,26 +490,18 @@ header {
 
 						.subtitle {
 							font-weight: 100;
-							font-size: $fontSize_small;
 							color: $baseColor_black;
+							font-size: $fontSize_small;
 							font-family: $fontStyle_option1;
 						}
 
 						.price {
 							height: 100%;
-							font-weight: 400;
+							font-weight: 300;
 							margin-top: 2rem;
-							text-align: center;
 							color: $secondary_pinkRed;
 							font-size: $fontSize_normal;
 							font-family: $fontStyle_option1;
-
-							span {
-								font-weight: 100;
-								font-size: $fontSize_small;
-								color: $baseColor_lightBlack;
-								text-decoration-line: line-through;
-							}
 						}
 					}
 
@@ -521,7 +516,7 @@ header {
 	}
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2000px) {
 	.hero {
 		.carousel-inner {
 			.carousel-item {
