@@ -116,3 +116,39 @@ header {
 		}
 	}
 }
+
+/*============================== HERO ========================================*/
+.hero {
+	.carousel-indicators {
+	}
+
+	.carousel-inner {
+		.carousel-item {
+			img {
+				width: 100%;
+				height: 650px;
+				object-fit: cover;
+			}
+
+			.content {
+				display: flex;
+				bottom: 340px;
+				left: -420px;
+				flex-direction: column;
+
+				h2 {
+					text-align: center;
+					color: $baseColor_white;
+					font-size: $fontSize_large-0;
+					font-family: $fontStyle_header;
+				}
+
+				p {
+					margin-top: 1rem;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_body;
+				}
+			}
+		}
+	}
+}
