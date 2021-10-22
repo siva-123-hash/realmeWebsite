@@ -2,6 +2,37 @@
 @import "./fonts";
 @import "./colors";
 @import "./boxShadow";
-@import "./productPage";
 
 /*==================== bASE ====================*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $backgroundColor_White;
+}
+
+/*  hides website scrollbar, But Keep scrolling Functionality */
+::-webkit-scrollbar {
+	display: none;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: $secondary_orange;
+}
