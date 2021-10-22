@@ -146,6 +146,7 @@ header {
 				h2 {
 					text-align: center;
 					color: $baseColor_white;
+					text-transform: uppercase;
 					font-size: $fontSize_large-0;
 					font-family: $fontStyle_header;
 				}
@@ -156,6 +157,139 @@ header {
 					font-family: $fontStyle_body;
 				}
 			}
+
+			.content1 {
+				display: flex;
+				bottom: 200px;
+				right: -420px;
+				flex-direction: column;
+
+				h2 {
+					font-weight: 200;
+					text-align: center;
+					color: $baseColor_black;
+					font-size: $fontSize_XL-large;
+					font-family: $fontStyle_header;
+
+					span {
+						padding: 0.25rem;
+						border-radius: 5px;
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+						border: $baseColor_black 0.25rem solid;
+					}
+				}
+
+				h5 {
+					font-weight: 300;
+					text-align: center;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+
+				p {
+					margin-top: 0.25rem;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_body;
+				}
+
+				h3 {
+					margin-top: 2rem;
+					text-align: center;
+					letter-spacing: 0.1rem;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+
+				button {
+					margin: auto;
+					width: fit-content;
+					margin-top: 1rem;
+					background: none;
+					padding: 0.5rem 2.5rem;
+					color: $baseColor_black;
+					border: $baseColor_black 0.1rem solid;
+				}
+
+				button:hover {
+					color: $baseColor_white;
+					background: $backgroundColor_black;
+					border: $baseColor_black 0.1rem solid;
+				}
+			}
+
+			.content2 {
+				display: flex;
+				bottom: 225px;
+				right: -420px;
+				flex-direction: column;
+
+				h2 {
+					font-weight: 200;
+					text-align: center;
+					color: $baseColor_white;
+					font-size: $fontSize_XL-large;
+					font-family: $fontStyle_header;
+
+					span {
+						padding: 0.1rem;
+						border-radius: 5px;
+						color: $baseColor_white;
+						font-size: $fontSize_large;
+						border: $baseColor_white 0.2rem solid;
+					}
+				}
+
+				h5 {
+					font-weight: 300;
+					text-align: center;
+					color: $baseColor_white;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+
+				p {
+					margin-top: 0.25rem;
+					color: $baseColor_white;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_body;
+				}
+
+				h3 {
+					margin-top: 2rem;
+					text-align: center;
+					letter-spacing: 0.1rem;
+					color: $baseColor_white;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+
+				button {
+					margin: auto;
+					width: fit-content;
+					margin-top: 1rem;
+					background: none;
+					padding: 0.5rem 2.5rem;
+					color: $baseColor_white;
+					border: $baseColor_white 0.1rem solid;
+				}
+
+				button:hover {
+					color: $baseColor_black;
+					background: $baseColor_white;
+					border: $baseColor_black 0.1rem solid;
+				}
+			}
 		}
+	}
+
+	.carousel-control-prev,
+	.carousel-control-next {
+		margin: auto;
+		padding: 6rem 0;
+		height: fit-content;
 	}
 }
