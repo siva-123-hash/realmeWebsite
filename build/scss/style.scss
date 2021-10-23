@@ -842,14 +842,18 @@ header {
 
 			.rightSide {
 				.discountHeader {
-					h2 {
-						bottom: 315px;
-						font-weight: 300;
-						position: relative;
-						text-align: center;
-						color: $baseColor_black;
-						font-size: $fontSize_large;
-						font-family: $fontStyle_option1;
+					a {
+						text-decoration: none;
+
+						h2 {
+							bottom: 315px;
+							font-weight: 300;
+							position: relative;
+							text-align: center;
+							color: $baseColor_black;
+							font-size: $fontSize_large;
+							font-family: $fontStyle_option1;
+						}
 					}
 				}
 			}
