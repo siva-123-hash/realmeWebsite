@@ -384,7 +384,7 @@ header {
 	}
 }
 
-/*============================== SMARTPHONE ========================================*/
+/*============================== SMARTPHONE ==================================*/
 .smartphones {
 	padding: 1rem;
 	background: $backgroundColor_lightGrey;
@@ -539,6 +539,61 @@ header {
 						object-fit: contain;
 					}
 				}
+			}
+		}
+	}
+}
+
+/*============================== ACCESSORIES ==================================*/
+.accessories {
+	padding: 1rem;
+	background: $backgroundColor_lightGrey;
+
+	.display {
+		.navigation {
+			display: flex;
+			justify-content: space-between;
+
+			.left {
+				display: flex;
+				align-items: center;
+
+				h2 {
+					font-weight: 300;
+					text-align: left;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_option1;
+				}
+
+				button {
+					border: none;
+					padding: 0 1rem;
+					background: none;
+					margin-left: 1rem;
+					color: $baseColor_black;
+				}
+
+				button:hover {
+					color: $baseColor_lightBlack;
+				}
+
+				#newLaunches:hover,
+				#bestSeller:hover {
+					transition: all 0.25s ease-in;
+					border-bottom: $baseColor_black 1px solid;
+				}
+			}
+
+			.viewMore {
+				border: none;
+				padding: 0 1rem;
+				background: none;
+				color: $baseColor_lightBlack;
+			}
+
+			.viewMore:hover {
+				color: $baseColor_lightBlack;
 			}
 		}
 	}
