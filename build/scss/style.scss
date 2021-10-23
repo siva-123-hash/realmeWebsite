@@ -861,6 +861,79 @@ header {
 	}
 }
 
+/*============================== DARE TO LEAP ==================================*/
+.dareToLeap {
+	background-image: url(/src/img/otherImages/2560-9addad5b18.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	.display {
+		height: 250px;
+		padding: 1rem;
+		display: flex;
+		justify-self: end;
+		align-items: center;
+		justify-content: end;
+		flex-direction: column;
+
+		h2 {
+			font-weight: 100;
+			text-align: left;
+			color: $baseColor_white;
+			font-size: $fontSize_large-1;
+			font-family: $fontStyle_option1;
+		}
+
+		button {
+			margin-top: 2rem;
+			background: none;
+			width: fit-content;
+			padding: 0.5rem 2.5rem;
+			border: $baseColor_white 0.1rem solid;
+
+			a {
+				text-decoration: none;
+				color: $baseColor_white;
+				font-size: $fontSize_normal;
+			}
+
+			// a:hover {
+			// 	color: $baseColor_black;
+			// }
+		}
+
+		button:hover {
+			color: $baseColor_black;
+			background: $backgroundColor_White;
+		}
+	}
+}
+/*============================== DELIVERY ==================================*/
+.delirery {
+	margin: auto;
+	padding: 1rem 7rem;
+
+	.info {
+		display: flex;
+		text-align: center;
+		justify-content: space-between;
+
+		.bi {
+			color: $baseColor_black;
+			font-size: $fontSize_large-1;
+			font-family: $fontStyle_header;
+		}
+
+		h2 {
+			margin-top: 0.5rem;
+			font-size: $fontSize_normal;
+			color: $baseColor_lightBlack;
+			font-family: $fontStyle_header;
+		}
+	}
+}
+
 @media screen and (min-width: 2000px) {
 	.hero {
 		.carousel-inner {
