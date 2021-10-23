@@ -713,6 +713,7 @@ header {
 			grid-gap: 1rem;
 
 			.product {
+				margin: auto;
 				padding: 1rem 0;
 				background: $backgroundColor_White;
 
@@ -750,7 +751,6 @@ header {
 						}
 
 						.subtitle {
-							margin-top: 1rem;
 							font-weight: 100;
 							color: $baseColor_black;
 							font-size: $fontSize_small;
