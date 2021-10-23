@@ -707,7 +707,7 @@ header {
 
 		.contentBottom {
 			display: grid;
-			margin-top: 2rem;
+			margin-top: 1rem;
 			grid-template-columns: repeat(4, 1fr);
 			grid-gap: 1rem;
 
@@ -715,42 +715,27 @@ header {
 				padding: 1rem 0;
 				background: $backgroundColor_White;
 
-				.new {
-					display: flex;
-					left: -300px;
-
-					h2 {
-						padding: 0.2rem 0.25rem;
-						color: $baseColor_white;
-						text-transform: uppercase;
-						font-size: $fontSize_xSmall;
-						font-family: $fontStyle_option1;
-						background: $secondary_lightGreen;
-					}
-				}
-
 				.content {
 					display: flex;
-					padding: 2rem;
+					padding: 3rem;
 					padding-top: 0rem;
+					flex-direction: column;
 					justify-content: space-between;
 
+					img {
+						width: 100%;
+						height: 200px;
+						object-fit: contain;
+					}
+
 					.text {
-						padding: 1rem;
 						text-align: left;
-
-						img {
-							width: 60%;
-							height: 50px;
-
-							object-fit: contain;
-						}
 
 						h2 {
 							font-weight: 300;
 							margin-top: 1.5rem;
 							color: $baseColor_black;
-							font-size: $fontSize_large-0;
+							font-size: $fontSize_large;
 							font-family: $fontStyle_option1;
 
 							span {
@@ -763,6 +748,7 @@ header {
 						}
 
 						.subtitle {
+							margin-top: 1rem;
 							font-weight: 100;
 							color: $baseColor_black;
 							font-size: $fontSize_normal;
@@ -776,13 +762,15 @@ header {
 							color: $secondary_pinkRed;
 							font-size: $fontSize_normal;
 							font-family: $fontStyle_option1;
-						}
-					}
 
-					img {
-						width: 40%;
-						height: 200px;
-						object-fit: contain;
+							span {
+								border: none;
+								font-weight: 100;
+								font-size: $fontSize_small;
+								color: $baseColor_lightBlack;
+								text-decoration-line: line-through;
+							}
+						}
 					}
 				}
 			}
