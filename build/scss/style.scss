@@ -941,6 +941,7 @@ header {
 		}
 	}
 }
+
 /*============================== DELIVERY ==================================*/
 .delivery {
 	margin: auto;
@@ -966,6 +967,340 @@ header {
 	}
 }
 
+@media (max-width: 576px) {
+	/*============ SALE =============*/
+	.goneInFlash {
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: repeat(4, 1fr);
+
+				.product {
+					img {
+						width: 100%;
+						height: 300px;
+						margin-top: 1rem;
+						object-fit: contain;
+					}
+				}
+			}
+		}
+	}
+
+	/*============ SMARTPHONE =============*/
+	.smartphones {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.accessories {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				display: grid;
+				margin-top: 2rem;
+				grid-template-columns: 1fr;
+				grid-gap: 1rem;
+
+				.product,
+				.productIMGBackground,
+				.productIMGBackground1 {
+					.content {
+						.text {
+							h2 {
+								margin-top: 1.5rem;
+								font-size: $fontSize_normal;
+
+								span {
+									font-size: $fontSize_small;
+								}
+							}
+
+							.subtitle {
+								margin-top: 0.5rem;
+								font-size: $fontSize_small;
+							}
+
+							.price {
+								height: 100%;
+								margin-top: 1.5rem;
+								font-size: $fontSize_small;
+							}
+						}
+
+						a {
+							list-style: none;
+							text-decoration: none;
+
+							img {
+								width: 100%;
+								height: 200px;
+								object-fit: contain;
+							}
+						}
+					}
+				}
+
+				.productIMGBackground {
+					background-image: url(/src/img/otherImages/1626338409118.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.productIMGBackground1 {
+					background-image: url(/src/img/otherImages/1626338418290.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+			}
+
+			.contentBottom {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.activities {
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-row-gap: 1rem;
+
+				.rightSide {
+					.discountHeader {
+						a {
+							h2 {
+								bottom: 350px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	/*============ HERO =============*/
+	.hero {
+		.carousel-inner {
+			.carousel-item {
+				img {
+					width: 100%;
+					height: 350px;
+					max-height: 1200px;
+					object-fit: cover;
+				}
+
+				.content {
+					bottom: 175px;
+					left: -320px;
+
+					h2 {
+						font-size: $fontSize_large;
+					}
+
+					p {
+						margin-top: 0.5rem;
+						font-size: $fontSize_normal;
+					}
+				}
+
+				.content1 {
+					bottom: 30px;
+					right: -235px;
+
+					h2 {
+						font-size: $fontSize_large-0;
+
+						span {
+							font-size: $fontSize_large;
+							border: $baseColor_black 0.15rem solid;
+						}
+					}
+
+					h5 {
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						font-size: $fontSize_small;
+					}
+
+					h3 {
+						font-size: $fontSize_large;
+					}
+				}
+
+				.content2 {
+					bottom: 50px;
+					right: -225px;
+
+					h2 {
+						font-size: $fontSize_large-1;
+
+						span {
+							font-size: $fontSize_large;
+						}
+					}
+
+					h5 {
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						font-size: $fontSize_small;
+					}
+
+					h3 {
+						margin-top: 1rem;
+						font-size: $fontSize_large;
+					}
+				}
+			}
+		}
+	}
+
+	/*============ SALE =============*/
+	.goneInFlash {
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
+
+				.product {
+					img {
+						width: 100%;
+						height: 300px;
+						margin-top: 1rem;
+						object-fit: contain;
+					}
+				}
+			}
+		}
+	}
+
+	/*============ SMARTPHONE =============*/
+	.smartphones {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.accessories {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				display: grid;
+				margin-top: 2rem;
+				grid-template-columns: 1fr;
+				grid-gap: 1rem;
+
+				.product,
+				.productIMGBackground,
+				.productIMGBackground1 {
+					.content {
+						.text {
+							h2 {
+								margin-top: 1.5rem;
+								font-size: $fontSize_large;
+
+								span {
+									font-size: $fontSize_small;
+								}
+							}
+
+							.subtitle {
+								margin-top: 0.5rem;
+								font-size: $fontSize_normal;
+							}
+
+							.price {
+								height: 100%;
+								margin-top: 1.5rem;
+								font-size: $fontSize_normal;
+							}
+						}
+
+						a {
+							list-style: none;
+							text-decoration: none;
+
+							img {
+								width: 100%;
+								height: 200px;
+								object-fit: contain;
+							}
+						}
+					}
+				}
+
+				.productIMGBackground {
+					background-image: url(/src/img/otherImages/1626338409118.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+
+				.productIMGBackground1 {
+					background-image: url(/src/img/otherImages/1626338418290.jpg);
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+			}
+
+			.contentBottom {
+				grid-template-columns: repeat(2, 1fr);
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.activities {
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-row-gap: 1rem;
+
+				.rightSide {
+					.discountHeader {
+						a {
+							h2 {
+								bottom: 350px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 @media screen and (min-width: 2000px) {
 	.hero {
 		.carousel-inner {
@@ -977,21 +1312,21 @@ header {
 
 				.content {
 					display: flex;
-					bottom: 640px;
+					bottom: 300px;
 					left: -420px;
 					flex-direction: column;
 				}
 
 				.content1 {
 					display: flex;
-					bottom: 400px;
+					bottom: 200px;
 					right: -420px;
 					flex-direction: column;
 				}
 
 				.content2 {
 					display: flex;
-					bottom: 450px;
+					bottom: 200px;
 					right: -420px;
 					flex-direction: column;
 				}
