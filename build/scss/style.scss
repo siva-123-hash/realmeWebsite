@@ -660,6 +660,7 @@ header {
 								border-radius: 5px;
 								font-size: $fontSize_small;
 								color: $baseColor_lightBlack;
+								font-family: $fontStyle_header;
 								text-decoration-line: line-through;
 							}
 						}
@@ -724,7 +725,7 @@ header {
 
 					img {
 						width: 100%;
-						height: 200px;
+						height: 150px;
 						object-fit: contain;
 					}
 
@@ -735,7 +736,7 @@ header {
 							font-weight: 300;
 							margin-top: 1.5rem;
 							color: $baseColor_black;
-							font-size: $fontSize_large;
+							font-size: $fontSize_normal;
 							font-family: $fontStyle_option1;
 
 							span {
@@ -743,6 +744,7 @@ header {
 								border-radius: 5px;
 								color: $baseColor_black;
 								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
 								border: $baseColor_black 0.15rem solid;
 							}
 						}
@@ -751,7 +753,7 @@ header {
 							margin-top: 1rem;
 							font-weight: 100;
 							color: $baseColor_black;
-							font-size: $fontSize_normal;
+							font-size: $fontSize_small;
 							font-family: $fontStyle_header;
 						}
 
@@ -768,6 +770,7 @@ header {
 								font-weight: 100;
 								font-size: $fontSize_small;
 								color: $baseColor_lightBlack;
+								font-family: $fontStyle_header;
 								text-decoration-line: line-through;
 							}
 						}
