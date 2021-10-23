@@ -982,7 +982,6 @@ header {
 		.socialLinks {
 			text-align: left;
 			padding: 1rem;
-			border: $secondary_pinkRed 0.15rem solid;
 
 			h2 {
 				font-weight: 300;
@@ -1010,6 +1009,62 @@ header {
 					a:hover {
 						color: $secondary_orange;
 					}
+				}
+			}
+		}
+	}
+
+	.contentBottom {
+		margin-top: 2rem;
+		.top {
+			h2 {
+				font-weight: 300;
+				text-align: left;
+				color: $baseColor_black;
+				font-size: $fontSize_xSmall;
+				font-family: $fontStyle_header;
+
+				.far {
+					margin-right: 0.2rem;
+				}
+			}
+		}
+
+		.borderlineMid {
+			margin: 1rem 0;
+			border-bottom: $baseColor_lightGrey2 0.1rem solid;
+		}
+
+		.bottom {
+			display: flex;
+			justify-content: space-between;
+
+			h2 {
+				font-weight: 300;
+				text-align: left;
+				font-size: $fontSize_xSmall;
+				color: $baseColor_lightBlack;
+				font-family: $fontStyle_header;
+
+				.far {
+					margin-right: 0.2rem;
+				}
+			}
+
+			.right {
+				display: flex;
+
+				.borderline {
+					margin: 0 1rem;
+					border-right: $baseColor_lightGrey2 0.15rem solid;
+				}
+
+				a {
+					text-align: left;
+					text-decoration: none;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightBlack;
+					font-family: $fontStyle_header;
 				}
 			}
 		}
