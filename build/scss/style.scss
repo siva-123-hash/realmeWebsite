@@ -530,6 +530,15 @@ header {
 							color: $secondary_pinkRed;
 							font-size: $fontSize_normal;
 							font-family: $fontStyle_option1;
+
+							span {
+								border: none;
+								font-weight: 100;
+								font-size: $fontSize_small;
+								color: $baseColor_lightBlack;
+								font-family: $fontStyle_header;
+								text-decoration-line: line-through;
+							}
 						}
 					}
 
@@ -603,7 +612,9 @@ header {
 			grid-template-columns: repeat(2, 1fr);
 			grid-gap: 1rem;
 
-			.product {
+			.product,
+			.productIMGBackground,
+			.productIMGBackground1 {
 				padding: 1rem 0;
 				background: $backgroundColor_White;
 
@@ -634,7 +645,6 @@ header {
 						img {
 							width: 60%;
 							height: 50px;
-
 							object-fit: contain;
 						}
 
@@ -642,24 +652,20 @@ header {
 							font-weight: 300;
 							margin-top: 1.5rem;
 							color: $baseColor_black;
-							font-size: $fontSize_large-0;
+							font-size: $fontSize_large;
 							font-family: $fontStyle_option1;
 
 							span {
 								padding: 0.1rem;
 								border-radius: 5px;
-								color: $baseColor_black;
 								font-size: $fontSize_small;
-								border: $baseColor_black 0.15rem solid;
-							}
-
-							.c21 {
-								color: $baseColor_black;
-								font-size: $fontSize_small;
+								color: $baseColor_lightBlack;
+								text-decoration-line: line-through;
 							}
 						}
 
 						.subtitle {
+							margin-top: 1rem;
 							font-weight: 100;
 							color: $baseColor_black;
 							font-size: $fontSize_normal;
@@ -682,6 +688,20 @@ header {
 						object-fit: contain;
 					}
 				}
+			}
+
+			.productIMGBackground {
+				background-image: url(/src/img/otherImages/1626338409118.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+
+			.productIMGBackground1 {
+				background-image: url(/src/img/otherImages/1626338418290.jpg);
+				background-size: cover;
+				background-position: center;
+				background-repeat: no-repeat;
 			}
 		}
 
@@ -739,11 +759,6 @@ header {
 								color: $baseColor_black;
 								font-size: $fontSize_small;
 								border: $baseColor_black 0.15rem solid;
-							}
-
-							.c21 {
-								color: $baseColor_black;
-								font-size: $fontSize_small;
 							}
 						}
 
