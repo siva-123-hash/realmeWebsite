@@ -380,6 +380,12 @@ header {
 					}
 				}
 			}
+
+			.product:hover {
+				transition: all 0.75s ease-in-out;
+				position: relative;
+				top: -1px;
+			}
 		}
 	}
 }
@@ -558,6 +564,12 @@ header {
 					}
 				}
 			}
+
+			.product:hover {
+				transition: all 0.75s ease-in-out;
+				position: relative;
+				top: -1px;
+			}
 		}
 	}
 }
@@ -731,6 +743,14 @@ header {
 				background-position: center;
 				background-repeat: no-repeat;
 			}
+
+			.product:hover,
+			.productIMGBackground:hover,
+			.productIMGBackground1:hover {
+				transition: all 2s ease-in-out;
+				position: relative;
+				top: -1px;
+			}
 		}
 
 		.contentBottom {
@@ -809,6 +829,12 @@ header {
 					}
 				}
 			}
+
+			.product:hover {
+				transition: all 0.75s ease-in-out;
+				position: relative;
+				top: -1px;
+			}
 		}
 	}
 }
@@ -857,6 +883,13 @@ header {
 					}
 				}
 			}
+
+			.leftSide:hover,
+			.rightSide:hover {
+				transition: all 0.75s ease-in-out;
+				position: relative;
+				top: -1px;
+			}
 		}
 	}
 }
@@ -897,15 +930,14 @@ header {
 				color: $baseColor_white;
 				font-size: $fontSize_normal;
 			}
-
-			// a:hover {
-			// 	color: $baseColor_black;
-			// }
 		}
 
 		button:hover {
-			color: $baseColor_black;
 			background: $backgroundColor_White;
+
+			a {
+				color: $baseColor_black;
+			}
 		}
 	}
 }
