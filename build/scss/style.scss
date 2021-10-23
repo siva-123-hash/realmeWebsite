@@ -1012,6 +1012,44 @@ header {
 				}
 			}
 		}
+
+		.socialLinks {
+			button {
+				background: none;
+				padding: 0.5rem 1rem;
+				border: $baseColor_black 0.1rem solid;
+
+				a {
+					text-decoration: none;
+					color: $baseColor_black;
+
+					.bi {
+						margin-right: 0.5rem;
+						color: $baseColor_black;
+						font-size: $fontSize_xSmall;
+					}
+				}
+			}
+
+			h2 {
+				margin-top: 1.5rem;
+				text-align: center;
+				line-height: 0.7rem;
+				font-size: $fontSize_xSmall;
+				color: $baseColor_lightBlack;
+				font-family: $fontStyle_header;
+			}
+
+			.socialLinks {
+				display: flex;
+				justify-content: space-between;
+
+				a {
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+				}
+			}
+		}
 	}
 
 	.contentBottom {
@@ -1023,10 +1061,6 @@ header {
 				color: $baseColor_black;
 				font-size: $fontSize_xSmall;
 				font-family: $fontStyle_header;
-
-				.far {
-					margin-right: 0.2rem;
-				}
 			}
 		}
 
