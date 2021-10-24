@@ -36,6 +36,8 @@
 		}
 
 		.Description {
+			padding-top: 2rem;
+
 			h2 {
 				color: $baseColor_black;
 				font-size: $fontSize_large;
@@ -51,6 +53,7 @@
 				background-color: $secondary_lightRed;
 
 				.left {
+					padding: 0;
 					h2 {
 						font-weight: 100;
 						color: $secondary_pinkRed;
@@ -66,6 +69,7 @@
 						}
 					}
 				}
+
 				.right {
 					display: flex;
 					align-items: center;
@@ -95,6 +99,64 @@
 							margin: 0 0.2rem;
 							color: $baseColor_white;
 							background: $secondary_pinkRed;
+						}
+					}
+				}
+			}
+
+			.borderlineDes {
+				margin: 1.5rem 0;
+				border-bottom: $baseColor_lightGrey2 0.1rem solid;
+			}
+
+			.infoSection {
+				p {
+					line-height: 0.75rem;
+					color: $baseColor_black;
+					font-size: $fontSize_normal;
+					font-family: $fontStyle_body;
+
+					span {
+						margin-right: 0.25rem;
+						font-weight: 700;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_header;
+					}
+
+					a {
+						text-decoration: none;
+						color: $secondary_orange;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_header;
+					}
+				}
+
+				.finalSale {
+					color: $secondary_pinkRed;
+
+					span {
+						margin-right: 0.25rem;
+						font-weight: 700;
+						color: $baseColor_black;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_header;
+					}
+				}
+
+				.borderline {
+					margin: 0.75rem 0;
+				}
+
+				.bottomSection {
+					display: flex;
+					justify-content: space-around;
+					h2 {
+						color: $baseColor_black;
+						font-size: $fontSize_normal;
+						font-family: $fontStyle_body;
+
+						.bi {
+							margin-right: 0.25rem;
 						}
 					}
 				}
