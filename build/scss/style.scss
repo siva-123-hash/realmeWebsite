@@ -949,13 +949,19 @@ header {
 
 	.info {
 		display: flex;
+		padding: 0 10rem;
+		margin-top: 1rem;
 		text-align: center;
-		justify-content: space-between;
+		justify-content: space-around;
 
 		.bi {
 			color: $baseColor_black;
 			font-size: $fontSize_large-0;
 			font-family: $fontStyle_header;
+		}
+
+		.fab {
+			font-size: $fontSize_large-0;
 		}
 
 		h2 {
@@ -997,6 +1003,7 @@ header {
 
 				li {
 					list-style: none;
+					line-height: 1.75rem;
 
 					a {
 						text-align: left;
@@ -1020,13 +1027,15 @@ header {
 				border: $baseColor_black 0.1rem solid;
 
 				a {
+					font-weight: 400;
 					text-decoration: none;
 					color: $baseColor_black;
+					font-family: $fontStyle_header;
 
 					.bi {
 						margin-right: 0.5rem;
 						color: $baseColor_black;
-						font-size: $fontSize_xSmall;
+						font-size: $fontSize_normal;
 					}
 				}
 			}
