@@ -112,7 +112,7 @@
 
 			.infoSection {
 				p {
-					line-height: 1.25rem;
+					line-height: 0.25rem;
 					color: $baseColor_black;
 					font-size: $fontSize_normal;
 					font-family: $fontStyle_body;
@@ -130,6 +130,10 @@
 						font-size: $fontSize_small;
 						font-family: $fontStyle_header;
 					}
+				}
+
+				.description {
+					line-height: 1.25rem;
 				}
 
 				.finalSale {
