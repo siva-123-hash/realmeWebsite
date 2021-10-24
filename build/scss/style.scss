@@ -839,7 +839,7 @@ header {
 	}
 }
 
-/*============================== ACCESSORIES ==================================*/
+/*============================== ACTIVITIES ==================================*/
 .activities {
 	padding: 1rem;
 	background: $backgroundColor_lightGrey;
@@ -1124,7 +1124,7 @@ header {
 	}
 }
 
-@media (max-width: 576px) {
+@media (min-width: 576px) and (max-width: 767px) {
 	/*============ SALE =============*/
 	.goneInFlash {
 		.display {
@@ -1230,7 +1230,7 @@ header {
 		}
 	}
 
-	/*============ ACCESSORIES =============*/
+	/*============ ACTIVITIES =============*/
 	.activities {
 		.display {
 			.content {
@@ -1248,6 +1248,14 @@ header {
 					}
 				}
 			}
+		}
+	}
+
+	/*============ FOOTER =============*/
+	.footer {
+		.content {
+			display: grid;
+			grid-template-columns: 1fr;
 		}
 	}
 }
@@ -1436,7 +1444,7 @@ header {
 		}
 	}
 
-	/*============ ACCESSORIES =============*/
+	/*============ ACTIVITIES =============*/
 	.activities {
 		.display {
 			.content {
@@ -1454,6 +1462,15 @@ header {
 					}
 				}
 			}
+		}
+	}
+
+	/*============ FOOTER =============*/
+	.footer {
+		.content {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-content: space-between;
 		}
 	}
 }
