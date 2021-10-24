@@ -111,7 +111,7 @@
 
 			.infoSection {
 				p {
-					line-height: 0.75rem;
+					line-height: 1.25rem;
 					color: $baseColor_black;
 					font-size: $fontSize_normal;
 					font-family: $fontStyle_body;
@@ -150,9 +150,11 @@
 				.bottomSection {
 					display: flex;
 					justify-content: space-around;
+
 					h2 {
+						margin: 0 0.5rem;
 						color: $baseColor_black;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_small;
 						font-family: $fontStyle_body;
 
 						.bi {
@@ -183,8 +185,8 @@
 							border: $baseColor_lightGrey2 0.1rem solid;
 
 							.colorMossGreen {
-								width: 30px;
-								height: 30px;
+								width: 25px;
+								height: 25px;
 								border-radius: 50%;
 								margin-right: 0.5rem;
 								background: linear-gradient(
@@ -215,8 +217,8 @@
 							border: $baseColor_black 0.1rem solid;
 
 							.colorRustRed {
-								width: 30px;
-								height: 30px;
+								width: 25px;
+								height: 25px;
 								border-radius: 50%;
 								margin-right: 0.5rem;
 								background: linear-gradient(
@@ -277,8 +279,8 @@
 
 					.info {
 						display: flex;
-						padding: 1rem;
-						width: 20rem;
+						padding: 0.75rem;
+						width: 15rem;
 						align-items: center;
 						justify-content: space-between;
 						border: $baseColor_lightGrey2 0.1rem solid;
@@ -311,31 +313,56 @@
 					}
 				}
 
-				.description {
+				div {
 					display: flex;
 					margin-top: 2rem;
+
 					input {
 						height: 20px;
 						width: 20px;
+						margin-right: 1rem;
+						align-self: center;
 						color: $baseColor_lightGrey;
 					}
 
-					img {
-						width: 50%;
+					.product {
+						width: 100%;
 						height: 70px;
+						margin-right: 1rem;
 						object-fit: contain;
 					}
 
 					.addInfo {
 						display: flex;
 						flex-direction: column;
-					}
-					h2 {
-						color: $baseColor_black;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_header;
+
+						h2 {
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_header;
+						}
+
+						.price {
+							font-weight: 600;
+							color: $secondary_pinkRed;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_body;
+
+							span {
+								font-weight: 600;
+								margin-left: 0.5rem;
+								font-size: $fontSize_small;
+								color: $baseColor_lightBlack;
+								text-decoration: line-through;
+								font-family: $fontStyle_body;
+							}
+						}
 					}
 				}
+			}
+
+			.checkOutInfo {
+				margin-top: 5rem;
 			}
 		}
 	}
