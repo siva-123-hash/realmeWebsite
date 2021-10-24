@@ -896,6 +896,7 @@ header {
 
 /*============================== DARE TO LEAP ==================================*/
 .dareToLeap {
+	height: 425px;
 	background-image: url(/src/img/otherImages/2560-9addad5b18.jpg);
 	background-size: cover;
 	background-position: center;
@@ -945,35 +946,39 @@ header {
 /*============================== DELIVERY ==================================*/
 .delivery {
 	margin: auto;
-	padding: 1rem 7rem;
 
 	.info {
+		margin: auto;
 		display: flex;
 		padding: 0 10rem;
-		margin-top: 1rem;
 		text-align: center;
 		justify-content: space-around;
 
-		.bi {
-			color: $baseColor_black;
-			font-size: $fontSize_large-0;
-			font-family: $fontStyle_header;
-		}
+		.description {
+			padding: 1rem;
+			margin: auto;
 
-		.fab {
-			font-size: $fontSize_large-0;
-		}
+			.bi {
+				color: $baseColor_black;
+				font-size: $fontSize_large;
+			}
 
-		h2 {
-			margin-top: 0.5rem;
-			font-size: $fontSize_small;
-			color: $baseColor_lightBlack;
-			font-family: $fontStyle_header;
+			.fab {
+				color: $baseColor_black;
+				font-size: $fontSize_large-0;
+			}
+
+			h2 {
+				margin-top: 0.5rem;
+				font-size: $fontSize_small;
+				color: $baseColor_lightBlack;
+				font-family: $fontStyle_header;
+			}
 		}
 	}
 }
 
-/*============================== DELIVERY ==================================*/
+/*============================== FOOTER ==================================*/
 .footer {
 	padding: 2rem;
 
@@ -1021,6 +1026,8 @@ header {
 		}
 
 		.socialLinks {
+			margin-top: 1.5rem;
+
 			button {
 				background: none;
 				padding: 0.5rem 1rem;
@@ -1051,6 +1058,7 @@ header {
 
 			.socialLinks {
 				display: flex;
+				padding: 0;
 				justify-content: space-between;
 
 				a {
@@ -1063,6 +1071,8 @@ header {
 
 	.contentBottom {
 		margin-top: 2rem;
+		margin-bottom: 1.5rem;
+
 		.top {
 			h2 {
 				font-weight: 300;
