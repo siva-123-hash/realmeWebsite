@@ -1,347 +1,255 @@
 /*============================== PRODUCTS PAGE =============================*/
 .productInfo {
-	.topSection {
-		display: flex;
-		justify-content: space-between;
-
-		h2 {
-			color: $baseColor_black;
-			font-size: $fontSize_small;
-			font-family: $fontStyle_header;
-		}
-
-		.rightSide {
+	.display {
+		.topSection {
 			display: flex;
 			justify-content: space-between;
 
 			h2 {
-				padding: 0 20px;
-				font-size: $fontSize_small;
-				color: $baseColor_lightGrey3;
-				font-family: $fontStyle_header;
-			}
-		}
-	}
-
-	.borderline {
-		margin-top: 0.75rem;
-		border-bottom: $baseColor_lightGrey2 0.1rem solid;
-	}
-
-	.middleSection {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-
-		.Images {
-		}
-
-		.Description {
-			padding-top: 2rem;
-
-			h2 {
-				font-weight: 100;
 				color: $baseColor_black;
-				font-size: $fontSize_large;
+				font-size: $fontSize_small;
 				font-family: $fontStyle_header;
 			}
 
-			.countDown {
-				margin-top: 1rem;
+			.rightSide {
 				display: flex;
-				align-items: center;
-				padding: 0.6rem 2rem;
 				justify-content: space-between;
-				background-color: $secondary_lightRed;
 
-				.left {
-					padding: 0;
-					h2 {
-						font-weight: 100;
-						color: $secondary_pinkRed;
-						font-size: $fontSize_large;
-						font-family: $fontStyle_header;
+				h2 {
+					padding: 0 20px;
+					font-size: $fontSize_small;
+					color: $baseColor_lightGrey3;
+					font-family: $fontStyle_header;
+				}
+			}
+		}
 
-						span {
+		.borderline {
+			margin-top: 0.75rem;
+			border-bottom: $baseColor_lightGrey2 0.1rem solid;
+		}
+
+		.middleSection {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+
+			.Images {
+			}
+
+			.Description {
+				padding-top: 2rem;
+
+				h2 {
+					font-weight: 100;
+					color: $baseColor_black;
+					font-size: $fontSize_large;
+					font-family: $fontStyle_header;
+				}
+
+				.countDown {
+					margin-top: 1rem;
+					display: flex;
+					align-items: center;
+					padding: 0.6rem 2rem;
+					justify-content: space-between;
+					background-color: $secondary_lightRed;
+
+					.left {
+						padding: 0;
+						h2 {
 							font-weight: 100;
+							color: $secondary_pinkRed;
+							font-size: $fontSize_large;
+							font-family: $fontStyle_header;
+
+							span {
+								font-weight: 100;
+								color: $secondary_darkRed;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+								text-decoration: line-through;
+							}
+						}
+					}
+
+					.right {
+						display: flex;
+						align-items: center;
+						justify-content: space-between;
+
+						h2 {
+							font-weight: 100;
+							margin-right: 0.5rem;
 							color: $secondary_darkRed;
 							font-size: $fontSize_small;
 							font-family: $fontStyle_header;
-							text-decoration: line-through;
+						}
+
+						h5 {
+							font-weight: 100;
+							text-align: center;
+							font-size: $fontSize_xSmall;
+							color: $secondary_pinkRed;
+							font-family: $fontStyle_option1;
+
+							#days {
+								margin-left: 1rem;
+							}
+
+							span {
+								padding: 0.25rem;
+								margin: 0 0.2rem;
+								color: $baseColor_white;
+								background: $secondary_pinkRed;
+							}
 						}
 					}
 				}
 
-				.right {
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-
-					h2 {
-						font-weight: 100;
-						margin-right: 0.5rem;
-						color: $secondary_darkRed;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_header;
-					}
-
-					h5 {
-						font-weight: 100;
-						text-align: center;
-						font-size: $fontSize_xSmall;
-						color: $secondary_pinkRed;
-						font-family: $fontStyle_option1;
-
-						#days {
-							margin-left: 1rem;
-						}
-
-						span {
-							padding: 0.25rem;
-							margin: 0 0.2rem;
-							color: $baseColor_white;
-							background: $secondary_pinkRed;
-						}
-					}
-				}
-			}
-
-			.borderlineDes {
-				margin: 1.5rem 0;
-				border-bottom: $baseColor_lightGrey2 0.1rem solid;
-			}
-
-			.infoSection {
-				p {
-					line-height: 0.25rem;
-					color: $baseColor_black;
-					font-size: $fontSize_normal;
-					font-family: $fontStyle_body;
-
-					span {
-						margin-right: 0.25rem;
-						font-weight: 700;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_header;
-					}
-
-					a {
-						text-decoration: none;
-						color: $secondary_orange;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_header;
-					}
+				.borderlineDes {
+					margin: 1.5rem 0;
+					border-bottom: $baseColor_lightGrey2 0.1rem solid;
 				}
 
-				.description {
-					line-height: 1.25rem;
-				}
-
-				.finalSale {
-					color: $secondary_pinkRed;
-
-					span {
-						margin-right: 0.25rem;
-						font-weight: 700;
-						color: $baseColor_black;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_header;
-					}
-				}
-
-				.borderline {
-					margin: 0.75rem 0;
-				}
-
-				.bottomSection {
-					display: flex;
-					justify-content: space-around;
-
-					h2 {
-						margin: 0 0.5rem;
-						color: $baseColor_black;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_body;
-
-						.bi {
-							margin-right: 0.25rem;
-						}
-					}
-				}
-			}
-
-			.configuration {
-				.color {
-					h2 {
+				.infoSection {
+					p {
+						line-height: 0.25rem;
 						color: $baseColor_black;
 						font-size: $fontSize_normal;
-						font-family: $fontStyle_header;
-					}
+						font-family: $fontStyle_body;
 
-					.buttonSection {
-						display: flex;
-						justify-content: space-between;
-
-						#mossGreen {
-							display: flex;
-							background: none;
-							margin-top: 0.25rem;
-							align-items: center;
-							padding: 0.75rem 4rem;
-							border: $baseColor_lightGrey2 0.1rem solid;
-
-							.colorMossGreen {
-								width: 25px;
-								height: 25px;
-								border-radius: 50%;
-								margin-right: 0.5rem;
-								background: linear-gradient(
-									90deg,
-									rgb(36, 51, 41) 0%,
-									rgb(72, 112, 83) 19%,
-									rgb(127, 190, 145) 42%,
-									rgb(49, 74, 60) 72%,
-									rgb(16, 26, 23) 100%
-								);
-							}
-
-							h2 {
-								margin-top: 0.5rem;
-								text-align: center;
-								color: $baseColor_black;
-								font-size: $fontSize_small;
-								font-family: $fontStyle_header;
-							}
+						span {
+							margin-right: 0.25rem;
+							font-weight: 700;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_header;
 						}
 
-						#rustRed {
-							display: flex;
-							background: none;
-							margin-top: 0.25rem;
-							align-items: center;
-							padding: 0.5rem 4rem;
-							border: $baseColor_black 0.1rem solid;
+						a {
+							text-decoration: none;
+							color: $secondary_orange;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_header;
+						}
+					}
 
-							.colorRustRed {
-								width: 25px;
-								height: 25px;
-								border-radius: 50%;
-								margin-right: 0.5rem;
-								background: linear-gradient(
-									90deg,
-									rgb(83, 39, 40) 0%,
-									rgb(157, 78, 73) 22%,
-									rgb(222, 137, 129) 44%,
-									rgb(146, 81, 79) 72%,
-									rgb(81, 45, 45) 100%
-								);
-							}
+					.description {
+						line-height: 1.25rem;
+					}
 
-							h2 {
-								margin-top: 0.5rem;
-								text-align: center;
-								color: $baseColor_black;
-								font-size: $fontSize_small;
-								font-family: $fontStyle_header;
+					.finalSale {
+						color: $secondary_pinkRed;
+
+						span {
+							margin-right: 0.25rem;
+							font-weight: 700;
+							color: $baseColor_black;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_header;
+						}
+					}
+
+					.borderline {
+						margin: 0.75rem 0;
+					}
+
+					.bottomSection {
+						display: flex;
+						justify-content: space-around;
+
+						h2 {
+							margin: 0 0.5rem;
+							color: $baseColor_black;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_body;
+
+							.bi {
+								margin-right: 0.25rem;
 							}
 						}
 					}
 				}
 
 				.configuration {
-					margin-top: 3rem;
-
-					h2 {
-						color: $baseColor_black;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_header;
-					}
-
-					.buttonSection {
-						display: flex;
-						justify-content: space-between;
-
-						button {
-							display: flex;
-							background: none;
-							padding: 1rem 4rem;
-							margin-top: 0.25rem;
+					.color {
+						h2 {
 							color: $baseColor_black;
-							font-size: $fontSize_small;
+							font-size: $fontSize_normal;
 							font-family: $fontStyle_header;
-							border: $baseColor_lightGrey2 0.1rem solid;
 						}
-					}
-				}
 
-				.quantity {
-					margin-top: 3rem;
+						.buttonSection {
+							display: flex;
+							justify-content: space-between;
 
-					h2 {
-						color: $baseColor_black;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_header;
-					}
+							#mossGreen {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey2 0.1rem solid;
 
-					.info {
-						display: flex;
-						padding: 0.75rem;
-						width: 15rem;
-						align-items: center;
-						justify-content: space-between;
-						border: $baseColor_lightGrey2 0.1rem solid;
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(36, 51, 41) 0%,
+										rgb(72, 112, 83) 19%,
+										rgb(127, 190, 145) 42%,
+										rgb(49, 74, 60) 72%,
+										rgb(16, 26, 23) 100%
+									);
+								}
 
-						button {
-							border: none;
-							background: none;
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 
-							.bi {
-								color: $baseColor_lightGrey3;
-								font-size: $fontSize_large;
+							#rustRed {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.5rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorRustRed {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(83, 39, 40) 0%,
+										rgb(157, 78, 73) 22%,
+										rgb(222, 137, 129) 44%,
+										rgb(146, 81, 79) 72%,
+										rgb(81, 45, 45) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
 							}
 						}
 					}
-				}
-			}
 
-			.addOnProduct {
-				margin-top: 2rem;
-
-				h2 {
-					font-weight: 400;
-					color: $baseColor_black;
-					font-size: $fontSize_normal;
-					font-family: $fontStyle_header;
-
-					#addInfo {
-						display: none;
-						margin-left: 2rem;
-					}
-				}
-
-				div {
-					display: flex;
-					margin-top: 2rem;
-
-					input {
-						height: 20px;
-						width: 20px;
-						margin-right: 1rem;
-						align-self: center;
-						color: $baseColor_lightGrey;
-					}
-
-					.product {
-						width: 100%;
-						height: 70px;
-						align-self: center;
-						margin-right: 1rem;
-						object-fit: contain;
-					}
-
-					.addInfo {
-						width: 10rem;
-						display: flex;
-						flex-direction: column;
+					.configuration {
+						margin-top: 3rem;
 
 						h2 {
 							color: $baseColor_black;
@@ -349,78 +257,142 @@
 							font-family: $fontStyle_header;
 						}
 
-						.price {
-							font-weight: 600;
+						.buttonSection {
+							display: flex;
+							justify-content: space-between;
+
+							button {
+								display: flex;
+								background: none;
+								padding: 1rem 4rem;
+								margin-top: 0.25rem;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+								border: $baseColor_lightGrey2 0.1rem solid;
+							}
+						}
+					}
+
+					.quantity {
+						margin-top: 3rem;
+
+						h2 {
 							color: $baseColor_black;
 							font-size: $fontSize_normal;
-							font-family: $fontStyle_body;
+							font-family: $fontStyle_header;
+						}
 
-							span {
-								margin-left: 0.5rem;
-								font-size: $fontSize_small;
-								color: $baseColor_lightGrey3;
-								text-decoration: line-through;
-								font-family: $fontStyle_body;
+						.info {
+							display: flex;
+							padding: 0.75rem;
+							width: 15rem;
+							align-items: center;
+							justify-content: space-between;
+							border: $baseColor_lightGrey2 0.1rem solid;
+
+							button {
+								border: none;
+								background: none;
+
+								.bi {
+									color: $baseColor_lightGrey3;
+									font-size: $fontSize_large;
+								}
 							}
 						}
 					}
 				}
-			}
 
-			.checkOutInfo {
-				padding: 2rem;
-				margin-top: 5rem;
-				background-color: $backgroundColor_lightGrey;
-
-				.default,
-				.addOn {
-					display: flex;
-					justify-content: space-between;
+				.addOnProduct {
+					margin-top: 2rem;
 
 					h2 {
-						line-height: 1.25rem;
-						color: $baseColor_lightBlack;
-						font-size: $fontSize_normal;
-						font-family: $fontStyle_body;
-					}
-				}
-
-				.addOn {
-					display: none;
-				}
-
-				.priceDisplay {
-					display: flex;
-					justify-content: space-between;
-
-					h2 {
-						line-height: 1.25rem;
-						margin-top: 0.5rem;
+						font-weight: 400;
 						color: $baseColor_black;
 						font-size: $fontSize_normal;
 						font-family: $fontStyle_header;
+
+						#addInfo {
+							display: none;
+							margin-left: 2rem;
+						}
 					}
 
-					#totalPrice {
-						font-weight: 600;
-						font-size: $fontSize_large;
+					div {
+						display: flex;
+						margin-top: 2rem;
 
-						.bi {
-							margin-right: 0.25rem;
-							font-size: $fontSize_normal;
+						input {
+							height: 20px;
+							width: 20px;
+							margin-right: 1rem;
+							align-self: center;
+							color: $baseColor_lightGrey;
+						}
+
+						.product {
+							width: 100%;
+							height: 70px;
+							align-self: center;
+							margin-right: 1rem;
+							object-fit: contain;
+						}
+
+						.addInfo {
+							width: 10rem;
+							display: flex;
+							flex-direction: column;
+
+							h2 {
+								color: $baseColor_black;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_header;
+							}
+
+							.price {
+								font-weight: 600;
+								color: $baseColor_black;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_body;
+
+								span {
+									margin-left: 0.5rem;
+									font-size: $fontSize_small;
+									color: $baseColor_lightGrey3;
+									text-decoration: line-through;
+									font-family: $fontStyle_body;
+								}
+							}
 						}
 					}
 				}
 
-				.addToCart {
-					display: flex;
-					margin-top: 1rem;
-					justify-content: space-evenly;
+				.checkOutInfo {
+					padding: 2rem;
+					margin-top: 5rem;
+					background-color: $backgroundColor_lightGrey;
 
-					button {
-						background: none;
-						padding: 1rem 6rem;
-						border: $baseColor_black 0.1rem solid;
+					.default,
+					.addOn {
+						display: flex;
+						justify-content: space-between;
+
+						h2 {
+							line-height: 1.25rem;
+							color: $baseColor_lightBlack;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_body;
+						}
+					}
+
+					.addOn {
+						display: none;
+					}
+
+					.priceDisplay {
+						display: flex;
+						justify-content: space-between;
 
 						h2 {
 							line-height: 1.25rem;
@@ -429,11 +401,41 @@
 							font-size: $fontSize_normal;
 							font-family: $fontStyle_header;
 						}
+
+						#totalPrice {
+							font-weight: 600;
+							font-size: $fontSize_large;
+
+							.bi {
+								margin-right: 0.25rem;
+								font-size: $fontSize_normal;
+							}
+						}
 					}
 
-					#buyNow {
-						border: none;
-						background-color: $secondary_Yellow;
+					.addToCart {
+						display: flex;
+						margin-top: 1rem;
+						justify-content: space-evenly;
+
+						button {
+							background: none;
+							padding: 1rem 6rem;
+							border: $baseColor_black 0.1rem solid;
+
+							h2 {
+								line-height: 1.25rem;
+								margin-top: 0.5rem;
+								color: $baseColor_black;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_header;
+							}
+						}
+
+						#buyNow {
+							border: none;
+							background-color: $secondary_Yellow;
+						}
 					}
 				}
 			}
@@ -441,24 +443,27 @@
 	}
 
 	.OverviewSection {
-		.borderline {
-			margin: 1.25rem 0;
-		}
+		.content {
+			.borderline {
+				margin: 1.25rem 0;
+				border-bottom: $baseColor_lightGrey2 0.1rem solid;
+			}
 
-		h2 {
-			color: $baseColor_black;
-			font-size: $fontSize_small;
-			font-family: $fontStyle_header;
-		}
+			h2 {
+				color: $baseColor_black;
+				font-size: $fontSize_small;
+				font-family: $fontStyle_header;
+			}
 
-		.moreInfo {
-			margin-top: 2rem;
+			.moreInfo {
+				margin-top: 2rem;
 
-			img {
-				width: 100%;
-				height: 500%;
-				object-fit: contain;
-				object-position: center;
+				img {
+					width: 100%;
+					height: 500%;
+					object-fit: contain;
+					object-position: center;
+				}
 			}
 		}
 	}
