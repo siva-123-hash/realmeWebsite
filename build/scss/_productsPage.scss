@@ -443,20 +443,33 @@
 	}
 
 	.OverviewSection {
-		.content {
+		background-color: $backgroundColor_lightGrey;
+
+		.display {
+			background-color: $backgroundColor_White;
+
 			.borderline {
-				margin: 1.25rem 0;
+				margin-top: 5rem 0;
 				border-bottom: $baseColor_lightGrey2 0.1rem solid;
 			}
 
-			h2 {
-				color: $baseColor_black;
-				font-size: $fontSize_small;
-				font-family: $fontStyle_header;
+			.content {
+				padding: 1rem 0;
+				h2 {
+					color: $baseColor_black;
+					font-size: $fontSize_small;
+					font-family: $fontStyle_header;
+				}
 			}
+		}
+
+		.content1 {
+			margin-top: 2rem;
 
 			.moreInfo {
+				padding: 2rem;
 				margin-top: 2rem;
+				background-color: $backgroundColor_White;
 
 				img {
 					width: 100%;
