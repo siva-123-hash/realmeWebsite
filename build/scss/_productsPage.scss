@@ -1,0 +1,104 @@
+/*============================== PRODUCTS PAGE =============================*/
+.productInfo {
+	.topSection {
+		display: flex;
+		justify-content: space-between;
+
+		h2 {
+			color: $baseColor_black;
+			font-size: $fontSize_small;
+			font-family: $fontStyle_header;
+		}
+
+		.rightSide {
+			display: flex;
+			justify-content: space-between;
+
+			h2 {
+				padding: 0 20px;
+				font-size: $fontSize_small;
+				color: $baseColor_lightGrey3;
+				font-family: $fontStyle_header;
+			}
+		}
+	}
+
+	.borderline {
+		margin-top: 0.75rem;
+		border-bottom: $baseColor_lightGrey2 0.1rem solid;
+	}
+
+	.middleSection {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+
+		.Images {
+		}
+
+		.Description {
+			h2 {
+				color: $baseColor_black;
+				font-size: $fontSize_large;
+				font-family: $fontStyle_header;
+			}
+
+			.countDown {
+				margin-top: 1rem;
+				display: flex;
+				align-items: center;
+				padding: 0.6rem 2rem;
+				justify-content: space-between;
+				background-color: $secondary_lightRed;
+
+				.left {
+					h2 {
+						font-weight: 100;
+						color: $secondary_pinkRed;
+						font-size: $fontSize_large;
+						font-family: $fontStyle_header;
+
+						span {
+							font-weight: 100;
+							color: $secondary_darkRed;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_header;
+							text-decoration: line-through;
+						}
+					}
+				}
+				.right {
+					display: flex;
+					align-items: center;
+					justify-content: space-between;
+
+					h2 {
+						font-weight: 100;
+						margin-right: 0.5rem;
+						color: $secondary_darkRed;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_header;
+					}
+
+					h5 {
+						font-weight: 100;
+						text-align: center;
+						font-size: $fontSize_xSmall;
+						color: $secondary_pinkRed;
+						font-family: $fontStyle_option1;
+
+						#days {
+							margin-left: 1rem;
+						}
+
+						span {
+							padding: 0.25rem;
+							margin: 0 0.2rem;
+							color: $baseColor_white;
+							background: $secondary_pinkRed;
+						}
+					}
+				}
+			}
+		}
+	}
+}
