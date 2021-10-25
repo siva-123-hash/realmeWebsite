@@ -99,6 +99,10 @@ function mossGreenImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"MOSS GREEN UK PLUG 128GB+2...";
 
+	// Add to Cart Section button
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
 	// Button styles changes
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
@@ -133,6 +137,10 @@ function rushRedImages() {
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"RUST RED UK PLUG 128GB+2...";
+
+	// Add to Cart Section button
+	document.getElementById("addToCart").style.display = "block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
 
 	// Button styles changes
 	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
