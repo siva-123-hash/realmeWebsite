@@ -319,6 +319,40 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#pearlWhite {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(246, 199, 219) 0px,
+										rgb(248, 225, 217) 18%,
+										rgb(255, 247, 216) 46%,
+										rgb(255, 247, 215) 57%,
+										rgb(251, 225, 235) 79%,
+										rgb(230, 220, 233) 88%,
+										rgb(175, 207, 228) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 						}
 
 						.buttonSection1 {
@@ -443,6 +477,22 @@
 							.sizeTwelveGB {
 								// display: none;
 								border: $baseColor_black 0.14rem dotted;
+							}
+						}
+
+						.buttonSection2 {
+							display: flex;
+							justify-content: space-between;
+
+							button {
+								display: flex;
+								background: none;
+								padding: 1rem 4rem;
+								margin-top: 0.25rem;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+								border: $baseColor_black 0.1rem solid;
 							}
 						}
 					}
