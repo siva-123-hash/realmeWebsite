@@ -411,3 +411,77 @@ function rushRedImages1() {
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 	document.getElementById("8GB").style.border = "#d3d3d3 0.1rem solid";
 }
+
+/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
+/*===== BUDS AIR NEO PRODUCT IMAGE CHANGE =====*/
+function changeBudsAir2Image1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615884298148.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2Image2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615883712278.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2Image3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615883712422.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2Image4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615883712435.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
