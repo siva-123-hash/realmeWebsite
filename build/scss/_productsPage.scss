@@ -743,6 +743,12 @@
 							}
 						}
 
+						#addToCart:hover {
+							transition: all 0.25s ease-in-out;
+							color: $baseColor_white;
+							background: $backgroundColor_black;
+						}
+
 						#buyNow {
 							border: none;
 							background-color: $secondary_Yellow;
@@ -770,6 +776,12 @@
 
 						#addToCart {
 							display: none;
+						}
+
+						#addToCart:hover {
+							transition: all 0.25s ease-in-out;
+							color: $baseColor_white;
+							background: $backgroundColor_black;
 						}
 
 						#buyNow {
