@@ -1,5 +1,5 @@
-/*===== PRODUCT IMAGE CHANGE =====*/
-function changeProductImage1() {
+/*===== RUST RED PRODUCT IMAGE CHANGE =====*/
+function changeRustRedImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1594595141366.jpg");
@@ -17,7 +17,7 @@ function changeProductImage1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeProductImage2() {
+function changeRustRedImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1588462321862.jpg");
@@ -35,7 +35,7 @@ function changeProductImage2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeProductImage3() {
+function changeRustRedImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1588462321864.jpg");
@@ -53,7 +53,7 @@ function changeProductImage3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeProductImage4() {
+function changeRustRedImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1588462321863.jpg");
@@ -71,6 +71,78 @@ function changeProductImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
+/*===== RUST RED PRODUCT IMAGE CHANGE =====*/
+function changeMossGreenImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1594595165858.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeMossGreenImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1588460890879.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeMossGreenImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1588460904321.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeMossGreenImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1588460897805.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
 // Moss Green realme X50 Pro 5G product images
 function mossGreenImages() {

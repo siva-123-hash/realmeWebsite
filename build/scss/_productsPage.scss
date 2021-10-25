@@ -320,6 +320,75 @@
 								}
 							}
 						}
+
+						.buttonSection1 {
+							display: flex;
+							justify-content: space-between;
+
+							#mossGreen {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(36, 51, 41) 0%,
+										rgb(72, 112, 83) 19%,
+										rgb(127, 190, 145) 42%,
+										rgb(49, 74, 60) 72%,
+										rgb(16, 26, 23) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#rustRed {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.5rem 4rem;
+								border: $baseColor_lightGrey2 0.1rem solid;
+
+								.colorRustRed {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(83, 39, 40) 0%,
+										rgb(157, 78, 73) 22%,
+										rgb(222, 137, 129) 44%,
+										rgb(146, 81, 79) 72%,
+										rgb(81, 45, 45) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+						}
 					}
 
 					.configuration {
@@ -348,6 +417,26 @@
 							}
 
 							.sizeTwelveGB {
+								border: $baseColor_black 0.1rem solid;
+							}
+						}
+
+						.buttonSection1 {
+							display: flex;
+							justify-content: space-between;
+
+							button {
+								display: flex;
+								background: none;
+								padding: 1rem 4rem;
+								margin-top: 0.25rem;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+								border: $baseColor_lightGrey2 0.1rem solid;
+							}
+
+							.sizeEightGB {
 								border: $baseColor_black 0.1rem solid;
 							}
 						}
