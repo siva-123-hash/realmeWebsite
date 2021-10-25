@@ -91,6 +91,10 @@ function mossGreenImages() {
 	document.getElementById("moreImage4").src =
 		"/src/img/productImages/1588460897805.jpg";
 
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme X50 Pro 5G ( MOSS GREEN UK PLUG 12GB+256GB )";
+
 	// Button styles changes
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
@@ -117,6 +121,10 @@ function rushRedImages() {
 
 	document.getElementById("moreImage4").src =
 		"/src/img/productImages/1588462321863.jpg";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme X50 Pro 5G ( RUST RED UK PLUG 12GB+256GB )";
 
 	// Button styles changes
 	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
