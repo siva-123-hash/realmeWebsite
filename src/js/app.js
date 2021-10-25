@@ -94,6 +94,10 @@ function mossGreenImages() {
 	// Button styles changes
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	document.getElementById("8GB").style.display = "none";
+	document.getElementById("12GB").style.border = "0.14rem dotted";
 }
 // Rust Red realme X50 Pro 5G products images
 function rushRedImages() {
@@ -117,4 +121,8 @@ function rushRedImages() {
 	// Button styles changes
 	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
 	document.getElementById("mossGreen").style.border = "#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	document.getElementById("8GB").style.display = "block";
+	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 }
