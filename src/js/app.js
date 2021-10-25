@@ -183,6 +183,7 @@ function mossGreenImages() {
 	document.getElementById("8GB").style.display = "none";
 	document.getElementById("12GB").style.border = "0.14rem dotted";
 }
+
 // Rust Red realme X50 Pro 5G products images
 function rushRedImages() {
 	// Main product images
@@ -221,4 +222,45 @@ function rushRedImages() {
 	// Configuration phone GB Space size
 	document.getElementById("8GB").style.display = "block";
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+}
+
+// Rust Red realme X50 Pro 5G products images
+function rushRedImages1() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1594595141366.jpg";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1594595141366.jpg";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1588462321862.jpg";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1588462321864.jpg";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1588462321863.jpg";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme X50 Pro 5G ( RUST RED UK PLUG 12GB+256GB )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"RUST RED UK PLUG 128GB+2...";
+
+	// Add to Cart Section button
+	document.getElementById("addToCart").style.display = "block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
+
+	// Button styles changes
+	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
+	document.getElementById("mossGreen").style.border = "#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	document.getElementById("8GB").style.display = "block";
+	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+	document.getElementById("8GB").style.border = "#d3d3d3 0.1rem solid";
 }

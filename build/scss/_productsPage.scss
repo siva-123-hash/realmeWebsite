@@ -437,7 +437,12 @@
 							}
 
 							.sizeEightGB {
-								border: $baseColor_black 0.1rem solid;
+								display: none;
+							}
+
+							.sizeTwelveGB {
+								// display: none;
+								border: $baseColor_black 0.14rem dotted;
 							}
 						}
 					}
