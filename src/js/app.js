@@ -217,7 +217,7 @@ function changePearlWhiteImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== BUDS AIR PRO PRODUCT IMAGE CHANGE =====*/
+/*===== BUDS AIR NEO PRODUCT IMAGE CHANGE =====*/
 function changeBudsAirNeoImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
