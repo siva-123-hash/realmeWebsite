@@ -611,6 +611,35 @@
 							background-color: $secondary_Yellow;
 						}
 					}
+
+					.addToCart1 {
+						display: flex;
+						margin-top: 1rem;
+						justify-content: space-around;
+
+						button {
+							background: none;
+							padding: 1rem 6rem;
+							border: $baseColor_black 0.1rem solid;
+
+							h2 {
+								line-height: 1.25rem;
+								margin-top: 0.5rem;
+								color: $baseColor_black;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_header;
+							}
+						}
+
+						#addToCart {
+							display: none;
+						}
+
+						#buyNow {
+							border: none;
+							background-color: $secondary_Yellow;
+						}
+					}
 				}
 			}
 		}
