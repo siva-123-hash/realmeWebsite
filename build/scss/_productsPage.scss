@@ -34,6 +34,39 @@
 			grid-template-columns: repeat(2, 1fr);
 
 			.Images {
+				position: relative;
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+
+				.mainImage {
+					img {
+						width: 100%;
+						height: 500px;
+						object-fit: contain;
+					}
+				}
+				.moreImages {
+					margin-top: 2rem;
+					display: grid;
+					grid-template-columns: repeat(4, 1fr);
+
+					button {
+						border: none;
+						margin: 0 1rem;
+						background: none;
+
+						img {
+							width: 100%;
+							height: 50px;
+							object-fit: contain;
+						}
+					}
+
+					#btn1 {
+						border-bottom: $baseColor_black 0.15rem solid;
+					}
+				}
 			}
 
 			.Description {
