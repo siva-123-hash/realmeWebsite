@@ -572,6 +572,59 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#Q2Black {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: $baseColor_black;
+									border: $baseColor_lightGrey 0.1rem solid;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#Q2blue {
+								opacity: 0.5;
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.14rem dotted;
+
+								.colorMossGreen {
+									width: 25px;
+									border: none;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: rgb(176, 202, 255);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 						}
 
 						.buttonSection1 {

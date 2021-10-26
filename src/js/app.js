@@ -1235,8 +1235,13 @@ function Q2BlueImages() {
 	document.getElementById("checkoutProductTitle").innerHTML = "Blue";
 
 	// Button styles changes
-	document.getElementById("partyYellow").style.border = "#111 0.1rem solid";
-	document.getElementById("discoGreen").style.border = "#111 0.1rem dotted";
+	document.getElementById("Q2blue").style.border = "#111 0.14rem dotted";
+	document.getElementById("Q2blue").style.opacity = "1";
+	document.getElementById("Q2Black").style.border = "#d3d3d3 0.1rem solid";
+
+	// Checkout Button display ability
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
 }
 
 // realme Wireless Buds Pro Disco Green product images
@@ -1266,10 +1271,10 @@ function Q2BlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML = "Black";
 
 	// Button styles changes
-	document.getElementById("discoGreen").style.border = "#111 0.1rem solid";
-	document.getElementById("partyYellow").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("Q2Black").style.border = "#111 0.1rem solid";
+	document.getElementById("Q2blue").style.border = "#d3d3d3 0.14rem dotted";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
+	// Checkout Button display ability
+	document.getElementById("addToCart").style.display = "block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
 }
