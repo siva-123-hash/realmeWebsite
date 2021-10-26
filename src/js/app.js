@@ -1063,7 +1063,7 @@ function discoGreenImages() {
 }
 
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-/*===== WIRELESS BUDS PRO DISCO GREEN PRODUCT IMAGE CHANGE (DISCO GREEN ) =====*/
+/*===== realme BUDS Q2 BLACK PRODUCT IMAGE CHANGE (BLACK) =====*/
 function changeBudsQ2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1136,7 +1136,7 @@ function changeBudsQ2BlackImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== WIRELESS BUDS PRO PARTY YELLOW PRODUCT IMAGE CHANGE (PARTY YELLOW) =====*/
+/*===== realme BUDS Q2 BLUE PRODUCT IMAGE CHANGE (BLUE) =====*/
 function changeBudsQ2BlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1209,7 +1209,7 @@ function changeBudsQ2BlueImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-// realme Wireless Buds Pro Party Yellow products images
+// realme BUDS Q2 Blue products images
 function Q2BlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
@@ -1244,7 +1244,7 @@ function Q2BlueImages() {
 	document.getElementById("buyNow").innerHTML = "Notify Me";
 }
 
-// realme Wireless Buds Pro Disco Green product images
+// realme BUDS Q2 Black product images
 function Q2BlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
