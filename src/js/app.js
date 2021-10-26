@@ -363,7 +363,7 @@ function changeWatchSProBlackImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== WATCH S PRO PRODUCT IMAGE CHANGE =====*/
+/*===== SMART CAMERA 360° PRODUCT IMAGE CHANGE =====*/
 function changeSmartCameraImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
