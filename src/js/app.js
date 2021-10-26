@@ -436,7 +436,7 @@ function changeSmartCameraImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== SMART CAMERA 360° PRODUCT IMAGE CHANGE =====*/
+/*===== WATCH 2 PRO PRODUCT IMAGE CHANGE =====*/
 function changeProWatch2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
