@@ -256,6 +256,7 @@
 				.configuration {
 					.color {
 						margin-top: 2rem;
+
 						h2 {
 							font-weight: 400;
 							color: $baseColor_black;
@@ -665,8 +666,12 @@
 									height: 25px;
 									border-radius: 50%;
 									margin-right: 0.5rem;
-									background: $baseColor_black;
-									border: $baseColor_lightGrey 0.1rem solid;
+									background: linear-gradient(
+										0deg,
+										rgb(0, 0, 0) 0%,
+										rgb(93, 104, 126) 50%,
+										rgb(0, 0, 0) 100%
+									);
 								}
 
 								h2 {
@@ -677,21 +682,26 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
 							#supersonicBlue {
 								display: flex;
 								background: none;
 								margin-top: 0.25rem;
 								align-items: center;
 								padding: 0.75rem 4rem;
-								border: $baseColor_black 0.1rem solid;
+								border: $baseColor_lightGrey 0.1rem solid;
 
 								.colorMossGreen {
 									width: 25px;
 									height: 25px;
 									border-radius: 50%;
 									margin-right: 0.5rem;
-									background: $baseColor_black;
-									border: $baseColor_lightGrey 0.1rem solid;
+									background: linear-gradient(
+										0deg,
+										rgb(66, 101, 154) 0%,
+										rgb(197, 238, 255) 50%,
+										rgb(156, 203, 236) 100%
+									);
 								}
 
 								h2 {
@@ -879,6 +889,14 @@
 
 							.sizeTwelveGB {
 								border: $baseColor_black 0.1rem solid;
+							}
+
+							#fourGB {
+								border: $baseColor_black 0.1rem solid;
+							}
+
+							#sixGB {
+								border: $baseColor_lightGrey2 0.1rem solid;
 							}
 						}
 
