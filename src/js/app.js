@@ -563,7 +563,7 @@ function changeBudsAir2Image4() {
 function changeBudsAir2WhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png");
+		"/src/img/productImages/1605438557032.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -847,7 +847,7 @@ function changeBudsWirelessProImage4() {
 }
 
 /*===== WIRELESS BUDS PRO PARTY YELLOW PRODUCT IMAGE CHANGE (PARTY YELLOW) =====*/
-function changeBudsAir2WhiteImage1() {
+function changeBudsWirelessPro2Image1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1607087004937.jpg");
@@ -865,7 +865,7 @@ function changeBudsAir2WhiteImage1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2WhiteImage2() {
+function changeBudsWirelessPro2Image2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1607087004829.jpg");
@@ -883,7 +883,7 @@ function changeBudsAir2WhiteImage2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2WhiteImage3() {
+function changeBudsWirelessPro2Image3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1607087004830.jpg");
@@ -901,7 +901,7 @@ function changeBudsAir2WhiteImage3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2WhiteImage4() {
+function changeBudsWirelessPro2Image4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1607087004831.jpg");
@@ -919,7 +919,7 @@ function changeBudsAir2WhiteImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-// Rust Red realme X50 Pro 5G products images
+// realme Wireless Buds Pro Party Yellow products images
 function partyYellowImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
@@ -954,7 +954,7 @@ function partyYellowImages() {
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 }
 
-// Moss Green realme X50 Pro 5G product images
+// realme Wireless Buds Pro Disco Green product images
 function discoGreenImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
