@@ -440,6 +440,32 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#soulWhite {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									border: none;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: $backgroundColor_lightGrey;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 						}
 
 						.buttonSection1 {
@@ -537,6 +563,32 @@
 							}
 
 							#closerWhite {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									border: none;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: $backgroundColor_lightGrey;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#soulWhite {
 								display: flex;
 								background: none;
 								margin-top: 0.25rem;
