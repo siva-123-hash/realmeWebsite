@@ -1640,10 +1640,65 @@ function changeBudsWirelessProPartyYellowImage4() {
 }
 
 /*=====================================================================*/
-/*==================== realme WIRELESS BUDS PRO =======================*/
+/*==================== realme BUDS Q2 =======================*/
 /*=====================================================================*/
-/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-/*===== realme BUDS Q2 BLACK PRODUCT IMAGE CHANGE (BLACK) =====*/
+/*===== (BLACK VERSION) =====*/
+// Content & Button Properties
+function Q2BlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1620732700547.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1620732700547.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1620732709556.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1620732718791.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1620732728527.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme Buds Q2 ( Black )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML = "Black";
+
+	// Button styles changes
+	document.getElementById("Q2Black").style.border = "#111 0.1rem solid";
+	document.getElementById("Q2blue").style.border = "#d3d3d3 0.14rem dotted";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeBudsQ2BlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeBudsQ2BlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeBudsQ2BlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeBudsQ2BlackImage4();
+	});
+}
+
+// Black Images
 function changeBudsQ2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1716,7 +1771,63 @@ function changeBudsQ2BlackImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== realme BUDS Q2 BLUE PRODUCT IMAGE CHANGE (BLUE) =====*/
+/*===== (BLUE VERSION) =====*/
+// Content & Button Properties
+function Q2BlueImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1620732298988.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1620732298988.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1621465492685.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1621465503600.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1621465512024.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML = "realme Buds Q2 ( Blue )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML = "Blue";
+
+	// Button styles changes
+	document.getElementById("Q2blue").style.border = "#111 0.14rem dotted";
+	document.getElementById("Q2blue").style.opacity = "1";
+	document.getElementById("Q2Black").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeBudsQ2BlueImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeBudsQ2BlueImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeBudsQ2BlueImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeBudsQ2BlueImage4();
+	});
+}
+
+// Blue Images
 function changeBudsQ2BlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1787,76 +1898,6 @@ function changeBudsQ2BlueImage4() {
 	btn1NoBorderLine.style.borderBottom = "none";
 	btn2NoBorderLine.style.borderBottom = "none";
 	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-// realme BUDS Q2 Blue products images
-function Q2BlueImages() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732298988.png";
-
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620732298988.png";
-
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1621465492685.png";
-
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1621465503600.png";
-
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1621465512024.png";
-
-	// Product Title change
-	document.getElementById("productTitle").innerHTML = "realme Buds Q2 ( Blue )";
-
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Blue";
-
-	// Button styles changes
-	document.getElementById("Q2blue").style.border = "#111 0.14rem dotted";
-	document.getElementById("Q2blue").style.opacity = "1";
-	document.getElementById("Q2Black").style.border = "#d3d3d3 0.1rem solid";
-
-	// Checkout Button display ability
-	document.getElementById("addToCart").style.display = "none";
-	document.getElementById("buyNow").innerHTML = "Notify Me";
-}
-
-// realme BUDS Q2 Black product images
-function Q2BlackImages() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732700547.png";
-
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620732700547.png";
-
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620732709556.png";
-
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620732718791.png";
-
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620732728527.png";
-
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Q2 ( Black )";
-
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Black";
-
-	// Button styles changes
-	document.getElementById("Q2Black").style.border = "#111 0.1rem solid";
-	document.getElementById("Q2blue").style.border = "#d3d3d3 0.14rem dotted";
-
-	// Checkout Button display ability
-	document.getElementById("addToCart").style.display = "block";
-	document.getElementById("buyNow").innerHTML = "Buy Now";
 }
 
 /*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
