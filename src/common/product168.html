@@ -240,9 +240,13 @@
 								<div class="quantity">
 									<h2><strong>Quantity</strong></h2>
 									<div class="info">
-										<button id="minus"><i class="bi bi-dash"></i></button>
+										<button id="minus" onclick="minusQuantity()">
+											<i class="bi bi-dash"></i>
+										</button>
 										<h2 id="quantityAmount">1</h2>
-										<button id="plus"><i class="bi bi-plus"></i></button>
+										<button id="plus" onclick="addQuantity()">
+											<i class="bi bi-plus"></i>
+										</button>
 									</div>
 								</div>
 								<div class="addOnProduct">
@@ -278,7 +282,7 @@
 										<h2 id="checkoutProductTitle">
 											Supersonic Black <span id="GBSpace">4GB+64GB...</span>
 										</h2>
-										<h2 id="quantity">x <span>1</span></h2>
+										<h2>x <span id="quantity">1</span></h2>
 										<h2><i class="bi bi-currency-pound"></i>134</h2>
 									</div>
 									<div class="addOn" id="addOn">

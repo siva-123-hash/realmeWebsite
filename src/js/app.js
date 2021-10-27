@@ -459,6 +459,19 @@ function changeSupersonicBlueImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
+function addQuantity() {
+	const defaultQuantity = document.getElementById("quantity");
+
+	var addQuantity = 1;
+	var newQuantity = addQuantity + defaultQuantity;
+
+	defaultQuantity.innerHTML = newQuantity.toString();
+}
+
+function minusQuantity() {
+	const defaultQuantity = document.getElementById("quantity");
+}
+
 /*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
 function changePearlWhiteImage1() {
 	// changes the main product image ot the selected image
