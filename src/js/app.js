@@ -1072,10 +1072,6 @@ function closerBlackImages() {
 	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
 	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "block";
-	document.getElementById("12GB").style.border = "#111 0.1rem solid";
-
 	/*===== BUTTON LISTENERS =====*/
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -1204,10 +1200,6 @@ function closerWhiteImages() {
 	// Button styles changes
 	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
 	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
-
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Images Buttons
