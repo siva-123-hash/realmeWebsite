@@ -251,8 +251,11 @@ function supersonicBlackImages() {
 		"#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
 	const fourGBtn = document.getElementById("fourGB");
 	const sixGBtn = document.getElementById("sixGB");
+
+	// Images Buttons
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
@@ -329,8 +332,11 @@ function supersonicBlueImages() {
 		"#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
 	const fourGBtn = document.getElementById("fourGB");
 	const sixGBtn = document.getElementById("sixGB");
+
+	// Images Buttons
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
@@ -1032,9 +1038,71 @@ function rushRedImages1() {
 	document.getElementById("8GB").style.border = "#d3d3d3 0.1rem solid";
 }
 
-/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-/*===== BUDS AIR 2 BLACK PRODUCT IMAGE CHANGE (BLACK) =====*/
-function changeBudsAir2Image1() {
+/*=====================================================================*/
+/*========================= realme BUDS AIR 2 =========================*/
+/*=====================================================================*/
+/*===== (BLACK VERSION) =====*/
+// Content & Button Properties
+function closerBlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1615884298148.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1615884298148.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1615883712278.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1615883712422.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1615883712435.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme Buds Air 2 ( Closer Black )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML = "Closer Black";
+
+	// Button styles changes
+	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	document.getElementById("8GB").style.display = "block";
+	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeBudsAir2BlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeBudsAir2BlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeBudsAir2BlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeBudsAir2BlackImage4();
+	});
+}
+
+// Black Images
+function changeBudsAir2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615884298148.png");
@@ -1052,7 +1120,7 @@ function changeBudsAir2Image1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2Image2() {
+function changeBudsAir2BlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712278.png");
@@ -1070,7 +1138,7 @@ function changeBudsAir2Image2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2Image3() {
+function changeBudsAir2BlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712422.png");
@@ -1088,7 +1156,7 @@ function changeBudsAir2Image3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2Image4() {
+function changeBudsAir2BlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712435.png");
@@ -1106,11 +1174,71 @@ function changeBudsAir2Image4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== BUDS AIR 2 WHITE PRODUCT IMAGE CHANGE (WHITE) =====*/
+/*===== (WHITE VERSION) =====*/
+// Content & Button Properties
+function closerWhiteImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1615892685998.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1615892685998.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1615892685990.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1615892685606.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1615892685743.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme Buds Air 2 ( Closer White )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML = "Closer White";
+
+	// Button styles changes
+	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
+	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	document.getElementById("8GB").style.display = "none";
+	document.getElementById("12GB").style.border = "0.14rem dotted";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeBudsAir2WhiteImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeBudsAir2WhiteImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeBudsAir2WhiteImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeBudsAir2WhiteImage4();
+	});
+}
+
+// Black Images
 function changeBudsAir2WhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1605438557032.png");
+		"/src/img/productImages/1615892685998.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1249,75 +1377,75 @@ function closerBlackImages1() {
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 }
 
-// Moss Green realme X50 Pro 5G product images
-function closerWhiteImages() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png";
+// // Moss Green realme X50 Pro 5G product images
+// function closerWhiteImages() {
+// 	// Main product images
+// 	document.getElementById("mainImage").src =
+// 		"/src/img/productImages/1615892685998.png";
 
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615892685998.png";
+// 	// More products images
+// 	document.getElementById("moreImage1").src =
+// 		"/src/img/productImages/1615892685998.png";
 
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615892685990.png";
+// 	document.getElementById("moreImage2").src =
+// 		"/src/img/productImages/1615892685990.png";
 
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615892685606.png";
+// 	document.getElementById("moreImage3").src =
+// 		"/src/img/productImages/1615892685606.png";
 
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615892685743.png";
+// 	document.getElementById("moreImage4").src =
+// 		"/src/img/productImages/1615892685743.png";
 
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Air 2 ( Closer White )";
+// 	// Product Title change
+// 	document.getElementById("productTitle").innerHTML =
+// 		"realme Buds Air 2 ( Closer White )";
 
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Closer White";
+// 	// Checkout product title section
+// 	document.getElementById("checkoutProductTitle").innerHTML = "Closer White";
 
-	// Button styles changes
-	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
-	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
+// 	// Button styles changes
+// 	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
+// 	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
-}
+// 	// Configuration phone GB Space size
+// 	document.getElementById("8GB").style.display = "none";
+// 	document.getElementById("12GB").style.border = "0.14rem dotted";
+// }
 
-// Rust Red realme X50 Pro 5G products images
-function closerBlackImages() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615884298148.png";
+// // Rust Red realme X50 Pro 5G products images
+// function closerBlackImages() {
+// 	// Main product images
+// 	document.getElementById("mainImage").src =
+// 		"/src/img/productImages/1615884298148.png";
 
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615884298148.png";
+// 	// More products images
+// 	document.getElementById("moreImage1").src =
+// 		"/src/img/productImages/1615884298148.png";
 
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615883712278.png";
+// 	document.getElementById("moreImage2").src =
+// 		"/src/img/productImages/1615883712278.png";
 
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615883712422.png";
+// 	document.getElementById("moreImage3").src =
+// 		"/src/img/productImages/1615883712422.png";
 
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615883712435.png";
+// 	document.getElementById("moreImage4").src =
+// 		"/src/img/productImages/1615883712435.png";
 
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Air 2 ( Closer Black )";
+// 	// Product Title change
+// 	document.getElementById("productTitle").innerHTML =
+// 		"realme Buds Air 2 ( Closer Black )";
 
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Closer Black";
+// 	// Checkout product title section
+// 	document.getElementById("checkoutProductTitle").innerHTML = "Closer Black";
 
-	// Button styles changes
-	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
-	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
+// 	// Button styles changes
+// 	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
+// 	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "block";
-	document.getElementById("12GB").style.border = "#111 0.1rem solid";
-}
+// 	// Configuration phone GB Space size
+// 	document.getElementById("8GB").style.display = "block";
+// 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+// }
 
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
 /*===== WIRELESS BUDS PRO DISCO GREEN PRODUCT IMAGE CHANGE (DISCO GREEN ) =====*/

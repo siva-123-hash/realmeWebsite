@@ -122,28 +122,28 @@
 									/>
 								</div>
 								<div class="moreImages">
-									<button id="btn1" onclick="changeBudsAir2Image1()">
+									<button id="btn1" onclick="changeBudsAir2BlackImage1()">
 										<img
 											id="moreImage1"
 											src="/src/img/productImages/1615884298148.png"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn2" onclick="changeBudsAir2Image2()">
+									<button id="btn2" onclick="changeBudsAir2BlackImage2()">
 										<img
 											id="moreImage2"
 											src="/src/img/productImages/1615883712278.png"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn3" onclick="changeBudsAir2Image3()">
+									<button id="btn3" onclick="changeBudsAir2BlackImage3()">
 										<img
 											id="moreImage3"
 											src="/src/img/productImages/1615883712422.png"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn4" onclick="changeBudsAir2Image4()">
+									<button id="btn4" onclick="changeBudsAir2BlackImage4()">
 										<img
 											id="moreImage4"
 											src="/src/img/productImages/1615883712435.png"
@@ -183,7 +183,6 @@
 								</div>
 								<div class="borderline"></div>
 							</div>
-
 							<div class="configuration">
 								<div class="color">
 									<h2><strong>Color</strong></h2>
@@ -201,15 +200,19 @@
 								<div class="quantity">
 									<h2><strong>Quantity</strong></h2>
 									<div class="info">
-										<button id="minus"><i class="bi bi-dash"></i></button>
+										<button id="minus" onclick="minusQuantity()">
+											<i class="bi bi-dash"></i>
+										</button>
 										<h2 id="quantityAmount">1</h2>
-										<button id="plus"><i class="bi bi-plus"></i></button>
+										<button id="plus" onclick="addQuantity()">
+											<i class="bi bi-plus"></i>
+										</button>
 									</div>
 								</div>
 								<div class="checkOutInfo">
 									<div class="default">
 										<h2 id="checkoutProductTitle">Closer Black</h2>
-										<h2>x1</h2>
+										<h2>x <span id="quantity">1</span></h2>
 										<h2><i class="bi bi-currency-pound"></i>46.99</h2>
 									</div>
 									<div class="priceDisplay">
