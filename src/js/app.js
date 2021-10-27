@@ -144,81 +144,11 @@ function changeMossGreenImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== SUPERSONIC BLACK PRODUCT IMAGE CHANGE =====*/
-function changeSupersonicBlackImage1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815878085.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeSupersonicBlackImage2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815888325.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeSupersonicBlackImage3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815896630.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeSupersonicBlackImage4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815912069.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-// Supersonic Black realme 8 5G  product images
+/*=====================================================================*/
+/*=========================== realme 8 5G =============================*/
+/*=====================================================================*/
+/*===== (SUPERSONIC BLACK VERSION) =====*/
+// Content & Button Properties
 function supersonicBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
@@ -297,9 +227,81 @@ function supersonicBlackImages() {
 		changeSupersonicBlackImage4();
 	});
 }
+// Supersonic Black Images
+function changeSupersonicBlackImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815878085.png");
 
-/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-// Supersonic Blue realme 8 5G 5G products images
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815888325.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815896630.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815912069.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (SUPERSONIC BLUE VERSION) =====*/
+// Content & Button Properties
 function supersonicBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
@@ -380,6 +382,7 @@ function supersonicBlueImages() {
 }
 
 /*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+// Button Properties
 function configFourGBOption() {
 	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
 	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
@@ -392,7 +395,8 @@ function configSixGBOption() {
 	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
 }
 
-/*===== SUPERSONIC BLUE PRODUCT IMAGE CHANGE =====*/
+/*===== (SUPERSONIC BLUE VERSION) =====*/
+// Content & Button Properties
 function changeSupersonicBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -465,6 +469,8 @@ function changeSupersonicBlueImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
+/*===== CHANGE PRODUCT QUANTITY OPTIONS =====*/
+// Button Properties
 function addQuantity() {
 	const defaultQuantity = document.getElementById("quantity");
 
@@ -1226,7 +1232,7 @@ function closerWhiteImages() {
 	});
 }
 
-// Black Images
+// White Images
 function changeBudsAir2WhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1368,76 +1374,6 @@ function closerBlackImages1() {
 	document.getElementById("8GB").style.display = "block";
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 }
-
-// // Moss Green realme X50 Pro 5G product images
-// function closerWhiteImages() {
-// 	// Main product images
-// 	document.getElementById("mainImage").src =
-// 		"/src/img/productImages/1615892685998.png";
-
-// 	// More products images
-// 	document.getElementById("moreImage1").src =
-// 		"/src/img/productImages/1615892685998.png";
-
-// 	document.getElementById("moreImage2").src =
-// 		"/src/img/productImages/1615892685990.png";
-
-// 	document.getElementById("moreImage3").src =
-// 		"/src/img/productImages/1615892685606.png";
-
-// 	document.getElementById("moreImage4").src =
-// 		"/src/img/productImages/1615892685743.png";
-
-// 	// Product Title change
-// 	document.getElementById("productTitle").innerHTML =
-// 		"realme Buds Air 2 ( Closer White )";
-
-// 	// Checkout product title section
-// 	document.getElementById("checkoutProductTitle").innerHTML = "Closer White";
-
-// 	// Button styles changes
-// 	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
-// 	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
-
-// 	// Configuration phone GB Space size
-// 	document.getElementById("8GB").style.display = "none";
-// 	document.getElementById("12GB").style.border = "0.14rem dotted";
-// }
-
-// // Rust Red realme X50 Pro 5G products images
-// function closerBlackImages() {
-// 	// Main product images
-// 	document.getElementById("mainImage").src =
-// 		"/src/img/productImages/1615884298148.png";
-
-// 	// More products images
-// 	document.getElementById("moreImage1").src =
-// 		"/src/img/productImages/1615884298148.png";
-
-// 	document.getElementById("moreImage2").src =
-// 		"/src/img/productImages/1615883712278.png";
-
-// 	document.getElementById("moreImage3").src =
-// 		"/src/img/productImages/1615883712422.png";
-
-// 	document.getElementById("moreImage4").src =
-// 		"/src/img/productImages/1615883712435.png";
-
-// 	// Product Title change
-// 	document.getElementById("productTitle").innerHTML =
-// 		"realme Buds Air 2 ( Closer Black )";
-
-// 	// Checkout product title section
-// 	document.getElementById("checkoutProductTitle").innerHTML = "Closer Black";
-
-// 	// Button styles changes
-// 	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
-// 	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
-
-// 	// Configuration phone GB Space size
-// 	document.getElementById("8GB").style.display = "block";
-// 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
-// }
 
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
 /*===== WIRELESS BUDS PRO DISCO GREEN PRODUCT IMAGE CHANGE (DISCO GREEN ) =====*/
