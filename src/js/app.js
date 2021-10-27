@@ -245,14 +245,27 @@ function supersonicBlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Supersonic Black 4GB+64GB...";
 
+	const fourGBtn = document.getElementById("fourGB");
+	const sixGBtn = document.getElementById("sixGB");
+
+	// Change Add To Cart section description
+	fourGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Supersonic Black 4GB+64GB...";
+	});
+
+	// Load in default Price
+	sixGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Supersonic Black 6GB+128GB...";
+	});
+
 	// Button styles changes
 	document.getElementById("supersonicBlack").style.border = "#111 0.1rem solid";
 	document.getElementById("supersonicBlue").style.border =
 		"#d3d3d3 0.1rem solid";
-
-	// Configuration phone GB Space size
-	// document.getElementById("fourGB").style.display = "none";
-	// document.getElementById("sixGB").style.border = "0.14rem dotted";
 }
 
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
@@ -283,14 +296,40 @@ function supersonicBlueImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Supersonic Blue 4GB+64GB...";
 
+	const fourGBtn = document.getElementById("fourGB");
+	const sixGBtn = document.getElementById("sixGB");
+
+	// Change Add To Cart section description
+	fourGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Supersonic Blue 4GB+64GB...";
+	});
+
+	// Load in default Price
+	sixGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Supersonic Blue 6GB+128GB...";
+	});
+
 	// Button styles changes
 	document.getElementById("supersonicBlue").style.border = "#111 0.1rem solid";
 	document.getElementById("supersonicBlack").style.border =
 		"#d3d3d3 0.1rem solid";
+}
 
-	// Configuration phone GB Space size
-	// document.getElementById("fourGB").style.display = "block";
-	// document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+function configFourGBOption() {
+	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+}
+
+function configSixGBOption() {
+	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
 }
 
 /*===== SUPERSONIC BLUE PRODUCT IMAGE CHANGE =====*/
