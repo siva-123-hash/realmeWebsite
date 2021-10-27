@@ -381,22 +381,7 @@ function supersonicBlueImages() {
 	});
 }
 
-/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
-// Button Properties
-function configFourGBOption() {
-	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
-	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
-}
-
-function configSixGBOption() {
-	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
-	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
-}
-
-/*===== (SUPERSONIC BLUE VERSION) =====*/
-// Content & Button Properties
+// Supersonic Blue Images
 function changeSupersonicBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -467,6 +452,20 @@ function changeSupersonicBlueImage4() {
 	btn1NoBorderLine.style.borderBottom = "none";
 	btn2NoBorderLine.style.borderBottom = "none";
 	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+// Button Properties
+function configFourGBOption() {
+	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+}
+
+function configSixGBOption() {
+	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
 }
 
 /*===== CHANGE PRODUCT QUANTITY OPTIONS =====*/
@@ -1375,189 +1374,11 @@ function closerBlackImages1() {
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
 }
 
-/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
-/*===== WIRELESS BUDS PRO DISCO GREEN PRODUCT IMAGE CHANGE (DISCO GREEN ) =====*/
-function changeBudsWirelessProImage1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080800022.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessProImage2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799876.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessProImage3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799879.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessProImage4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799911.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-/*===== WIRELESS BUDS PRO PARTY YELLOW PRODUCT IMAGE CHANGE (PARTY YELLOW) =====*/
-function changeBudsWirelessPro2Image1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004937.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessPro2Image2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004829.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessPro2Image3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004830.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsWirelessPro2Image4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004831.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-// realme Wireless Buds Pro Party Yellow products images
-function partyYellowImages() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004937.jpg";
-
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1607087004937.jpg";
-
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1607087004829.jpg";
-
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1607087004830.jpg";
-
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1607087004831.jpg";
-
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Wireless Pro ( Party Yellow )";
-
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Party Yellow";
-
-	// Button styles changes
-	document.getElementById("partyYellow").style.border = "#111 0.1rem solid";
-	document.getElementById("discoGreen").style.border = "#d3d3d3 0.1rem solid";
-
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "block";
-	document.getElementById("12GB").style.border = "#111 0.1rem solid";
-}
-
-// realme Wireless Buds Pro Disco Green product images
+/*=====================================================================*/
+/*==================== realme WIRELESS BUDS PRO =======================*/
+/*=====================================================================*/
+/*===== (DISCO GREEN VERSION) =====*/
+// Content & Button Properties
 function discoGreenImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
@@ -1587,11 +1408,240 @@ function discoGreenImages() {
 	document.getElementById("discoGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("partyYellow").style.border = "#d3d3d3 0.1rem solid";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeBudsWirelessProDiscoGreenImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeBudsWirelessProDiscoGreenImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeBudsWirelessProDiscoGreenImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeBudsWirelessProDiscoGreenImage4();
+	});
 }
 
+// Disco Green Images
+function changeBudsWirelessProDiscoGreenImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607080800022.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProDiscoGreenImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607080799876.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProDiscoGreenImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607080799879.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProDiscoGreenImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607080799911.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (PARTY YELLOW VERSION) =====*/
+// Content & Button Properties
+function partyYellowImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1607087004937.jpg";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1607087004937.jpg";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1607087004829.jpg";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1607087004830.jpg";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1607087004831.jpg";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme Buds Wireless Pro ( Party Yellow )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML = "Party Yellow";
+
+	// Button styles changes
+	document.getElementById("partyYellow").style.border = "#111 0.1rem solid";
+	document.getElementById("discoGreen").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeBudsWirelessProPartyYellowImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeBudsWirelessProPartyYellowImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeBudsWirelessProPartyYellowImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeBudsWirelessProPartyYellowImage4();
+	});
+}
+
+// Party Yellow Images
+function changeBudsWirelessProPartyYellowImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607087004937.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProPartyYellowImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607087004829.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProPartyYellowImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607087004830.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsWirelessProPartyYellowImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1607087004831.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*=====================================================================*/
+/*==================== realme WIRELESS BUDS PRO =======================*/
+/*=====================================================================*/
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
 /*===== realme BUDS Q2 BLACK PRODUCT IMAGE CHANGE (BLACK) =====*/
 function changeBudsQ2BlackImage1() {
