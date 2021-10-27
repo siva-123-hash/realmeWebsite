@@ -1672,8 +1672,19 @@ function addOnOption() {
 	submitBtn.style.display = "Block";
 	submitBtn.style.display = "flex";
 
-	//load's third page
+	// Adds current price and add on price
+	var totalPrice = 134;
+	var addOnPrice = 8;
+	var newTotalPrice = totalPrice + addOnPrice;
+
+	// Displays the new Price
+	document.getElementById("totalPrice").innerHTML =
+		`<i class="bi bi-currency-pound"></i>` + newTotalPrice;
+
+	// Load in default Price
 	checkboxBtn.addEventListener("click", () => {
 		submitBtn.style.display = "none";
+		document.getElementById("totalPrice").innerHTML =
+			`<i class="bi bi-currency-pound"></i>` + totalPrice;
 	});
 }
