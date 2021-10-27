@@ -1646,3 +1646,34 @@ function Q2BlackImages() {
 	document.getElementById("addToCart").style.display = "block";
 	document.getElementById("buyNow").innerHTML = "Buy Now";
 }
+
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+function configOption1() {
+	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
+}
+
+function configOption2() {
+	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+}
+
+function configOption3() {
+	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+}
+
+/*===== DISPLAY ADD ON PRODUCT OPTIONS =====*/
+function addOnOption() {
+	const submitBtn = document.getElementById("addOn");
+	const checkboxBtn = document.getElementById("checkbox");
+
+	// Styling Change
+	submitBtn.style.display = "Block";
+	submitBtn.style.display = "flex";
+
+	//load's third page
+	checkboxBtn.addEventListener("click", () => {
+		submitBtn.style.display = "none";
+	});
+}

@@ -229,8 +229,12 @@
 								<div class="configuration">
 									<h2><strong>Configuration</strong></h2>
 									<div class="buttonSection">
-										<button id="fourGB">4GB+64GB UK PLUG</button>
-										<button id="sixGB">6GB+128GB UK PLUG</button>
+										<button id="fourGB" onclick="configOption1()">
+											4GB+64GB UK PLUG
+										</button>
+										<button id="sixGB" onclick="configOption2()">
+											6GB+128GB UK PLUG
+										</button>
 									</div>
 								</div>
 								<div class="quantity">
@@ -252,7 +256,11 @@
 										>
 									</h2>
 									<div>
-										<input type="checkbox" />
+										<input
+											type="checkbox"
+											id="checkbox"
+											onclick="addOnOption()"
+										/>
 										<a href="https://buy.realme.com/uk/goods/147"
 											><img
 												class="product"
@@ -273,7 +281,7 @@
 										<h2>x1</h2>
 										<h2><i class="bi bi-currency-pound"></i>134</h2>
 									</div>
-									<div class="addOn">
+									<div class="addOn" id="addOn">
 										<h2>realme 10000mAh Power Ba...</h2>
 										<h2>x1</h2>
 										<h2><i class="bi bi-currency-pound"></i>8</h2>
