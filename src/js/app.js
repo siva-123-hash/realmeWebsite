@@ -245,27 +245,54 @@ function supersonicBlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Supersonic Black 4GB+64GB...";
 
+	// Button styles changes
+	document.getElementById("supersonicBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("supersonicBlue").style.border =
+		"#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
 	const fourGBtn = document.getElementById("fourGB");
 	const sixGBtn = document.getElementById("sixGB");
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
 
-	// Change Add To Cart section description
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
 	fourGBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 4GB+64GB...";
 	});
 
-	// Load in default Price
+	// Change the phone GB size in the Add To Cart section description
 	sixGBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 6GB+128GB...";
 	});
 
-	// Button styles changes
-	document.getElementById("supersonicBlack").style.border = "#111 0.1rem solid";
-	document.getElementById("supersonicBlue").style.border =
-		"#d3d3d3 0.1rem solid";
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlackImage4();
+	});
 }
 
 /*===== CHANGE PRODUCT COLOUR IMAGE =====*/
@@ -309,6 +336,7 @@ function supersonicBlueImages() {
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
 
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	fourGBtn.addEventListener("click", () => {
 		// Checkout product title section
@@ -321,6 +349,27 @@ function supersonicBlueImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 6GB+128GB...";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlueImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlueImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlueImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeSupersonicBlueImage4();
 	});
 }
 
