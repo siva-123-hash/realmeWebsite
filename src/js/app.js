@@ -71,7 +71,7 @@ function changeRustRedImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== RUST RED PRODUCT IMAGE CHANGE =====*/
+/*===== MOSS GREEN PRODUCT IMAGE CHANGE =====*/
 function changeMossGreenImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -130,6 +130,228 @@ function changeMossGreenImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1588460897805.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== SUPERSONIC BLACK PRODUCT IMAGE CHANGE =====*/
+function changeSupersonicBlackImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815878085.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815888325.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815896630.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlackImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815912069.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
+// Supersonic Black realme 8 5G  product images
+function supersonicBlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815878085.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1620815878085.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1620815888325.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1620815896630.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1620815912069.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 5G ( Supersonic Black 4GB+64GB UK Plug )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Supersonic Black 4GB+64GB...";
+
+	// Button styles changes
+	document.getElementById("supersonicBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("supersonicBlue").style.border =
+		"#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	// document.getElementById("fourGB").style.display = "none";
+	// document.getElementById("sixGB").style.border = "0.14rem dotted";
+}
+
+/*===== CHANGE PRODUCT COLOUR IMAGE =====*/
+// Supersonic Blue realme 8 5G 5G products images
+function supersonicBlueImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815930056.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1620815930056.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1620815941197.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1620815951235.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1620815961273.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 5G ( Supersonic Blue 4GB+64GB UK Plug )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Supersonic Blue 4GB+64GB...";
+
+	// Button styles changes
+	document.getElementById("supersonicBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("supersonicBlack").style.border =
+		"#d3d3d3 0.1rem solid";
+
+	// Configuration phone GB Space size
+	// document.getElementById("fourGB").style.display = "block";
+	// document.getElementById("sixGB").style.border = "#111 0.1rem solid";
+}
+
+/*===== SUPERSONIC BLUE PRODUCT IMAGE CHANGE =====*/
+function changeSupersonicBlueImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815930056.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlueImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815941197.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlueImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815951235.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeSupersonicBlueImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1620815961273.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
