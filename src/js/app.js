@@ -27,39 +27,31 @@ function rushRedImages() {
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"RUST RED UK PLUG 128GB+2...";
+		"RUST RED UK PLUG 12GB+2...";
 
 	// Add to Cart Section button
 	document.getElementById("addToCart").style.display = "block";
 	document.getElementById("buyNow").innerHTML = "Buy Now";
 
-	/*===== BUTTON LISTENERS =====*/
-	// Configuration Buttons
-	const eightGBtn = document.getElementById("8GB");
-	const twelveGBtn = document.getElementById("12GB");
+	// Button styles changes
+	document.getElementById("mossGreen").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
 
+	// Configuration Buttons (8GB or 12GB)
+	document.getElementById("eightGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("twelveGB").style.display = "block";
+	document.getElementById("twelveGB").style.border = "#111 0.1rem solid";
+
+	eightGB.addEventListener("click", () => {
+		eightGB.style.border = "#111 0.1rem solid";
+	});
+
+	/*===== BUTTON LISTENERS =====*/
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
-
-	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
-	// Configuration phone GB Space size
-	eightGBtn.style.display = "block";
-	twelveGBtn.style.border = "#111 0.1rem solid";
-
-	// Change the phone GB size in the Add To Cart section description
-	eightGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
-	});
-
-	// Change the phone GB size in the Add To Cart section description
-	twelveGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
-	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
@@ -152,6 +144,20 @@ function changeRustRedImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+// Button Properties
+function configEightGBOption() {
+	document.getElementById("eightGB").style.border = "#111 0.1rem solid";
+	document.getElementById("twelveGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
+}
+
+function configTwelveGBOption() {
+	document.getElementById("eightGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("twelveGB").style.border = "#111 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
+}
+
 /*===== (MOSS GREEN VERSION) =====*/
 // Content & Button Properties
 function mossGreenImages() {
@@ -178,7 +184,7 @@ function mossGreenImages() {
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"MOSS GREEN UK PLUG 128GB+2...";
+		"MOSS GREEN UK PLUG 8GB+12...";
 
 	// Add to Cart Section button
 	document.getElementById("addToCart").style.display = "none";
@@ -188,33 +194,21 @@ function mossGreenImages() {
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
 
-	/*===== BUTTON LISTENERS =====*/
-	// Configuration Buttons
-	const eightGBtn = document.getElementById("8GB");
-	const twelveGBtn = document.getElementById("12GB");
+	// Configuration Buttons (8GB or 12GB)
+	const eightGB = document.getElementById("eightGB");
+	eightGB.style.border = "#111 0.14rem dotted";
+	document.getElementById("twelveGB").style.display = "none";
 
+	eightGB.addEventListener("click", () => {
+		eightGB.style.border = "#111 0.14rem dotted";
+	});
+
+	/*===== BUTTON LISTENERS =====*/
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
-
-	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
-	// Configuration phone GB Space size
-	eightGBtn.style.display = "none";
-	twelveGBtn.style.border = "0.14rem dotted";
-
-	// Change the phone GB size in the Add To Cart section description
-	eightGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
-	});
-
-	// Change the phone GB size in the Add To Cart section description
-	twelveGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
-	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
