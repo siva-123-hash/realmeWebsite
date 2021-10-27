@@ -63,23 +63,19 @@ function rushRedImages() {
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage1();
+		changeRustRedImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage2();
+		changeRustRedImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage3();
+		changeRustRedImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage4();
+		changeRustRedImage4();
 	});
 }
 
@@ -192,9 +188,50 @@ function mossGreenImages() {
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
 
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const eightGBtn = document.getElementById("8GB");
+	const twelveGBtn = document.getElementById("12GB");
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
+	eightGBtn.style.display = "none";
+	twelveGBtn.style.border = "0.14rem dotted";
+
+	// Change the phone GB size in the Add To Cart section description
+	eightGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
+	});
+
+	// Change the phone GB size in the Add To Cart section description
+	twelveGBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeMossGreenImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeMossGreenImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeMossGreenImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeMossGreenImage4();
+	});
 }
 
 // Moss Green Images
