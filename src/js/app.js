@@ -296,27 +296,32 @@ function supersonicBlueImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Supersonic Blue 4GB+64GB...";
 
+	// Button styles changes
+	document.getElementById("supersonicBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("supersonicBlack").style.border =
+		"#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
 	const fourGBtn = document.getElementById("fourGB");
 	const sixGBtn = document.getElementById("sixGB");
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
 
-	// Change Add To Cart section description
+	// Change the phone GB size in the Add To Cart section description
 	fourGBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 4GB+64GB...";
 	});
 
-	// Load in default Price
+	// Change the phone GB size in the Add To Cart section description
 	sixGBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 6GB+128GB...";
 	});
-
-	// Button styles changes
-	document.getElementById("supersonicBlue").style.border = "#111 0.1rem solid";
-	document.getElementById("supersonicBlack").style.border =
-		"#d3d3d3 0.1rem solid";
 }
 
 /*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
