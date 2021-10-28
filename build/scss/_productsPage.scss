@@ -978,12 +978,13 @@
 				}
 
 				.addOnProduct {
+					width: 20rem;
 					margin-top: 2rem;
 
 					h2 {
-						font-weight: 400;
+						font-weight: 200;
 						color: $baseColor_black;
-						font-size: $fontSize_normal;
+						font-size: $fontSize_small;
 						font-family: $fontStyle_header;
 
 						#addInfo {
@@ -993,8 +994,12 @@
 					}
 
 					div {
+						margin: auto;
 						display: flex;
-						margin-top: 2rem;
+						padding: 0.5rem 1rem;
+						align-items: center;
+						justify-content: space-between;
+						background-color: $backgroundColor_lightGrey;
 
 						input {
 							height: 20px;
@@ -1006,24 +1011,27 @@
 
 						.product {
 							width: 100%;
-							height: 70px;
+							height: 50px;
+							margin-top: 1rem;
 							align-self: center;
 							margin-right: 1rem;
 							object-fit: contain;
 						}
 
 						.addInfo {
-							width: 10rem;
+							// width: 10rem;
 							display: flex;
+							align-items: center;
 							flex-direction: column;
 
 							h2 {
 								color: $baseColor_black;
-								font-size: $fontSize_normal;
+								font-size: $fontSize_small;
 								font-family: $fontStyle_header;
 							}
 
 							.price {
+								text-align: left;
 								font-weight: 600;
 								color: $baseColor_black;
 								font-size: $fontSize_normal;
@@ -1043,7 +1051,7 @@
 
 				.checkOutInfo {
 					padding: 2rem;
-					margin-top: 5rem;
+					margin-top: 2rem;
 					background-color: $backgroundColor_lightGrey;
 
 					.default {
