@@ -1092,7 +1092,7 @@ function minusQuantity() {
 }
 
 /*=====================================================================*/
-/*=========================== realme 7 Pro =============================*/
+/*=========================== realme C21 =============================*/
 /*=====================================================================*/
 /*===== (CROSS BLACK VERSION) =====*/
 // Content & Button Properties
@@ -1103,7 +1103,7 @@ function crossBlackImages() {
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1603382475348.png";
+		"/src/img/productImages/1619505271357.png";
 
 	document.getElementById("moreImage2").src =
 		"/src/img/productImages/1619505271038.png";
@@ -1116,15 +1116,15 @@ function crossBlackImages() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 7 Pro ( Mirror Silver 8GB+128GB UK PLUG )";
+		"realme C21 ( Cross Black 3GB+32GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Mirror Silver 4GB+64GB...";
+		"Cross Black 3GB+32GB...";
 
 	// Button styles changes
-	document.getElementById("mirrorSilver").style.border = "#111 0.1rem solid";
-	document.getElementById("mirrorBlue").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("crossBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("crossBlue").style.border = "#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
@@ -1141,7 +1141,7 @@ function crossBlackImages() {
 	eightGB2Btn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Mirror Silver 8GB+128GB UK...";
+			"Cross Black 3GB+32GB UK...";
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>134
             `;
@@ -1168,7 +1168,7 @@ function crossBlackImages() {
 	});
 }
 
-// Mirror Silver Images
+// Cross Black Images
 function changeCrossBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1263,15 +1263,15 @@ function crossBlueImages() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 7 Pro ( Mirror Blue 8GB+128GB UK PLUG )";
+		"realme C21 ( Cross Blue 3GB+32GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Mirror Blue 8GB+128GB UK...";
+		"Cross Blue 3GB+32GB UK...";
 
 	// Button styles changes
-	document.getElementById("mirrorBlue").style.border = "#111 0.1rem solid";
-	document.getElementById("mirrorSilver").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("crossBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("crossBlack").style.border = "#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
@@ -1288,7 +1288,7 @@ function crossBlueImages() {
 	eightGB2Btn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Mirror Blue 8GB+128GB UK...";
+			"Cross Blue 3GB+32GB UK...";
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>134
             `;
@@ -1319,7 +1319,7 @@ function crossBlueImages() {
 	});
 }
 
-// Mirror Blue Images
+// Cross Blue Images
 function changeCrossBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1420,6 +1420,10 @@ function addQuantity() {
 function minusQuantity() {
 	const defaultQuantity = document.getElementById("quantity");
 }
+
+/*=====================================================================*/
+/*=====================================================================*/
+/*=====================================================================*/
 
 /*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
 function changePearlWhiteImage1() {
