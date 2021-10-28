@@ -167,7 +167,7 @@
 									>realme X50 Pro 5G ( MOSS GREEN UK PLUG 12GB+256GB )</strong
 								>
 							</h2>
-							<div class="countDown">
+							<div class="countDown" id="countDown">
 								<div class="left">
 									<h2 class="price">
 										<strong>£449 <span>£699</span></strong>
@@ -181,6 +181,7 @@
 									</h5>
 								</div>
 							</div>
+							<h5 id="productPrice"><strong>£ 569</strong></h5>
 							<div class="borderlineDes"></div>
 							<div class="infoSection">
 								<p class="description">
@@ -231,10 +232,18 @@
 								<div class="configuration">
 									<h2><strong>Configuration</strong></h2>
 									<div class="buttonSection1">
-										<button class="sizeEightGB" id="8GB">
+										<button
+											class="sizeEightGB"
+											id="eightGB"
+											onclick="configEightGBOption()"
+										>
 											UK PLUG 8GB+128GB
 										</button>
-										<button class="sizeTwelveGB" id="12GB">
+										<button
+											class="sizeTwelveGB"
+											id="twelveGB"
+											onclick="configTwelveGBOption()"
+										>
 											UK PLUG 12GB+256GB
 										</button>
 									</div>
@@ -242,9 +251,13 @@
 								<div class="quantity">
 									<h2><strong>Quantity</strong></h2>
 									<div class="info">
-										<button id="minus"><i class="bi bi-dash"></i></button>
+										<button id="minus" onclick="minusQuantity()">
+											<i class="bi bi-dash"></i>
+										</button>
 										<h2 id="quantityAmount">1</h2>
-										<button id="plus"><i class="bi bi-plus"></i></button>
+										<button id="plus" onclick="addQuantity()">
+											<i class="bi bi-plus"></i>
+										</button>
 									</div>
 								</div>
 								<div class="addOnProduct">
@@ -258,7 +271,11 @@
 										>
 									</h2>
 									<div>
-										<input type="checkbox" />
+										<input
+											type="checkbox"
+											id="checkbox"
+											onclick="addOnOptionX50Pro()"
+										/>
 										<a href="https://buy.realme.com/uk/goods/147"
 											><img
 												class="product"
@@ -274,7 +291,7 @@
 								<div class="checkOutInfo">
 									<div class="default">
 										<h2 id="checkoutProductTitle">
-											MOSS GREEN UK PLUG 128GB+2...
+											MOSS GREEN UK PLUG <span id="GBSpace">128GB...</span>
 										</h2>
 										<h2>x1</h2>
 										<h2><i class="bi bi-currency-pound"></i>449</h2>
