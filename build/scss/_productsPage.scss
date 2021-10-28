@@ -224,6 +224,14 @@
 						line-height: 1.25rem;
 					}
 
+					#dispatchTime {
+						color: $secondary_pinkRed;
+
+						span {
+							color: $baseColor_black;
+						}
+					}
+
 					.finalSale {
 						color: $secondary_pinkRed;
 
