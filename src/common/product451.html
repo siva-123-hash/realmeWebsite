@@ -270,7 +270,11 @@
 										>
 									</h2>
 									<div>
-										<input type="checkbox" />
+										<input
+											type="checkbox"
+											id="checkbox"
+											onclick="addOnOption()"
+										/>
 										<a href="https://buy.realme.com/uk/goods/147"
 											><img
 												class="product"
@@ -293,10 +297,12 @@
 											<i class="bi bi-currency-pound"></i>449
 										</h2>
 									</div>
-									<div class="addOn">
+									<div class="addOn" id="addOn">
 										<h2>realme 10000mAh Power Ba...</h2>
 										<h2>x1</h2>
-										<h2><i class="bi bi-currency-pound"></i>8</h2>
+										<h2 id="addOnPrice">
+											<i class="bi bi-currency-pound"></i>8
+										</h2>
 									</div>
 									<div class="priceDisplay">
 										<h2>Total</h2>
