@@ -198,7 +198,8 @@
 					border-bottom: $baseColor_lightGrey2 0.1rem solid;
 				}
 
-				.infoSection {
+				.infoSection,
+				.infoSection1 {
 					p {
 						line-height: 0.25rem;
 						color: $baseColor_black;
@@ -222,14 +223,6 @@
 
 					.description {
 						line-height: 1.25rem;
-					}
-
-					#dispatchTime {
-						color: $secondary_pinkRed;
-
-						span {
-							color: $baseColor_black;
-						}
 					}
 
 					.finalSale {
@@ -261,6 +254,20 @@
 							.bi {
 								margin-right: 0.25rem;
 							}
+						}
+					}
+				}
+
+				.infoSection1 {
+					p {
+						line-height: 1.25rem;
+					}
+
+					#dispatchTime {
+						color: $secondary_pinkRed;
+
+						span {
+							color: $baseColor_black;
 						}
 					}
 				}
