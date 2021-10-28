@@ -762,7 +762,7 @@ function minusQuantity() {
 }
 
 /*=====================================================================*/
-/*=========================== realme 8 5G =============================*/
+/*=========================== realme 7 Pro =============================*/
 /*=====================================================================*/
 /*===== (MIRROR SILVER VERSION) =====*/
 // Content & Button Properties
@@ -1045,6 +1045,336 @@ function changeMirrorBlueImage3() {
 }
 
 function changeMirrorBlueImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966673792.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+// Button Properties
+function configEightGB2Option() {
+	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
+	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+}
+
+/*===== CHANGE PRODUCT QUANTITY OPTIONS =====*/
+// Button Properties
+function addQuantity() {
+	const defaultQuantity = document.getElementById("quantity");
+
+	var addQuantity = 1;
+	var newQuantity = addQuantity + defaultQuantity;
+
+	defaultQuantity.innerHTML = newQuantity.toString();
+}
+
+function minusQuantity() {
+	const defaultQuantity = document.getElementById("quantity");
+}
+
+/*=====================================================================*/
+/*=========================== realme 7 Pro =============================*/
+/*=====================================================================*/
+/*===== (CROSS BLACK VERSION) =====*/
+// Content & Button Properties
+function crossBlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1603382475348.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1603382475348.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1601966616655.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1601966732625.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1601966615626.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 7 Pro ( Mirror Silver 8GB+128GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Mirror Silver 4GB+64GB...";
+
+	// Button styles changes
+	document.getElementById("mirrorSilver").style.border = "#111 0.1rem solid";
+	document.getElementById("mirrorBlue").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const eightGB2Btn = document.getElementById("eightGB2");
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	eightGB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Mirror Silver 8GB+128GB UK...";
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeMirrorSilverImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeMirrorSilverImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeMirrorSilverImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeMirrorSilverImage4();
+	});
+}
+
+// Mirror Silver Images
+function changeCrossBlackImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1603382475348.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlackImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966616655.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlackImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966732625.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlackImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966615626.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (CROSS BLUE VERSION) =====*/
+// Content & Button Properties
+function crossBlueImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1603382496106.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1603382496106.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1601966674798.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1601966673382.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1601966673792.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 7 Pro ( Mirror Blue 8GB+128GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Mirror Blue 8GB+128GB UK...";
+
+	// Button styles changes
+	document.getElementById("mirrorBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("mirrorSilver").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const eightGB2Btn = document.getElementById("eightGB2");
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	eightGB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Mirror Blue 8GB+128GB UK...";
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>134
+            `;
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeMirrorBlueImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeMirrorBlueImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeMirrorBlueImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		// Supersonic Blue realme 8 5G 5G products images
+		changeMirrorBlueImage4();
+	});
+}
+
+// Mirror Blue Images
+function changeCrossBlueImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1603382496106.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlueImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966674798.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlueImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1601966673382.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCrossBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1601966673792.jpg");
