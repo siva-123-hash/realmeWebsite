@@ -51,7 +51,7 @@
 					<div
 						class="topSection"
 						data-aos="fade-in"
-						data-aos-delay="50"
+						data-aos-delay="100"
 						data-aos-duration="1000"
 					>
 						<div class="left">
@@ -77,7 +77,7 @@
 						<ul
 							class="menuLink"
 							data-aos="fade-in"
-							data-aos-delay="50"
+							data-aos-delay="100"
 							data-aos-duration="1000"
 						>
 							<li><a href="#">realme Smartphones</a></li>
@@ -109,7 +109,7 @@
 					<div
 						class="middleSection"
 						data-aos="fade-in"
-						data-aos-delay="400"
+						data-aos-delay="50"
 						data-aos-duration="1000"
 					>
 						<div class="Images">
@@ -121,7 +121,7 @@
 										alt="Product Image"
 									/>
 								</div>
-								<div class="finalSale">
+								<div class="finalSale" id="finalSale">
 									<h5>
 										Final <br />
 										Sale
@@ -130,28 +130,28 @@
 									<h2>£250 OFF</h2>
 								</div>
 								<div class="moreImages">
-									<button id="btn1" onclick="changeMossGreenImage1()">
+									<button id="btn1" onclick="changeRustRedImage1()">
 										<img
 											id="moreImage1"
 											src="/src/img/productImages/1594595165858.jpg"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn2" onclick="changeMossGreenImage2()">
+									<button id="btn2" onclick="changeRustRedImage2()">
 										<img
 											id="moreImage2"
 											src="/src/img/productImages/1588460890879.jpg"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn3" onclick="changeMossGreenImage3()">
+									<button id="btn3" onclick="changeRustRedImage3()">
 										<img
 											id="moreImage3"
 											src="/src/img/productImages/1588460904321.jpg"
 											alt="Product Image"
 										/>
 									</button>
-									<button id="btn4" onclick="changeMossGreenImage4()">
+									<button id="btn4" onclick="changeRustRedImage4()">
 										<img
 											id="moreImage4"
 											src="/src/img/productImages/1588460897805.jpg"
@@ -164,7 +164,7 @@
 						<div class="Description">
 							<h2 id="productTitle">
 								<strong
-									>realme X50 Pro 5G ( MOSS GREEN UK PLUG 12GB+256GB )</strong
+									>realme X50 Pro 5G ( RUST RED UK PLUG 12GB+256GB )</strong
 								>
 							</h2>
 							<div class="countDown" id="countDown">
@@ -218,7 +218,7 @@
 							<div class="configuration">
 								<div class="color">
 									<h2><strong>Color</strong></h2>
-									<div class="buttonSection1">
+									<div class="buttonSection">
 										<button id="mossGreen" onclick="mossGreenImages()">
 											<div class="colorMossGreen"></div>
 											<h2>MOSS GREEN</h2>
@@ -231,7 +231,7 @@
 								</div>
 								<div class="configuration">
 									<h2><strong>Configuration</strong></h2>
-									<div class="buttonSection1">
+									<div class="buttonSection">
 										<button
 											class="sizeEightGB"
 											id="eightGB"
@@ -291,10 +291,12 @@
 								<div class="checkOutInfo">
 									<div class="default">
 										<h2 id="checkoutProductTitle">
-											MOSS GREEN UK PLUG <span id="GBSpace">128GB...</span>
+											RUST RED UK PLUG <span id="GBSpace">128GB+256GB...</span>
 										</h2>
-										<h2>x1</h2>
-										<h2><i class="bi bi-currency-pound"></i>449</h2>
+										<h2>x <span id="quantity">1</span></h2>
+										<h2 id="defaultPrice">
+											<i class="bi bi-currency-pound"></i>449
+										</h2>
 									</div>
 									<div class="addOn" id="addOn">
 										<h2>realme 10000mAh Power Ba...</h2>
@@ -309,9 +311,9 @@
 											<i class="bi bi-currency-pound"></i>449
 										</h2>
 									</div>
-									<div class="addToCart1">
+									<div class="addToCart">
 										<button id="addToCart">Add To Cart</button>
-										<button id="buyNow">Notify Me</button>
+										<button id="buyNow">Buy Now</button>
 									</div>
 								</div>
 							</div>
@@ -595,7 +597,7 @@
 				<div
 					class="info"
 					data-aos="fade-in"
-					data-aos-delay="400"
+					data-aos-delay="50"
 					data-aos-duration="1000"
 				>
 					<div class="description">
