@@ -37,21 +37,50 @@ function rushRedImages() {
 	document.getElementById("mossGreen").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("rustRed").style.border = "#111 0.1rem solid";
 
-	// Configuration Buttons (8GB or 12GB)
-	document.getElementById("eightGB").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("twelveGB").style.display = "block";
-	document.getElementById("twelveGB").style.border = "#111 0.1rem solid";
-
-	eightGB.addEventListener("click", () => {
-		eightGB.style.border = "#111 0.1rem solid";
-	});
-
 	/*===== BUTTON LISTENERS =====*/
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
 	const btn2 = document.getElementById("btn2");
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Configuration Buttons
+	const eightGB = document.getElementById("eightGB");
+	const sixGBtn = document.getElementById("twelveGB");
+
+	// Change the phone (8GB or 12GB) size in the Add To Cart section description
+	eightGB.style.border = "#d3d3d3 0.1rem solid";
+	eightGB.style.display = "block";
+	twelveGB.style.display = "block";
+	twelveGB.style.border = "#111 0.1rem solid";
+
+	eightGB.addEventListener("click", () => {
+		eightGB.style.border = "#111 0.1rem solid";
+		document.getElementById("finalSale").style.display = "none";
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"RUST RED UK PLUG 8GB+128GB...";
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>569
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>569
+            `;
+	});
+
+	// Change the phone GB size in the Add To Cart section description
+	twelveGB.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("finalSale").style.display = "flex";
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"RUST RED UK PLUG 12GB+256GB...";
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>449
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>449
+            `;
+	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
@@ -150,12 +179,26 @@ function configEightGBOption() {
 	document.getElementById("eightGB").style.border = "#111 0.1rem solid";
 	document.getElementById("twelveGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
+	document.getElementById("finalSale").style.display = "none";
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>569
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>569
+            `;
 }
 
 function configTwelveGBOption() {
 	document.getElementById("eightGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("twelveGB").style.border = "#111 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
+	document.getElementById("finalSale").style.display = "flex";
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>449
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>449
+            `;
 }
 
 /*===== (MOSS GREEN VERSION) =====*/
