@@ -1,5 +1,5 @@
 /*=====================================================================*/
-/*=========================== realme X50 Pro 5G =============================*/
+/*======================== realme X50 Pro 5G ==========================*/
 /*=====================================================================*/
 /*===== (RUST RED VERSION) =====*/
 // Content & Button Properties
@@ -369,7 +369,7 @@ function mossGreenImages() {
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"MOSS GREEN UK PLUG 8GB+12...";
+		"MOSS GREEN UK PLUG 12GB...";
 
 	// Add to Cart Section button
 	document.getElementById("addToCart").style.display = "none";

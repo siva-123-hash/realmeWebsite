@@ -1122,6 +1122,12 @@
 							border: none;
 							background-color: $secondary_Yellow;
 						}
+
+						#buyNow:hover {
+							transition: all 0.25s ease-in-out;
+							color: $baseColor_white;
+							background: $secondary_orange;
+						}
 					}
 
 					.addToCart1 {
@@ -1156,6 +1162,12 @@
 						#buyNow {
 							border: none;
 							background-color: $secondary_Yellow;
+						}
+
+						#buyNow:hover {
+							transition: all 0.25s ease-in-out;
+							color: $baseColor_white;
+							background: $secondary_orange;
 						}
 					}
 				}
