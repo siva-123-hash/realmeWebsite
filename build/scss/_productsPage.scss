@@ -716,6 +716,66 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#mirrorSilver {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(179, 211, 232),
+										rgb(214, 238, 252),
+										rgb(180, 212, 232)
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#mirrorBlue {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(15, 40, 89),
+										rgb(38, 98, 198),
+										rgb(15, 40, 89)
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 						}
 
 						.buttonSection1 {
@@ -901,6 +961,10 @@
 
 							#sixGB {
 								border: $baseColor_lightGrey2 0.1rem solid;
+							}
+
+							#eightGB2 {
+								border: $baseColor_black 0.14rem dotted;
 							}
 						}
 
