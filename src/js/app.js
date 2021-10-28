@@ -1099,20 +1099,20 @@ function minusQuantity() {
 function crossBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382475348.png";
+		"/src/img/productImages/1619505271357.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
 		"/src/img/productImages/1603382475348.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1601966616655.png";
+		"/src/img/productImages/1619505271038.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1601966732625.png";
+		"/src/img/productImages/1619505271020.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1601966615626.png";
+		"/src/img/productImages/1619505271401.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1152,19 +1152,19 @@ function crossBlackImages() {
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		changeMirrorSilverImage1();
+		changeCrossBlackImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		changeMirrorSilverImage2();
+		changeCrossBlackImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		changeMirrorSilverImage3();
+		changeCrossBlackImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		changeMirrorSilverImage4();
+		changeCrossBlackImage4();
 	});
 }
 
@@ -1172,7 +1172,7 @@ function crossBlackImages() {
 function changeCrossBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382475348.jpg");
+		"/src/img/productImages/1619505271357.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1190,7 +1190,7 @@ function changeCrossBlackImage1() {
 function changeCrossBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966616655.jpg");
+		"/src/img/productImages/1619505271038.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1208,7 +1208,7 @@ function changeCrossBlackImage2() {
 function changeCrossBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966732625.jpg");
+		"/src/img/productImages/1619505271020.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1226,7 +1226,7 @@ function changeCrossBlackImage3() {
 function changeCrossBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966615626.jpg");
+		"/src/img/productImages/1619505271401.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1246,20 +1246,20 @@ function changeCrossBlackImage4() {
 function crossBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382496106.png";
+		"/src/img/productImages/1619505327029.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1603382496106.png";
+		"/src/img/productImages/1619505327029.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1601966674798.png";
+		"/src/img/productImages/1619505326663.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1601966673382.png";
+		"/src/img/productImages/1619505326482.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1601966673792.png";
+		"/src/img/productImages/1619505327225.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1300,22 +1300,22 @@ function crossBlueImages() {
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeMirrorBlueImage1();
+		changeCrossBlueImage1();
 	});
 
 	btn2.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeMirrorBlueImage2();
+		changeCrossBlueImage2();
 	});
 
 	btn3.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeMirrorBlueImage3();
+		changeCrossBlueImage3();
 	});
 
 	btn4.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeMirrorBlueImage4();
+		changeCrossBlueImage4();
 	});
 }
 
@@ -1323,7 +1323,7 @@ function crossBlueImages() {
 function changeCrossBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382496106.jpg");
+		"/src/img/productImages/1619505327029.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1341,7 +1341,7 @@ function changeCrossBlueImage1() {
 function changeCrossBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966674798.jpg");
+		"/src/img/productImages/1619505326663.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1359,7 +1359,7 @@ function changeCrossBlueImage2() {
 function changeCrossBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966673382.jpg");
+		"/src/img/productImages/1619505326482.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1377,7 +1377,7 @@ function changeCrossBlueImage3() {
 function changeCrossBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966673792.jpg");
+		"/src/img/productImages/1619505327225.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
