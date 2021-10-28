@@ -682,6 +682,10 @@ function minusQuantity() {
 	const defaultQuantity = document.getElementById("quantity");
 }
 
+/*=====================================================================*/
+/*=====================================================================*/
+/*=====================================================================*/
+
 /*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
 function changePearlWhiteImage1() {
 	// changes the main product image ot the selected image
