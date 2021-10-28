@@ -127,6 +127,10 @@
 					font-family: $fontStyle_header;
 				}
 
+				#productPrice {
+					display: none;
+				}
+
 				.countDown {
 					margin-top: 1rem;
 					display: flex;

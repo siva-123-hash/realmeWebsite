@@ -57,6 +57,10 @@ function rushRedImages() {
 
 	eightGB.addEventListener("click", () => {
 		eightGB.style.border = "#111 0.1rem solid";
+
+		document.getElementById("productPrice").style.display = "block";
+		document.getElementById("countDown").style.display = "none";
+
 		document.getElementById("finalSale").style.display = "none";
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"RUST RED UK PLUG 8GB+128GB...";
@@ -156,18 +160,10 @@ function rushRedImages1() {
 	twelveGB.style.border = "#111 0.1rem solid";
 
 	eightGB.addEventListener("click", () => {
-		// Product Title change
-		document.getElementById("countDown").style.display = "none";
-		document.getElementById("productPrice").style.display = "block";
-
-		// Final Sale Image Div
+		eightGB.style.border = "#111 0.1rem solid";
 		document.getElementById("finalSale").style.display = "none";
-
-		// Button styles changes
-		eightGB.style.border = "#ff002f 0.1rem solid";
-
-		// Add to Cart Section button
-		document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"RUST RED UK PLUG 8GB+128GB...";
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>569
             `;
@@ -290,6 +286,10 @@ function changeRustRedImage4() {
 function configEightGBOption() {
 	document.getElementById("eightGB").style.border = "#111 0.1rem solid";
 	document.getElementById("twelveGB").style.border = "#d3d3d3 0.1rem solid";
+
+	document.getElementById("productPrice").style.display = "block";
+	document.getElementById("countDown").style.display = "none";
+
 	document.getElementById("GBSpace").innerHTML = "8GB+128GB...";
 	document.getElementById("finalSale").style.display = "none";
 	document.getElementById("defaultPrice").innerHTML = `
@@ -303,6 +303,10 @@ function configEightGBOption() {
 function configTwelveGBOption() {
 	document.getElementById("eightGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("twelveGB").style.border = "#111 0.1rem solid";
+
+	document.getElementById("productPrice").style.display = "none";
+	document.getElementById("countDown").style.display = "flex";
+
 	document.getElementById("GBSpace").innerHTML = "128GB+256GB...";
 	document.getElementById("finalSale").style.display = "flex";
 	document.getElementById("defaultPrice").innerHTML = `
@@ -370,6 +374,9 @@ function mossGreenImages() {
 	// Add to Cart Section button
 	document.getElementById("addToCart").style.display = "none";
 	document.getElementById("buyNow").innerHTML = "Notify Me";
+
+	document.getElementById("productPrice").style.display = "none";
+	document.getElementById("countDown").style.display = "flex";
 
 	// Button styles changes
 	document.getElementById("mossGreen").style.border = "#111 0.1rem solid";
