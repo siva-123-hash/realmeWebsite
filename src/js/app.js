@@ -201,6 +201,32 @@ function configTwelveGBOption() {
             `;
 }
 
+/*===== DISPLAY ADD ON PRODUCT OPTIONS =====*/
+function addOnOptionX50Pro() {
+	const submitBtn = document.getElementById("addOn");
+	const checkboxBtn = document.getElementById("checkbox");
+
+	// Styling Change
+	submitBtn.style.display = "Block";
+	submitBtn.style.display = "flex";
+
+	// Adds current price and add on price
+	var totalPrice = 449;
+	var addOnPrice = 8;
+	var newTotalPrice = totalPrice + addOnPrice;
+
+	// Displays the new Price
+	document.getElementById("totalPrice").innerHTML =
+		`<i class="bi bi-currency-pound"></i>` + newTotalPrice;
+
+	// Load in default Price
+	checkboxBtn.addEventListener("click", () => {
+		submitBtn.style.display = "none";
+		document.getElementById("totalPrice").innerHTML =
+			`<i class="bi bi-currency-pound"></i>` + totalPrice;
+	});
+}
+
 /*===== (MOSS GREEN VERSION) =====*/
 // Content & Button Properties
 function mossGreenImages() {
