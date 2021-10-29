@@ -2782,6 +2782,10 @@ function infiniteBlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Infinite Black 4GB+64GB...";
 
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
 	// Button styles changes
 	document.getElementById("infiniteBlack").style.border = "#111 0.1rem solid";
 	document.getElementById("infiniteBlue").style.border = "#d3d3d3 0.1rem solid";
@@ -2933,6 +2937,10 @@ function infiniteBlueImages() {
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Infinite Blue 8GB+128GB...";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
 
 	// Button styles changes
 	document.getElementById("infiniteBlack").style.border =
@@ -3086,6 +3094,10 @@ function punkBlackImages() {
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Punk Black 8GB+128GB...";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
 
 	// Button styles changes
 	document.getElementById("infiniteBlack").style.border =
