@@ -3294,6 +3294,7 @@ function cyberSliverImages() {
                 <i class="bi bi-currency-pound"></i>169
             `;
 
+		GB2Btn.style.opacity = "0.5";
 		GBtn.style.border = "#111 0.14rem dotted";
 		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
 	});
@@ -3319,6 +3320,7 @@ function cyberSliverImages() {
                 <i class="bi bi-currency-pound"></i>189
             `;
 
+		GB2Btn.style.opacity = "1";
 		GBtn.style.border = "#d3d3d3 0.14rem dotted";
 		GB2Btn.style.border = "#111 0.14rem dotted";
 	});
