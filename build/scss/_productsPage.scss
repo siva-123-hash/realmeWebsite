@@ -1144,6 +1144,98 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#cyberSliver {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(157, 175, 203) 0%,
+										rgb(226, 235, 238) 50%,
+										rgb(163, 179, 206) 100%
+									);
+									border: $baseColor_lightGrey 0.1rem solid;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#punkBlackTwo {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(18, 41, 54) 0%,
+										rgb(140, 153, 170) 50%,
+										rgb(35, 44, 61) 100%
+									);
+									border: none;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#cyberBlack {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										90deg,
+										rgb(0, 0, 0) 0%,
+										rgb(89, 89, 89) 50%,
+										rgb(0, 0, 0) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
 						}
 					}
 
@@ -1186,6 +1278,14 @@
 
 							#eightGB2 {
 								border: $baseColor_black 0.14rem dotted;
+							}
+
+							#GB {
+								border: $baseColor_black 0.1rem solid;
+							}
+
+							#GB2 {
+								border: $baseColor_lightGrey2 0.1rem solid;
 							}
 						}
 
