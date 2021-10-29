@@ -3102,38 +3102,38 @@ function changeInfiniteBlueImage4() {
 function punkBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815878085.png";
+		"/src/img/productImages/1616130377618.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620815878085.png";
+		"/src/img/productImages/1616130377618.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620815888325.png";
+		"/src/img/productImages/1616130377721.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620815896630.png";
+		"/src/img/productImages/1616130586063.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620815912069.png";
+		"/src/img/productImages/1619767353251.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 5G ( Supersonic Black 4GB+64GB UK Plug )";
+		"realme 8 Pro ( Punk Black 8GB+128GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Supersonic Black 4GB+64GB...";
+		"Punk Black 8GB+128GB...";
 
 	// Button styles changes
-	document.getElementById("supersonicBlack").style.border = "#111 0.1rem solid";
-	document.getElementById("supersonicBlue").style.border =
+	document.getElementById("infiniteBlack").style.border =
 		"#d3d3d3 0.1rem solid";
+	document.getElementById("infiniteBlue").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("punkBlack").style.border = "#111 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const fourGBtn = document.getElementById("fourGB");
-	const sixGBtn = document.getElementById("sixGB");
+	const fourGBtn = document.getElementById("GB");
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -3146,25 +3146,12 @@ function punkBlackImages() {
 	fourGBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Supersonic Black 4GB+64GB...";
+			"Punk Black 8GB+128GB...";
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>134
             `;
 		document.getElementById("totalPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>134
-            `;
-	});
-
-	// Change the phone GB size in the Add To Cart section description
-	sixGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("checkoutProductTitle").innerHTML =
-			"Supersonic Black 6GB+128GB...";
-		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
-            `;
-		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
             `;
 	});
 
