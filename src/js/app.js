@@ -3275,9 +3275,17 @@ function cyberSliverImages() {
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Cyber Silver 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>169
@@ -3291,9 +3299,17 @@ function cyberSliverImages() {
 	});
 
 	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Silver 6GB+128GB UK PLUG )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Cyber Silver 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>189
@@ -3420,11 +3436,11 @@ function punkBlackTwoImages() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 Pro ( Punk Black 8GB+128GB UK PLUG )";
+		"realme 8 Pro ( Punk Black 4GB+64GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Punk Black 8GB+128GB...";
+		"Punk Black 4GB+64GB...";
 
 	// Add On Product
 	document.getElementById("addOnProduct").style.display = "Block";
@@ -3455,9 +3471,17 @@ function punkBlackTwoImages() {
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Punk Black 4GB+64GB UK PLUG )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Punk Black 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>169
@@ -3471,9 +3495,17 @@ function punkBlackTwoImages() {
 	});
 
 	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Punk Black 6GB+128GB UK PLUG )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Punk Black 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>189
@@ -3606,20 +3638,25 @@ function cyberBlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Cyber Black 4GB+64GB...";
 
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "Block";
+
 	// Checkout button section
-	document.getElementById("addToCart").style.display = "none";
-	document.getElementById("buyNow").innerHTML = "Notify Me";
+	document.getElementById("addToCart").style.display = "Block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
 
 	// Button styles changes
-	document.getElementById("infiniteBlack").style.border =
-		"#d3d3d3 0.1rem solid";
-	document.getElementById("infiniteBlue").style.border = "#111 0.1rem solid";
-	document.getElementById("punkBlack").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cyberSliver").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cyberBlack").style.border = "#111 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
 	const GBtn = document.getElementById("GB");
-	GBtn.style.border = "#111 0.14rem dotted";
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.opacity = "1";
+	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -3630,9 +3667,52 @@ function cyberBlackImages() {
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cyber Black 4GB+64GB...";
+			"Punk Black 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+
+		GBtn.style.border = "#111 0.1rem solid";
+		GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Punk Black 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		GBtn.style.border = "#d3d3d3 0.1rem solid";
+		GB2Btn.style.border = "#111 0.1rem solid";
 	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
