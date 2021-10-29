@@ -989,6 +989,155 @@
 								}
 							}
 						}
+
+						.buttonSection2 {
+							display: grid;
+							grid-template-columns: repeat(2, 1fr);
+							grid-column-gap: 2rem;
+							grid-row-gap: 1rem;
+
+							#infiniteBlack {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										360deg,
+										rgb(38, 46, 55) 0%,
+										rgb(163, 169, 179) 100%
+									);
+									border: $baseColor_lightGrey 0.1rem solid;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#infiniteBlue {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_lightGrey 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										360deg,
+										rgb(24, 168, 245) 0%,
+										rgb(235, 245, 251) 100%
+									);
+									border: none;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#punkBlack {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: linear-gradient(
+										360deg,
+										rgb(32, 30, 38) 0%,
+										rgb(51, 48, 64) 50%,
+										rgb(174, 171, 187) 100%
+									);
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#closerWhite {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									border: none;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: $backgroundColor_lightGrey;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+
+							#soulWhite {
+								display: flex;
+								background: none;
+								margin-top: 0.25rem;
+								align-items: center;
+								padding: 0.75rem 4rem;
+								border: $baseColor_black 0.1rem solid;
+
+								.colorMossGreen {
+									width: 25px;
+									border: none;
+									height: 25px;
+									border-radius: 50%;
+									margin-right: 0.5rem;
+									background: $backgroundColor_lightGrey;
+								}
+
+								h2 {
+									margin-top: 0.5rem;
+									text-align: center;
+									color: $baseColor_black;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+								}
+							}
+						}
 					}
 
 					.configuration {
