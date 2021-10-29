@@ -3060,7 +3060,7 @@ function changeInfiniteBlueImage4() {
 
 /*===== (PUNK BLACK VERSION) =====*/
 // Content & Button Properties
-function punkBlackImages() {
+function punkBlackTwoImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377618.png";
@@ -3143,7 +3143,7 @@ function punkBlackImages() {
 }
 
 // Punk Black Images
-function changePunkBlackImage1() {
+function changePunkBlackTwoImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377618.png");
@@ -3161,7 +3161,7 @@ function changePunkBlackImage1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackImage2() {
+function changePunkBlackTwoImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377721.png");
@@ -3179,7 +3179,7 @@ function changePunkBlackImage2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackImage3() {
+function changePunkBlackTwoImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130586063.png");
@@ -3197,10 +3197,521 @@ function changePunkBlackImage3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackImage4() {
+function changePunkBlackTwoImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1619767353251.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*=====================================================================*/
+/*============================= realme 8 ==============================*/
+/*=====================================================================*/
+/*===== (CYBER SILVER VERSION) =====*/
+// Content & Button Properties
+function cyberSliverImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740999.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1619511740999.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1619511740905.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1619511739936.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1619511754390.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Cyber Silver 4GB+64GB...";
+
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "none";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
+	// Button styles changes
+	document.getElementById("cyberSliver").style.border = "#111 0.1rem solid";
+	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cyberBlack").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.14rem dotted";
+	GB2Btn.style.opacity = "0.5";
+	GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cyber Silver 4GB+64GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+
+		GBtn.style.border = "#111 0.14rem dotted";
+		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cyber Silver 6GB+128GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		GBtn.style.border = "#d3d3d3 0.14rem dotted";
+		GB2Btn.style.border = "#111 0.14rem dotted";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeCyberSliverImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeCyberSliverImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeCyberSliverImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeCyberSliverImage4();
+	});
+}
+
+// Cyber Silver Images
+function changeCyberSliverImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740999.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberSliverImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740905.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberSliverImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511739936.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberSliverImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511754390.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (PUNK BLACK VERSION) =====*/
+// Content & Button Properties
+function punkBlackTwoImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1619767353492.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1619767353492.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1619767353311.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1619767352493.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1619767353251.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 Pro ( Punk Black 8GB+128GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Punk Black 8GB+128GB...";
+
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "Block";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "Block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
+
+	// Button styles changes
+	document.getElementById("cyberSliver").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("punkBlackTwo").style.border = "#111 0.1rem solid";
+	document.getElementById("cyberBlack").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.opacity = "1";
+	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Punk Black 4GB+64GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+
+		GBtn.style.border = "#111 0.1rem solid";
+		GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Punk Black 6GB+128GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		GBtn.style.border = "#d3d3d3 0.1rem solid";
+		GB2Btn.style.border = "#111 0.1rem solid";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changePunkBlackTwoImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changePunkBlackTwoImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changePunkBlackTwoImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changePunkBlackTwoImage4();
+	});
+}
+
+// Punk Black Images
+function changePunkBlackTwoImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619767353492.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePunkBlackTwoImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619767353311.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePunkBlackTwoImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619767352493.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePunkBlackTwoImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619767353251.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (CYBER BLACK VERSION) =====*/
+// Content & Button Properties
+function cyberBlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608253062.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1619608253062.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1619608252874.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1619608252130.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1619608252614.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Cyber Black 4GB+64GB...";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
+	// Button styles changes
+	document.getElementById("infiniteBlack").style.border =
+		"#d3d3d3 0.1rem solid";
+	document.getElementById("infiniteBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("punkBlack").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	GBtn.style.border = "#111 0.14rem dotted";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cyber Black 4GB+64GB...";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeCyberBlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeCyberBlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeCyberBlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeCyberBlackImage4();
+	});
+}
+
+// Cyber Black Images
+function changeCyberBlackImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608253062.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberBlackImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252874.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberBlackImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252130.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCyberBlackImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252614.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
