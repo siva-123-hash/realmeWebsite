@@ -3436,7 +3436,7 @@ function punkBlackTwoImages() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 Pro ( Punk Black 4GB+64GB UK PLUG )";
+		"realme 8 ( Punk Black 4GB+64GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
@@ -3804,4 +3804,54 @@ function changeCyberBlackImage4() {
 	btn1NoBorderLine.style.borderBottom = "none";
 	btn2NoBorderLine.style.borderBottom = "none";
 	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+function realme8GB() {
+	document.getElementById("GB").style.border = "#111 0.1rem solid";
+	document.getElementById("GB2").style.border = "#d3d3d3 0.1rem solid";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Punk Black 4GB+64GB...";
+
+	document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
+
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+}
+
+function realme8GB2() {
+	document.getElementById("GB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GB2").style.border = "#111 0.1rem solid";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Punk Black 6GB+128GB...";
+
+	document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
+
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
 }
