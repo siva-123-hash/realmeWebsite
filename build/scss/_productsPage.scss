@@ -221,6 +221,13 @@
 						}
 					}
 
+					#dispatchTime {
+						color: $secondary_pinkRed;
+						span {
+							color: $baseColor_black;
+						}
+					}
+
 					.description {
 						line-height: 1.25rem;
 					}

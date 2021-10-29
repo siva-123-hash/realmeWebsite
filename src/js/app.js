@@ -2936,38 +2936,39 @@ function changeInfiniteBlackImage4() {
 function infiniteBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815930056.png";
+		"/src/img/productImages/1616130629963.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620815930056.png";
+		"/src/img/productImages/1616130629963.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620815941197.png";
+		"/src/img/productImages/1616130629450.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620815951235.png";
+		"/src/img/productImages/1616130628986.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620815961273.png";
+		"/src/img/productImages/1616130629823.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 5G ( Supersonic Blue 4GB+64GB UK Plug )";
+		"realme 8 Pro ( Infinite Blue 8GB+128GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Supersonic Blue 4GB+64GB...";
+		"Infinite Blue 8GB+128GB...";
 
 	// Button styles changes
-	document.getElementById("supersonicBlue").style.border = "#111 0.1rem solid";
-	document.getElementById("supersonicBlack").style.border =
+	document.getElementById("infiniteBlack").style.border =
 		"#d3d3d3 0.1rem solid";
+	document.getElementById("infiniteBlue").style.border = "#111 0.1rem solid";
+	document.getElementById("punkBlack").style.border = "#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const fourGBtn = document.getElementById("fourGB");
-	const sixGBtn = document.getElementById("sixGB");
+	const GBtn = document.getElementById("GB");
+	GBtn.style.border = "#111 0.14rem dotted";
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -2977,50 +2978,31 @@ function infiniteBlueImages() {
 
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
-	fourGBtn.addEventListener("click", () => {
+	GBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Supersonic Blue 4GB+64GB...";
-		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
-            `;
-		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
-            `;
-	});
-
-	// Change the phone GB size in the Add To Cart section description
-	sixGBtn.addEventListener("click", () => {
-		// Checkout product title section
-		document.getElementById("checkoutProductTitle").innerHTML =
-			"Supersonic Blue 6GB+128GB...";
-		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
-            `;
-		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
-            `;
+			"Infinite Blue 8GB+128GB...";
 	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlueImage1();
+		changeInfiniteBlueImage1();
 	});
 
 	btn2.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlueImage2();
+		changeInfiniteBlueImage2();
 	});
 
 	btn3.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlueImage3();
+		changeInfiniteBlueImage3();
 	});
 
 	btn4.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlueImage4();
+		changeInfiniteBlueImage4();
 	});
 }
 
@@ -3028,7 +3010,7 @@ function infiniteBlueImages() {
 function changeInfiniteBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815930056.png");
+		"/src/img/productImages/1616130629963.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3046,7 +3028,7 @@ function changeInfiniteBlueImage1() {
 function changeInfiniteBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815941197.png");
+		"/src/img/productImages/1616130629450.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3064,7 +3046,7 @@ function changeInfiniteBlueImage2() {
 function changeInfiniteBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815951235.png");
+		"/src/img/productImages/1616130628986.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3082,7 +3064,7 @@ function changeInfiniteBlueImage3() {
 function changeInfiniteBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815961273.png");
+		"/src/img/productImages/1616130629823.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3133,7 +3115,8 @@ function punkBlackImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const fourGBtn = document.getElementById("GB");
+	const GBtn = document.getElementById("GB");
+	GBtn.style.border = "#111 0.1rem solid";
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -3143,37 +3126,31 @@ function punkBlackImages() {
 
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
-	fourGBtn.addEventListener("click", () => {
+	GBtn.addEventListener("click", () => {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Punk Black 8GB+128GB...";
-		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
-            `;
-		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
-            `;
 	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage1();
+		changePunkBlackImage1();
 	});
 
 	btn2.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage2();
+		changePunkBlackImage2();
 	});
 
 	btn3.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage3();
+		changePunkBlackImage3();
 	});
 
 	btn4.addEventListener("click", () => {
 		// Supersonic Blue realme 8 5G 5G products images
-		changeSupersonicBlackImage4();
+		changePunkBlackImage4();
 	});
 }
 
