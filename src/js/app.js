@@ -3903,8 +3903,8 @@ function lunaWhiteImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const GBtn = document.getElementById("GB");
-	const GB2Btn = document.getElementById("GB2");
+	const GBtn = document.getElementById("masterEditionGB");
+	const GB2Btn = document.getElementById("masterEditionGB2");
 	GBtn.style.border = "#111 0.14rem dotted";
 	GB2Btn.style.opacity = "0.5";
 	GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
@@ -4101,8 +4101,8 @@ function cosmosBlackImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const GBtn = document.getElementById("GB");
-	const GB2Btn = document.getElementById("GB2");
+	const GBtn = document.getElementById("masterEditionGB");
+	const GB2Btn = document.getElementById("masterEditionGB2");
 	GBtn.style.border = "#111 0.1rem solid";
 	GB2Btn.style.opacity = "1";
 	GB2Btn.style.border = "#d3d3d3 0.1rem dotted";
@@ -4289,8 +4289,8 @@ function voyagerGreyImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const GBtn = document.getElementById("GB");
-	const GB2Btn = document.getElementById("GB2");
+	const GBtn = document.getElementById("masterEditionGB");
+	const GB2Btn = document.getElementById("masterEditionGB2");
 	GBtn.style.border = "#111 0.1rem solid";
 	GB2Btn.style.opacity = "1";
 	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
