@@ -4252,48 +4252,48 @@ function changeCosmosBlackImage4() {
 function voyagerGreyImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608253062.png";
+		"/src/img/productImages/1631212312546.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619608253062.png";
+		"/src/img/productImages/1631212312546.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619608252874.png";
+		"/src/img/productImages/1631212321826.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619608252130.png";
+		"/src/img/productImages/1631212329842.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619608252614.png";
+		"/src/img/productImages/1631212338445.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+		"realme GT Master Edition ( Voyager Grey 6GB+128GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Cyber Black 4GB+64GB...";
+		"Voyager Grey 6GB+128GB...";
 
 	// Add On Product
-	document.getElementById("addOnProduct").style.display = "Block";
+	document.getElementById("addOnProduct").style.display = "none";
 
 	// Checkout button section
-	document.getElementById("addToCart").style.display = "Block";
-	document.getElementById("buyNow").innerHTML = "Buy Now";
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
 
 	// Button styles changes
-	document.getElementById("cyberSliver").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("cyberBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("lunaWhite").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cosmosBlack").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("voyagerGrey").style.border = "#111 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
 	const GBtn = document.getElementById("masterEditionGB");
 	const GB2Btn = document.getElementById("masterEditionGB2");
-	GBtn.style.border = "#111 0.1rem solid";
-	GB2Btn.style.opacity = "1";
-	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+	GBtn.style.border = "#111 0.14rem dotted";
+	GB2Btn.style.opacity = "0.5";
+	GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -4306,11 +4306,11 @@ function voyagerGreyImages() {
 	GBtn.addEventListener("click", () => {
 		// Product Title change
 		document.getElementById("productTitle").innerHTML =
-			"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+			"realme GT Master Edition ( Voyager Grey 6GB+128GB UK Plug )";
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Punk Black 4GB+64GB...";
+			"Voyager Grey 6GB+128GB...";
 
 		document.getElementById("price").innerHTML = "£ 329";
 
@@ -4321,18 +4321,19 @@ function voyagerGreyImages() {
                 <i class="bi bi-currency-pound"></i>169
             `;
 
-		GBtn.style.border = "#111 0.1rem solid";
-		GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+		GB2Btn.style.opacity = "0.5";
+		GBtn.style.border = "#111 0.14rem dotted";
+		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
 	});
 
 	GB2Btn.addEventListener("click", () => {
 		// Product Title change
 		document.getElementById("productTitle").innerHTML =
-			"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+			"realme GT Master Edition ( Voyager Grey 8GB+256GB UK Plug )";
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Punk Black 6GB+128GB...";
+			"Voyager Grey 8GB+256GB...";
 
 		document.getElementById("price").innerHTML = "£ 399";
 
@@ -4344,25 +4345,26 @@ function voyagerGreyImages() {
                 <i class="bi bi-currency-pound"></i>189
             `;
 
-		GBtn.style.border = "#d3d3d3 0.1rem solid";
-		GB2Btn.style.border = "#111 0.1rem solid";
+		GB2Btn.style.opacity = "1";
+		GBtn.style.border = "#d3d3d3 0.14rem dotted";
+		GB2Btn.style.border = "#111 0.14rem dotted";
 	});
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		changeCyberBlackImage1();
+		changeVoyagerGreyImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		changeCyberBlackImage2();
+		changeVoyagerGreyImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		changeCyberBlackImage3();
+		changeVoyagerGreyImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		changeCyberBlackImage4();
+		changeVoyagerGreyImage4();
 	});
 }
 
@@ -4370,7 +4372,7 @@ function voyagerGreyImages() {
 function changeVoyagerGreyImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608253062.png");
+		"/src/img/productImages/1631212312546.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -4388,7 +4390,7 @@ function changeVoyagerGreyImage1() {
 function changeVoyagerGreyImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252874.png");
+		"/src/img/productImages/1631212321826.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -4406,7 +4408,7 @@ function changeVoyagerGreyImage2() {
 function changeVoyagerGreyImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252130.png");
+		"/src/img/productImages/1631212329842.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -4424,7 +4426,7 @@ function changeVoyagerGreyImage3() {
 function changeVoyagerGreyImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252614.png");
+		"/src/img/productImages/1631212338445.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
