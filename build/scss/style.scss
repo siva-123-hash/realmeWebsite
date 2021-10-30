@@ -1124,7 +1124,7 @@ header {
 	}
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
 	/*============ SALE =============*/
 	.goneInFlash {
 		.display {
@@ -1256,6 +1256,584 @@ header {
 		.content {
 			display: grid;
 			grid-template-columns: 1fr;
+		}
+	}
+
+	/*============================== PRODUCTS PAGE =============================*/
+	.productInfo {
+		.display {
+			.topSection {
+				display: flex;
+				justify-content: space-between;
+
+				h2 {
+					color: $baseColor_black;
+					font-size: $fontSize_small;
+					font-family: $fontStyle_header;
+				}
+
+				.rightSide {
+					display: flex;
+					justify-content: space-between;
+
+					h2 {
+						padding: 0 20px;
+						font-size: $fontSize_small;
+						color: $baseColor_lightGrey3;
+						font-family: $fontStyle_header;
+					}
+				}
+			}
+
+			.borderline {
+				margin-top: 0.75rem;
+				border-bottom: $baseColor_lightGrey2 0.1rem solid;
+			}
+
+			.middleSection {
+				display: flex;
+				flex-direction: column;
+
+				.Images {
+					display: flex;
+					flex-direction: column;
+
+					.imageDisplay {
+						margin: auto 0;
+
+						.mainImage {
+							img {
+								width: 100%;
+								height: 500px;
+								object-fit: contain;
+							}
+						}
+
+						.finalSale {
+							display: flex;
+							margin: 0 5rem;
+							text-align: left;
+							margin-top: 0.5rem;
+							align-items: center;
+							border-radius: 15px 15px 0px 0px;
+							padding: 1rem 0.5rem 0.5rem 2rem;
+							background: linear-gradient(
+								-45deg,
+								#5d18ff,
+								#cc00ff,
+								#ff0055,
+								#ff4400
+							);
+
+							h5 {
+								color: $baseColor_white;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_option1;
+							}
+
+							.line {
+								margin: 0 0.75rem;
+								border-right: #fff 0.1rem solid;
+							}
+
+							h2 {
+								color: $baseColor_white;
+								font-size: $fontSize_large;
+								font-family: $fontStyle_option1;
+							}
+						}
+
+						.moreImages {
+							display: grid;
+							padding: 1rem;
+							margin-top: 2rem;
+							grid-template-columns: repeat(4, 1fr);
+
+							button {
+								border: none;
+								margin: 0 1rem;
+								background: none;
+								padding-bottom: 0.5rem;
+
+								img {
+									width: 100%;
+									height: 50px;
+									object-fit: contain;
+								}
+							}
+
+							#btn1 {
+								border-bottom: $baseColor_black 0.15rem solid;
+							}
+						}
+					}
+				}
+
+				.Description {
+					margin-top: 2.5rem;
+
+					.countDown {
+						margin-top: 1rem;
+						display: flex;
+						align-items: center;
+						padding: 0.6rem 2rem;
+						justify-content: space-between;
+						background-color: $secondary_lightRed;
+
+						.left {
+							padding: 0;
+							h2 {
+								font-weight: 100;
+								color: $secondary_pinkRed;
+								font-size: $fontSize_large;
+								font-family: $fontStyle_header;
+
+								span {
+									font-weight: 100;
+									color: $secondary_darkRed;
+									font-size: $fontSize_small;
+									font-family: $fontStyle_header;
+									text-decoration: line-through;
+								}
+							}
+						}
+
+						.right {
+							display: flex;
+							align-items: center;
+							justify-content: space-between;
+
+							h2 {
+								margin: auto 0;
+								font-weight: 100;
+								margin-right: 0.5rem;
+								color: $secondary_darkRed;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+							}
+
+							h5 {
+								margin: auto 0;
+								font-weight: 100;
+								text-align: center;
+								font-size: $fontSize_xSmall;
+								color: $secondary_pinkRed;
+								font-family: $fontStyle_option1;
+
+								#days {
+									margin-left: 1rem;
+								}
+
+								span {
+									padding: 0.25rem;
+									margin: 0 0.2rem;
+									color: $baseColor_white;
+									background: $secondary_pinkRed;
+								}
+							}
+						}
+					}
+
+					.infoSection,
+					.infoSection1 {
+						p {
+							line-height: 0.25rem;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+							font-family: $fontStyle_body;
+
+							span {
+								margin-right: 0.25rem;
+								font-weight: 700;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+							}
+
+							a {
+								text-decoration: none;
+								color: $secondary_orange;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+							}
+						}
+
+						#dispatchTime {
+							color: $secondary_pinkRed;
+							span {
+								color: $baseColor_black;
+							}
+						}
+
+						.description {
+							line-height: 1.25rem;
+						}
+
+						.finalSale {
+							color: $secondary_pinkRed;
+
+							span {
+								margin-right: 0.25rem;
+								font-weight: 700;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+							}
+						}
+
+						.borderline {
+							margin: 0.75rem 0;
+						}
+
+						.bottomSection {
+							display: flex;
+							justify-content: space-around;
+
+							h2 {
+								margin: 0 0.5rem;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_body;
+
+								.bi {
+									margin-right: 0.25rem;
+								}
+							}
+						}
+					}
+
+					.infoSection1 {
+						p {
+							line-height: 1.25rem;
+						}
+
+						#dispatchTime {
+							color: $secondary_pinkRed;
+
+							span {
+								color: $baseColor_black;
+							}
+						}
+					}
+
+					.configuration {
+						.color {
+							margin-top: 2rem;
+
+							h2 {
+								font-weight: 400;
+								color: $baseColor_black;
+								font-size: $fontSize_normal;
+								font-family: $fontStyle_header;
+							}
+
+							.buttonSection {
+								display: grid;
+								grid-template-columns: 1fr;
+								grid-row-gap: 1rem;
+							}
+
+							.buttonSection1 {
+								display: grid;
+								grid-template-columns: 1fr;
+								grid-row-gap: 1rem;
+							}
+
+							.buttonSection2 {
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 2rem;
+								grid-row-gap: 1rem;
+							}
+
+							.configuration {
+								margin-top: 3rem;
+
+								.buttonSection {
+									display: grid;
+									grid-template-columns: 1fr;
+									grid-row-gap: 1rem;
+								}
+
+								.buttonSection1 {
+									display: grid;
+									grid-template-columns: 1fr;
+									grid-row-gap: 1rem;
+								}
+
+								.buttonSection2 {
+									display: grid;
+									grid-template-columns: 1fr;
+									grid-row-gap: 1rem;
+								}
+							}
+
+							.quantity {
+								margin-top: 3rem;
+
+								.info {
+									display: flex;
+									padding: 0.75rem;
+									width: 15rem;
+									align-items: center;
+									justify-content: space-between;
+									border: $baseColor_lightGrey2 0.1rem solid;
+
+									button {
+										border: none;
+										background: none;
+
+										.bi {
+											color: $baseColor_lightGrey3;
+											font-size: $fontSize_large;
+										}
+									}
+								}
+							}
+						}
+
+						.addOnProduct {
+							width: 20rem;
+							margin-top: 2rem;
+
+							h2 {
+								font-weight: 200;
+								color: $baseColor_black;
+								font-size: $fontSize_small;
+								font-family: $fontStyle_header;
+
+								#addInfo {
+									display: none;
+									margin-left: 2rem;
+								}
+							}
+
+							div {
+								margin: auto;
+								display: flex;
+								padding: 0.5rem 1rem;
+								align-items: center;
+								justify-content: space-between;
+								background-color: $backgroundColor_lightGrey;
+
+								input {
+									height: 20px;
+									width: 20px;
+									margin-right: 1rem;
+									align-self: center;
+									color: $baseColor_lightGrey;
+								}
+
+								.product {
+									width: 100%;
+									height: 50px;
+									margin-top: 1rem;
+									align-self: center;
+									margin-right: 1rem;
+									object-fit: contain;
+								}
+
+								.addInfo {
+									// width: 10rem;
+									display: flex;
+									align-items: center;
+									flex-direction: column;
+
+									h2 {
+										color: $baseColor_black;
+										font-size: $fontSize_small;
+										font-family: $fontStyle_header;
+									}
+
+									.price {
+										font-weight: 600;
+										color: $baseColor_black;
+										font-size: $fontSize_normal;
+										font-family: $fontStyle_body;
+
+										span {
+											margin-left: 0.5rem;
+											font-size: $fontSize_small;
+											color: $baseColor_lightGrey3;
+											text-decoration: line-through;
+											font-family: $fontStyle_body;
+										}
+									}
+								}
+							}
+						}
+
+						.checkOutInfo {
+							padding: 2rem;
+							margin-top: 2rem;
+							background-color: $backgroundColor_lightGrey;
+
+							.default {
+								display: flex;
+								justify-content: space-between;
+
+								h2 {
+									line-height: 1.25rem;
+									color: $baseColor_lightBlack;
+									font-size: $fontSize_normal;
+									font-family: $fontStyle_body;
+								}
+							}
+
+							.addOn {
+								display: none;
+								justify-content: space-between;
+
+								h2 {
+									line-height: 1.25rem;
+									color: $baseColor_lightBlack;
+									font-size: $fontSize_normal;
+									font-family: $fontStyle_body;
+								}
+							}
+
+							.priceDisplay {
+								display: flex;
+								justify-content: space-between;
+
+								h2 {
+									line-height: 1.25rem;
+									margin-top: 0.5rem;
+									color: $baseColor_black;
+									font-size: $fontSize_normal;
+									font-family: $fontStyle_header;
+								}
+
+								#totalPrice {
+									font-weight: 600;
+									font-size: $fontSize_large;
+
+									.bi {
+										margin-right: 0.25rem;
+										font-size: $fontSize_normal;
+									}
+								}
+							}
+
+							.addToCart {
+								display: flex;
+								margin-top: 1rem;
+								justify-content: space-around;
+
+								button {
+									background: none;
+									padding: 1rem 6rem;
+									border: $baseColor_black 0.1rem solid;
+
+									h2 {
+										line-height: 1.25rem;
+										margin-top: 0.5rem;
+										color: $baseColor_black;
+										font-size: $fontSize_normal;
+										font-family: $fontStyle_header;
+									}
+								}
+
+								#addToCart:hover {
+									transition: all 0.25s ease-in-out;
+									color: $baseColor_white;
+									background: $backgroundColor_black;
+								}
+
+								#buyNow {
+									border: none;
+									background-color: $secondary_Yellow;
+								}
+
+								#buyNow:hover {
+									transition: all 0.25s ease-in-out;
+									color: $baseColor_white;
+									background: $secondary_orange;
+								}
+							}
+
+							.addToCart1 {
+								display: flex;
+								margin-top: 1rem;
+								justify-content: space-around;
+
+								button {
+									background: none;
+									padding: 1rem 6rem;
+									border: $baseColor_black 0.1rem solid;
+
+									h2 {
+										line-height: 1.25rem;
+										margin-top: 0.5rem;
+										color: $baseColor_black;
+										font-size: $fontSize_normal;
+										font-family: $fontStyle_header;
+									}
+								}
+
+								#addToCart {
+									display: none;
+								}
+
+								#addToCart:hover {
+									transition: all 0.25s ease-in-out;
+									color: $baseColor_white;
+									background: $backgroundColor_black;
+								}
+
+								#buyNow {
+									border: none;
+									background-color: $secondary_Yellow;
+								}
+
+								#buyNow:hover {
+									transition: all 0.25s ease-in-out;
+									color: $baseColor_white;
+									background: $secondary_orange;
+								}
+							}
+						}
+					}
+				}
+			}
+
+			.OverviewSection {
+				background-color: $backgroundColor_lightGrey;
+
+				.display {
+					background-color: $backgroundColor_White;
+
+					.borderline {
+						margin-top: 5rem 0;
+						border-bottom: $baseColor_lightGrey2 0.1rem solid;
+					}
+
+					.content {
+						padding: 1rem 0;
+
+						h2 {
+							color: $baseColor_black;
+							font-size: $fontSize_small;
+							font-family: $fontStyle_header;
+						}
+					}
+				}
+
+				.content1 {
+					margin-top: 2rem;
+
+					.moreInfo {
+						padding: 2rem;
+						margin-top: 2rem;
+						background-color: $backgroundColor_White;
+
+						img {
+							width: 100%;
+							object-fit: contain;
+							object-position: center;
+						}
+					}
+				}
+			}
 		}
 	}
 }
