@@ -591,11 +591,16 @@ function supersonicBlackImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+               <strong>£ 169 <span>£199</span></strong>
+            `;
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>169
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>169
             `;
 	});
 
@@ -604,11 +609,16 @@ function supersonicBlackImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 219 <span>£249</span></strong>
+            `;
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 	});
 
@@ -753,11 +763,16 @@ function supersonicBlueImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+               <strong>£ 169 <span>£199</span></strong>
+            `;
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>139
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>169
             `;
 	});
 
@@ -766,11 +781,16 @@ function supersonicBlueImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 219 <span>£249</span></strong>
+            `;
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 	});
 
@@ -871,11 +891,15 @@ function configFourGBOption() {
 	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
 	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+	document.getElementById("price").innerHTML = `
+               <strong>£ 169 <span>£199</span></strong>
+            `;
+
 	document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>169
             `;
 	document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>169
             `;
 }
 
@@ -883,11 +907,14 @@ function configSixGBOption() {
 	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
+	document.getElementById("price").innerHTML = `
+                <strong>£ 219 <span>£249</span></strong>
+            `;
 	document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 	document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>179.99
+                <i class="bi bi-currency-pound"></i>219
             `;
 }
 
@@ -907,7 +934,7 @@ function minusQuantity() {
 }
 
 /*=====================================================================*/
-/*=========================== realme 7 Pro =============================*/
+/*=========================== realme 7 Pro ============================*/
 /*=====================================================================*/
 /*===== (MIRROR SILVER VERSION) =====*/
 // Content & Button Properties
@@ -2452,7 +2479,7 @@ function changeBudsWirelessProPartyYellowImage4() {
 }
 
 /*=====================================================================*/
-/*==================== realme BUDS Q2 =======================*/
+/*========================== realme BUDS Q2 ===========================*/
 /*=====================================================================*/
 /*===== (BLACK VERSION) =====*/
 // Content & Button Properties
