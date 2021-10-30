@@ -588,6 +588,10 @@ function supersonicBlackImages() {
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	fourGBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 5G ( Supersonic Black 4GB+64GB UK Plug )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 4GB+64GB...";
@@ -606,6 +610,10 @@ function supersonicBlackImages() {
 
 	// Change the phone GB size in the Add To Cart section description
 	sixGBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 5G ( Supersonic Black 6GB+128GB UK Plug )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Black 6GB+128GB...";
@@ -760,6 +768,9 @@ function supersonicBlueImages() {
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
 	fourGBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 5G ( Supersonic Blue 4GB+64GB UK Plug )";
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 4GB+64GB...";
@@ -769,7 +780,7 @@ function supersonicBlueImages() {
             `;
 
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>139
+                <i class="bi bi-currency-pound"></i>169
             `;
 		document.getElementById("totalPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>169
@@ -778,6 +789,10 @@ function supersonicBlueImages() {
 
 	// Change the phone GB size in the Add To Cart section description
 	sixGBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 5G ( Supersonic Blue 6GB+128GB UK Plug )";
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Supersonic Blue 6GB+128GB...";
@@ -891,6 +906,10 @@ function configFourGBOption() {
 	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
 	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 5G ( Supersonic Black 4GB+64GB UK Plug )";
+
 	document.getElementById("price").innerHTML = `
                <strong>£ 169 <span>£199</span></strong>
             `;
@@ -907,6 +926,10 @@ function configSixGBOption() {
 	document.getElementById("fourGB").style.border = "#d3d3d3 0.1rem solid";
 	document.getElementById("sixGB").style.border = "#111 0.1rem solid";
 	document.getElementById("GBSpace").innerHTML = "6GB+128GB...";
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 5G ( Supersonic Black 6GB+128GB UK Plug )";
+
 	document.getElementById("price").innerHTML = `
                 <strong>£ 219 <span>£249</span></strong>
             `;
