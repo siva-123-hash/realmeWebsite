@@ -3866,28 +3866,28 @@ function realme8GB2() {
 function lunaWhiteImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740999.png";
+		"/src/img/productImages/1631211582787.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619511740999.png";
+		"/src/img/productImages/1631211582787.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619511740905.png";
+		"/src/img/productImages/1631211591897.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619511739936.png";
+		"/src/img/productImages/1631211602157.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619511754390.png";
+		"/src/img/productImages/1631211612032.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+		"realme GT Master Edition ( luna white 6GB+128GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Cyber Silver 4GB+64GB...";
+		"luna white 6GB+128GB...";
 
 	// Add On Product
 	document.getElementById("addOnProduct").style.display = "none";
@@ -3897,9 +3897,9 @@ function lunaWhiteImages() {
 	document.getElementById("buyNow").innerHTML = "Notify Me";
 
 	// Button styles changes
-	document.getElementById("cyberSliver").style.border = "#111 0.1rem solid";
-	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("cyberBlack").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("lunaWhite").style.border = "#111 0.1rem solid";
+	document.getElementById("cosmosBlack").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("voyagerGrey").style.border = "#d3d3d3 0.1rem solid";
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
@@ -3920,21 +3920,19 @@ function lunaWhiteImages() {
 	GBtn.addEventListener("click", () => {
 		// Product Title change
 		document.getElementById("productTitle").innerHTML =
-			"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+			"realme GT Master Edition ( luna white 6GB+128GB UK Plug )";
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cyber Silver 4GB+64GB...";
+			"luna white 6GB+128GB...";
 
-		document.getElementById("price").innerHTML = `
-                <strong>£ 169 <span>£199</span></strong>
-            `;
+		document.getElementById("price").innerHTML = "£ 329";
 
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>169
+                <i class="bi bi-currency-pound"></i>329
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>169
+                <i class="bi bi-currency-pound"></i>329
             `;
 
 		GB2Btn.style.opacity = "0.5";
@@ -3945,22 +3943,20 @@ function lunaWhiteImages() {
 	GB2Btn.addEventListener("click", () => {
 		// Product Title change
 		document.getElementById("productTitle").innerHTML =
-			"realme 8 ( Cyber Silver 6GB+128GB UK PLUG )";
+			"realme GT Master Edition ( luna white 8GB+256GB UK Plug )";
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cyber Silver 6GB+128GB...";
+			"luna white 8GB+256GB...";
 
-		document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
-            `;
+		document.getElementById("price").innerHTML = "£ 399";
 
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>189
+                <i class="bi bi-currency-pound"></i>399
             `;
 
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>189
+                <i class="bi bi-currency-pound"></i>399
             `;
 
 		GB2Btn.style.opacity = "1";
@@ -3970,19 +3966,19 @@ function lunaWhiteImages() {
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		changeCyberSliverImage1();
+		changeLunaWhiteImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		changeCyberSliverImage2();
+		changeLunaWhiteImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		changeCyberSliverImage3();
+		changeLunaWhiteImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		changeCyberSliverImage4();
+		changeLunaWhiteImage4();
 	});
 }
 
@@ -3990,7 +3986,7 @@ function lunaWhiteImages() {
 function changeLunaWhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740999.png");
+		"/src/img/productImages/1631211582787.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -4008,7 +4004,7 @@ function changeLunaWhiteImage1() {
 function changeLunaWhiteImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740905.png");
+		"/src/img/productImages/1631211591897.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -4026,7 +4022,7 @@ function changeLunaWhiteImage2() {
 function changeLunaWhiteImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511739936.png");
+		"/src/img/productImages/1631211602157.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -4044,7 +4040,7 @@ function changeLunaWhiteImage3() {
 function changeLunaWhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511754390.png");
+		"/src/img/productImages/1631211612032.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -4124,6 +4120,8 @@ function cosmosBlackImages() {
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Cosmos Black 4GB+64GB...";
 
+		document.getElementById("price").innerHTML = "£ 329";
+
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>329
             `;
@@ -4143,6 +4141,8 @@ function cosmosBlackImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Cosmos Black 8GB+256GB...";
+
+		document.getElementById("price").innerHTML = "£ 399";
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>399
@@ -4312,9 +4312,7 @@ function voyagerGreyImages() {
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Punk Black 4GB+64GB...";
 
-		document.getElementById("price").innerHTML = `
-                <strong>£ 169 <span>£199</span></strong>
-            `;
+		document.getElementById("price").innerHTML = "£ 329";
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>169
@@ -4336,9 +4334,7 @@ function voyagerGreyImages() {
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Punk Black 6GB+128GB...";
 
-		document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
-            `;
+		document.getElementById("price").innerHTML = "£ 399";
 
 		document.getElementById("defaultPrice").innerHTML = `
                 <i class="bi bi-currency-pound"></i>189
