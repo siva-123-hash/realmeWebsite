@@ -3371,7 +3371,7 @@ function cyberSliverImages() {
 			"Cyber Silver 6GB+128GB...";
 
 		document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
+                <strong>£ 189 <span>£219</span></strong>
             `;
 
 		document.getElementById("defaultPrice").innerHTML = `
@@ -3568,7 +3568,7 @@ function punkBlackTwoImages() {
 			"Punk Black 6GB+128GB...";
 
 		document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
+                <strong>£ 189 <span>£219</span></strong>
             `;
 
 		document.getElementById("defaultPrice").innerHTML = `
@@ -3764,7 +3764,7 @@ function cyberBlackImages() {
 			"Punk Black 6GB+128GB...";
 
 		document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
+                <strong>£ 189 <span>£219</span></strong>
             `;
 
 		document.getElementById("defaultPrice").innerHTML = `
@@ -3877,7 +3877,7 @@ function realme8GB() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+		"realme 8 ( Punk Black 4GB+64GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
@@ -3901,14 +3901,14 @@ function realme8GB2() {
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+		"realme 8 ( Punk Black 6GB+128GB UK PLUG )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Punk Black 6GB+128GB...";
 
 	document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
+                <strong>£ 189 <span>£219</span></strong>
             `;
 
 	document.getElementById("defaultPrice").innerHTML = `
