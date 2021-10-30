@@ -4083,6 +4083,8 @@ function cosmosBlackImages() {
 	document.getElementById("checkoutProductTitle").innerHTML =
 		"Cosmos Black 6GB+128GB U...";
 
+	document.getElementById("masterEditionGB2").style.color = "#d3d3d3";
+
 	// Add On Product
 	document.getElementById("addOnProduct").style.display = "Block";
 
@@ -4118,7 +4120,14 @@ function cosmosBlackImages() {
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cosmos Black 4GB+64GB...";
+			"Cosmos Black 6GB+128GB...";
+
+		// Add On Product
+		document.getElementById("addOnProduct").style.display = "Block";
+
+		// Checkout button section
+		document.getElementById("addToCart").style.display = "Block";
+		document.getElementById("buyNow").innerHTML = "Buy Now";
 
 		document.getElementById("price").innerHTML = "£ 329";
 
@@ -4137,6 +4146,7 @@ function cosmosBlackImages() {
 		// Product Title change
 		document.getElementById("productTitle").innerHTML =
 			"realme GT Master Edition ( Cosmos Black 8GB+256GB UK Plug )";
+		document.getElementById("masterEditionGB2").style.color = "#111";
 
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
@@ -4312,6 +4322,13 @@ function voyagerGreyImages() {
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Voyager Grey 6GB+128GB...";
 
+		// Add On Product
+		document.getElementById("addOnProduct").style.display = "none";
+
+		// Checkout button section
+		document.getElementById("addToCart").style.display = "none";
+		document.getElementById("buyNow").innerHTML = "Notify Me";
+
 		document.getElementById("price").innerHTML = "£ 329";
 
 		document.getElementById("defaultPrice").innerHTML = `
@@ -4334,6 +4351,13 @@ function voyagerGreyImages() {
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
 			"Voyager Grey 8GB+256GB...";
+
+		// Add On Product
+		document.getElementById("addOnProduct").style.display = "none";
+
+		// Checkout button section
+		document.getElementById("addToCart").style.display = "none";
+		document.getElementById("buyNow").innerHTML = "Notify Me";
 
 		document.getElementById("price").innerHTML = "£ 399";
 
@@ -4442,51 +4466,65 @@ function changeVoyagerGreyImage4() {
 }
 
 /*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
-function realme8GB() {
-	document.getElementById("GB").style.border = "#111 0.1rem solid";
-	document.getElementById("GB2").style.border = "#d3d3d3 0.1rem solid";
+function realmeGTGB() {
+	document.getElementById("masterEditionGB").style.border = "#111 0.1rem solid";
+	document.getElementById("masterEditionGB2").style.border =
+		"#d3d3d3 0.1rem solid";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+		"realme GT Master Edition ( Cosmos Black 6GB+128GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Punk Black 4GB+64GB...";
+		"Cosmos Black 6GB+128GB...";
 
-	document.getElementById("price").innerHTML = `
-                <strong>£ 169 <span>£199</span></strong>
-            `;
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "Block";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "Block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
+
+	document.getElementById("price").innerHTML = "£ 329";
 
 	document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>169
+                <i class="bi bi-currency-pound"></i>329
             `;
 	document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>169
+                <i class="bi bi-currency-pound"></i>329
             `;
 }
 
-function realme8GB2() {
-	document.getElementById("GB").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("GB2").style.border = "#111 0.1rem solid";
+function realmeGTGB2() {
+	document.getElementById("masterEditionGB").style.border =
+		"#d3d3d3 0.1rem solid";
+	document.getElementById("masterEditionGB2").style.border =
+		"#111 0.14rem dotted";
+	document.getElementById("masterEditionGB2").style.color = "#111";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
-		"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+		"realme GT Master Edition ( Cosmos Black 8GB+256GB UK Plug )";
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Punk Black 6GB+128GB...";
+		"Cosmos Black 8GB+256GB...";
 
-	document.getElementById("price").innerHTML = `
-                <strong>£ 189 <span>£199</span></strong>
-            `;
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "none";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
+	document.getElementById("price").innerHTML = "£ 399";
 
 	document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>189
+                <i class="bi bi-currency-pound"></i>399
             `;
 
 	document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>189
+                <i class="bi bi-currency-pound"></i>399
             `;
 }
