@@ -3857,3 +3857,638 @@ function realme8GB2() {
                 <i class="bi bi-currency-pound"></i>189
             `;
 }
+
+/*=====================================================================*/
+/*====================== realme GT Master Edition =====================*/
+/*=====================================================================*/
+/*===== (LUNA WHITE SILVER VERSION) =====*/
+// Content & Button Properties
+function lunaWhiteImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740999.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1619511740999.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1619511740905.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1619511739936.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1619511754390.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Cyber Silver 4GB+64GB...";
+
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "none";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "none";
+	document.getElementById("buyNow").innerHTML = "Notify Me";
+
+	// Button styles changes
+	document.getElementById("cyberSliver").style.border = "#111 0.1rem solid";
+	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cyberBlack").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.14rem dotted";
+	GB2Btn.style.opacity = "0.5";
+	GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Silver 4GB+64GB UK PLUG )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cyber Silver 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+
+		GB2Btn.style.opacity = "0.5";
+		GBtn.style.border = "#111 0.14rem dotted";
+		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Silver 6GB+128GB UK PLUG )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cyber Silver 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		GB2Btn.style.opacity = "1";
+		GBtn.style.border = "#d3d3d3 0.14rem dotted";
+		GB2Btn.style.border = "#111 0.14rem dotted";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeCyberSliverImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeCyberSliverImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeCyberSliverImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeCyberSliverImage4();
+	});
+}
+
+// luna white Images
+function changeLunaWhiteImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740999.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeLunaWhiteImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511740905.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeLunaWhiteImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511739936.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeLunaWhiteImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619511754390.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (COSMOS BLACK VERSION) =====*/
+// Content & Button Properties
+function cosmosBlackImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1634037855775.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1634037855775.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1634037861502.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1634037866456.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1634037871962.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme GT Master Edition ( Cosmos Black 6GB+128GB UK Plug )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Cosmos Black 6GB+128GB U...";
+
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "Block";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "Block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
+
+	// Button styles changes
+	document.getElementById("lunaWhite").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cosmosBlack").style.border = "#111 0.1rem solid";
+	document.getElementById("voyagerGrey").style.border = "#d3d3d3 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.opacity = "1";
+	GB2Btn.style.border = "#d3d3d3 0.1rem dotted";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme GT Master Edition ( Cosmos Black 6GB+128GB UK Plug )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cosmos Black 4GB+64GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>329
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>329
+            `;
+
+		GBtn.style.border = "#111 0.1rem solid";
+		GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme GT Master Edition ( Cosmos Black 8GB+256GB UK Plug )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cosmos Black 8GB+256GB...";
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>399
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>399
+            `;
+
+		GBtn.style.border = "#d3d3d3 0.1rem solid";
+		GB2Btn.style.border = "#111 0.1rem solid";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeCosmosBlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeCosmosBlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeCosmosBlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeCosmosBlackImage4();
+	});
+}
+
+// Cosmos Black Images
+function changeCosmosBlackImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1634037855775.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCosmosBlackImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1634037861502.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCosmosBlackImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1634037866456.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeCosmosBlackImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1634037871962.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== (VOYAGER GREY VERSION) =====*/
+// Content & Button Properties
+function voyagerGreyImages() {
+	// Main product images
+	document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608253062.png";
+
+	// More products images
+	document.getElementById("moreImage1").src =
+		"/src/img/productImages/1619608253062.png";
+
+	document.getElementById("moreImage2").src =
+		"/src/img/productImages/1619608252874.png";
+
+	document.getElementById("moreImage3").src =
+		"/src/img/productImages/1619608252130.png";
+
+	document.getElementById("moreImage4").src =
+		"/src/img/productImages/1619608252614.png";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Cyber Black 4GB+64GB...";
+
+	// Add On Product
+	document.getElementById("addOnProduct").style.display = "Block";
+
+	// Checkout button section
+	document.getElementById("addToCart").style.display = "Block";
+	document.getElementById("buyNow").innerHTML = "Buy Now";
+
+	// Button styles changes
+	document.getElementById("cyberSliver").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("punkBlackTwo").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("cyberBlack").style.border = "#111 0.1rem solid";
+
+	/*===== BUTTON LISTENERS =====*/
+	// Configuration Buttons
+	const GBtn = document.getElementById("GB");
+	const GB2Btn = document.getElementById("GB2");
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.opacity = "1";
+	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+
+	// Images Buttons
+	const btn1 = document.getElementById("btn1");
+	const btn2 = document.getElementById("btn2");
+	const btn3 = document.getElementById("btn3");
+	const btn4 = document.getElementById("btn4");
+
+	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
+	// Change the phone GB size in the Add To Cart section description
+	GBtn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Punk Black 4GB+64GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+
+		GBtn.style.border = "#111 0.1rem solid";
+		GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Punk Black 6GB+128GB...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
+
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+		GBtn.style.border = "#d3d3d3 0.1rem solid";
+		GB2Btn.style.border = "#111 0.1rem solid";
+	});
+
+	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
+	btn1.addEventListener("click", () => {
+		changeCyberBlackImage1();
+	});
+
+	btn2.addEventListener("click", () => {
+		changeCyberBlackImage2();
+	});
+
+	btn3.addEventListener("click", () => {
+		changeCyberBlackImage3();
+	});
+
+	btn4.addEventListener("click", () => {
+		changeCyberBlackImage4();
+	});
+}
+
+// Voyager Grey Images
+function changeVoyagerGreyImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608253062.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeVoyagerGreyImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252874.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeVoyagerGreyImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252130.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeVoyagerGreyImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1619608252614.png");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
+function realme8GB() {
+	document.getElementById("GB").style.border = "#111 0.1rem solid";
+	document.getElementById("GB2").style.border = "#d3d3d3 0.1rem solid";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 4GB+64GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Punk Black 4GB+64GB...";
+
+	document.getElementById("price").innerHTML = `
+                <strong>£ 169 <span>£199</span></strong>
+            `;
+
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>169
+            `;
+}
+
+function realme8GB2() {
+	document.getElementById("GB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GB2").style.border = "#111 0.1rem solid";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme 8 ( Cyber Black 6GB+128GB UK PLUG )";
+
+	// Checkout product title section
+	document.getElementById("checkoutProductTitle").innerHTML =
+		"Punk Black 6GB+128GB...";
+
+	document.getElementById("price").innerHTML = `
+                <strong>£ 189 <span>£199</span></strong>
+            `;
+
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>189
+            `;
+}
