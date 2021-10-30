@@ -388,7 +388,8 @@ function changeMossGreenImage4() {
 /*=====================================================================*/
 /*============================= realme X2 =============================*/
 /*=====================================================================*/
-/*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
+/*===== (PEARL WHITE) PRODUCT IMAGE CHANGE =====*/
+// Pearl White Images
 function changePearlWhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -447,6 +448,82 @@ function changePearlWhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1579144001179.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*=====================================================================*/
+/*======================== realme Buds Air neo ========================*/
+/*=====================================================================*/
+/*===== BUDS AIR NEO PRODUCT IMAGE CHANGE =====*/
+function changeBudsAirNeoImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1590427823443.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAirNeoImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1590427859232.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAirNeoImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1590427885449.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAirNeoImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1590427923863.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1482,82 +1559,8 @@ function minusQuantity() {
 }
 
 /*=====================================================================*/
+/*========================= realme Watch S Pro ========================*/
 /*=====================================================================*/
-/*=====================================================================*/
-
-/*===== BUDS AIR NEO PRODUCT IMAGE CHANGE =====*/
-function changeBudsAirNeoImage1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427823443.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAirNeoImage2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427859232.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAirNeoImage3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427885449.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAirNeoImage4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427923863.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
 /*===== WATCH S PRO PRODUCT IMAGE CHANGE =====*/
 function changeWatchSProBlackImage1() {
 	// changes the main product image ot the selected image
@@ -1631,6 +1634,9 @@ function changeWatchSProBlackImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
+/*=====================================================================*/
+/*==================== realme Smart Camera 360° =======================*/
+/*=====================================================================*/
 /*===== SMART CAMERA 360° PRODUCT IMAGE CHANGE =====*/
 function changeSmartCameraImage1() {
 	// changes the main product image ot the selected image
@@ -1704,7 +1710,10 @@ function changeSmartCameraImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== WATCH 2 PRO PRODUCT IMAGE CHANGE =====*/
+/*=====================================================================*/
+/*========================= realme Watch 2 Pro ========================*/
+/*=====================================================================*/
+/*===== (BLACK VERSION) =====*/
 function changeProWatch2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
@@ -1777,7 +1786,7 @@ function changeProWatch2BlackImage4() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-/*===== WATCH 2 PRODUCT IMAGE CHANGE =====*/
+/*===== (WHITE VERSION) =====*/
 function changeWatch2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
