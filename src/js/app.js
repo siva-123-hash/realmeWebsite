@@ -1311,7 +1311,7 @@ function crossBlackImages() {
 
 	// Checkout product title section
 	document.getElementById("checkoutProductTitle").innerHTML =
-		"Cross Black 3GB+32GB...";
+		"Cross Black 3GB+32GB UK Pl...";
 
 	// Button styles changes
 	document.getElementById("crossBlack").style.border = "#111 0.1rem solid";
@@ -1319,7 +1319,8 @@ function crossBlackImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const eightGB2Btn = document.getElementById("eightGB2");
+	const GBtn = document.getElementById("threeGB");
+	const GB2Btn = document.getElementById("fourGB2");
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -1327,17 +1328,57 @@ function crossBlackImages() {
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
 
+	// Change the phone (8GB or 12GB) size in the Add To Cart section description
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
-	eightGB2Btn.addEventListener("click", () => {
+	GBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("threeGB").style.border = "#111 0.1rem solid";
+		document.getElementById("fourGB2").style.border = "#d3d3d3 0.1rem solid";
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme C21 ( Cross Black 3GB+32GB UK Plug )";
+
+		document.getElementById("price").innerHTML = `
+               <strong>£ 109</strong>
+            `;
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cross Black 3GB+32GB UK...";
+			"Cross Black 3GB+32GB UK Pl...";
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
+            `;
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("fourGB2").style.border = "#111 0.1rem solid";
+		document.getElementById("threeGB").style.border = "#d3d3d3 0.1rem solid";
+
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme C21 ( Cross Black 4GB+64GB UK Plug )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cross Black 4GB+64GB UK Pl...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 129</strong>
+            `;
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
             `;
 	});
 
@@ -1466,7 +1507,8 @@ function crossBlueImages() {
 
 	/*===== BUTTON LISTENERS =====*/
 	// Configuration Buttons
-	const eightGB2Btn = document.getElementById("eightGB2");
+	const GBtn = document.getElementById("threeGB");
+	const GB2Btn = document.getElementById("fourGB2");
 
 	// Images Buttons
 	const btn1 = document.getElementById("btn1");
@@ -1474,17 +1516,57 @@ function crossBlueImages() {
 	const btn3 = document.getElementById("btn3");
 	const btn4 = document.getElementById("btn4");
 
+	// Change the phone (8GB or 12GB) size in the Add To Cart section description
+	GBtn.style.border = "#111 0.1rem solid";
+	GB2Btn.style.border = "#d3d3d3 0.1rem solid";
+
 	/*===== CONFIGURATION BUTTON SECTION LISTENERS =====*/
 	// Change the phone GB size in the Add To Cart section description
-	eightGB2Btn.addEventListener("click", () => {
+	GBtn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("threeGB").style.border = "#111 0.1rem solid";
+		document.getElementById("fourGB2").style.border = "#d3d3d3 0.1rem solid";
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme C21 ( Cross Blue 3GB+32GB UK Plug )";
+
+		document.getElementById("price").innerHTML = `
+               <strong>£ 109</strong>
+            `;
+
 		// Checkout product title section
 		document.getElementById("checkoutProductTitle").innerHTML =
-			"Cross Blue 3GB+32GB UK...";
+			"Cross Blue 3GB+32GB UK Pl...";
+
 		document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
             `;
 		document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
+            `;
+	});
+
+	GB2Btn.addEventListener("click", () => {
+		// Checkout product title section
+		document.getElementById("fourGB2").style.border = "#111 0.1rem solid";
+		document.getElementById("threeGB").style.border = "#d3d3d3 0.1rem solid";
+
+		// Product Title change
+		document.getElementById("productTitle").innerHTML =
+			"realme C21 ( Cross Blue 4GB+64GB UK Plug )";
+
+		// Checkout product title section
+		document.getElementById("checkoutProductTitle").innerHTML =
+			"Cross Blue 4GB+64GB UK Pl...";
+
+		document.getElementById("price").innerHTML = `
+                <strong>£ 129</strong>
+            `;
+		document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
+            `;
+		document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
             `;
 	});
 
@@ -1581,15 +1663,42 @@ function changeCrossBlueImage4() {
 
 /*===== CHANGE PRODUCT CONFIGURATION OPTIONS =====*/
 // Button Properties
-function configEightGB2Option() {
-	document.getElementById("fourGB").style.border = "#111 0.1rem solid";
-	document.getElementById("sixGB").style.border = "#d3d3d3 0.1rem solid";
-	document.getElementById("GBSpace").innerHTML = "4GB+64GB...";
+function configThreeGBOption() {
+	document.getElementById("threeGB").style.border = "#111 0.1rem solid";
+	document.getElementById("fourGB2").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "3GB+32GB UK Pl...";
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme C21 ( Cross Black 3GB+32GB UK Plug )";
+
+	document.getElementById("price").innerHTML = `
+               <strong>£ 109</strong>
+            `;
+
 	document.getElementById("defaultPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
             `;
 	document.getElementById("totalPrice").innerHTML = `
-                <i class="bi bi-currency-pound"></i>134
+                <i class="bi bi-currency-pound"></i>109
+            `;
+}
+function configFourGBTwoOption() {
+	document.getElementById("fourGB2").style.border = "#111 0.1rem solid";
+	document.getElementById("threeGB").style.border = "#d3d3d3 0.1rem solid";
+	document.getElementById("GBSpace").innerHTML = "4GB+64GB UK Pl...";
+
+	// Product Title change
+	document.getElementById("productTitle").innerHTML =
+		"realme C21 ( Cross Black 4GB+64GB UK Plug )";
+
+	document.getElementById("price").innerHTML = `
+                <strong>£ 129</strong>
+            `;
+	document.getElementById("defaultPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
+            `;
+	document.getElementById("totalPrice").innerHTML = `
+                <i class="bi bi-currency-pound"></i>129
             `;
 }
 
