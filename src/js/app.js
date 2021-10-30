@@ -2206,79 +2206,6 @@ function closerWhiteImages() {
 	});
 }
 
-// White Images
-function changeBudsAir2WhiteImage1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAir2WhiteImage2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685990.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAir2WhiteImage3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685606.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changeBudsAir2WhiteImage4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685743.png");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
 // Moss Green realme X50 Pro 5G product images
 function closerWhiteImages1() {
 	// Main product images
@@ -2347,6 +2274,82 @@ function closerBlackImages1() {
 	// Configuration phone GB Space size
 	document.getElementById("8GB").style.display = "block";
 	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+}
+
+/*=====================================================================*/
+/*========================= realme BUDS AIR PRO =========================*/
+/*=====================================================================*/
+/*===== (SOUL WHITE VERSION) =====*/
+function changeBudsAir2WhiteImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1605438557032.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2WhiteImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1605438556895.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2WhiteImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1605438556894.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changeBudsAir2WhiteImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1605438556927.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
 }
 
 /*=====================================================================*/
