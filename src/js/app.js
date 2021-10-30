@@ -2061,24 +2061,24 @@ function closerBlackImages() {
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		changeBudsAir2BlackImage1();
+		changeCloserBlackImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		changeBudsAir2BlackImage2();
+		changeCloserBlackImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		changeBudsAir2BlackImage3();
+		changeCloserBlackImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		changeBudsAir2BlackImage4();
+		changeCloserBlackImage4();
 	});
 }
 
 // Black Images
-function changeBudsAir2BlackImage1() {
+function changeCloserBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615884298148.png");
@@ -2096,7 +2096,7 @@ function changeBudsAir2BlackImage1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2BlackImage2() {
+function changeCloserBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712278.png");
@@ -2114,7 +2114,7 @@ function changeBudsAir2BlackImage2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2BlackImage3() {
+function changeCloserBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712422.png");
@@ -2132,7 +2132,7 @@ function changeBudsAir2BlackImage3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changeBudsAir2BlackImage4() {
+function changeCloserBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1615883712435.png");
@@ -2190,90 +2190,92 @@ function closerWhiteImages() {
 
 	/*===== MORE IMAGE BUTTON SECTION LISTENERS =====*/
 	btn1.addEventListener("click", () => {
-		changeBudsAir2WhiteImage1();
+		changeCloserWhiteImage1();
 	});
 
 	btn2.addEventListener("click", () => {
-		changeBudsAir2WhiteImage2();
+		changeCloserWhiteImage2();
 	});
 
 	btn3.addEventListener("click", () => {
-		changeBudsAir2WhiteImage3();
+		changeCloserWhiteImage3();
 	});
 
 	btn4.addEventListener("click", () => {
-		changeBudsAir2WhiteImage4();
+		changeCloserWhiteImage4();
 	});
 }
+/*===== (SOUL WHITE VERSION) =====*/
+function changeCloserWhiteImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615892685998.png");
 
-// Moss Green realme X50 Pro 5G product images
-function closerWhiteImages1() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png";
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
 
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615892685998.png";
-
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615892685990.png";
-
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615892685606.png";
-
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615892685743.png";
-
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Air 2 ( Closer White )";
-
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Closer White";
-
-	// Button styles changes
-	document.getElementById("closerWhite").style.border = "#111 0.1rem solid";
-	document.getElementById("closerBlack").style.border = "#d3d3d3 0.1rem solid";
-
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "none";
-	document.getElementById("12GB").style.border = "0.14rem dotted";
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-// Rust Red realme X50 Pro 5G products images
-function closerBlackImages1() {
-	// Main product images
-	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615884298148.png";
+function changeCloserWhiteImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615892685990.png");
 
-	// More products images
-	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615884298148.png";
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
 
-	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615883712278.png";
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
 
-	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615883712422.png";
+function changeCloserWhiteImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615892685606.png");
 
-	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615883712435.png";
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
 
-	// Product Title change
-	document.getElementById("productTitle").innerHTML =
-		"realme Buds Air 2 ( Closer Black )";
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
 
-	// Checkout product title section
-	document.getElementById("checkoutProductTitle").innerHTML = "Closer Black";
+function changeCloserWhiteImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1615892685743.png");
 
-	// Button styles changes
-	document.getElementById("closerBlack").style.border = "#111 0.1rem solid";
-	document.getElementById("closerWhite").style.border = "#d3d3d3 0.1rem solid";
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
 
-	// Configuration phone GB Space size
-	document.getElementById("8GB").style.display = "block";
-	document.getElementById("12GB").style.border = "#111 0.1rem solid";
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
 }
 
 /*=====================================================================*/
