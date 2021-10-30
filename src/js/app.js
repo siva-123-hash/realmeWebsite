@@ -3122,7 +3122,7 @@ function changeInfiniteBlueImage4() {
 
 /*===== (PUNK BLACK VERSION) =====*/
 // Content & Button Properties
-function punkBlackTwoImages() {
+function punkBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377618.png";
@@ -3205,7 +3205,7 @@ function punkBlackTwoImages() {
 }
 
 // Punk Black Images
-function changePunkBlackTwoImage1() {
+function changePunkBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377618.png");
@@ -3223,7 +3223,7 @@ function changePunkBlackTwoImage1() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackTwoImage2() {
+function changePunkBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130377721.png");
@@ -3241,7 +3241,7 @@ function changePunkBlackTwoImage2() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackTwoImage3() {
+function changePunkBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1616130586063.png");
@@ -3259,7 +3259,7 @@ function changePunkBlackTwoImage3() {
 	btn3NoBorderLine.style.borderBottom = "none";
 }
 
-function changePunkBlackTwoImage4() {
+function changePunkBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
 		"/src/img/productImages/1619767353251.png");
