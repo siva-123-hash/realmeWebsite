@@ -386,6 +386,82 @@ function changeMossGreenImage4() {
 }
 
 /*=====================================================================*/
+/*============================= realme X2 =============================*/
+/*=====================================================================*/
+/*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
+function changePearlWhiteImage1() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1579143987209.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn1");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn2");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePearlWhiteImage2() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1579143991578.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn2");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn3");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePearlWhiteImage3() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1579143997163.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn3");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn4");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+function changePearlWhiteImage4() {
+	// changes the main product image ot the selected image
+	const mainImage = (document.getElementById("mainImage").src =
+		"/src/img/productImages/1579144001179.jpg");
+
+	// Creates the border style for other additional images
+	const borderLine = document.getElementById("btn4");
+	borderLine.style.borderBottom = "#111 0.15rem solid";
+
+	// Removes the border style for other additional images
+	const btn1NoBorderLine = document.getElementById("btn1");
+	const btn2NoBorderLine = document.getElementById("btn2");
+	const btn3NoBorderLine = document.getElementById("btn3");
+	btn1NoBorderLine.style.borderBottom = "none";
+	btn2NoBorderLine.style.borderBottom = "none";
+	btn3NoBorderLine.style.borderBottom = "none";
+}
+
+/*=====================================================================*/
 /*=========================== realme 8 5G =============================*/
 /*=====================================================================*/
 /*===== (SUPERSONIC BLACK VERSION) =====*/
@@ -1408,79 +1484,6 @@ function minusQuantity() {
 /*=====================================================================*/
 /*=====================================================================*/
 /*=====================================================================*/
-
-/*===== PEARL WHITE PRODUCT IMAGE CHANGE =====*/
-function changePearlWhiteImage1() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143987209.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn1");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn2");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changePearlWhiteImage2() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143991578.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn2");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn3");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changePearlWhiteImage3() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579144001179.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn3");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn4");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
-
-function changePearlWhiteImage4() {
-	// changes the main product image ot the selected image
-	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143997163.jpg");
-
-	// Creates the border style for other additional images
-	const borderLine = document.getElementById("btn4");
-	borderLine.style.borderBottom = "#111 0.15rem solid";
-
-	// Removes the border style for other additional images
-	const btn1NoBorderLine = document.getElementById("btn1");
-	const btn2NoBorderLine = document.getElementById("btn2");
-	const btn3NoBorderLine = document.getElementById("btn3");
-	btn1NoBorderLine.style.borderBottom = "none";
-	btn2NoBorderLine.style.borderBottom = "none";
-	btn3NoBorderLine.style.borderBottom = "none";
-}
 
 /*===== BUDS AIR NEO PRODUCT IMAGE CHANGE =====*/
 function changeBudsAirNeoImage1() {
