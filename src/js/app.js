@@ -16,10 +16,10 @@ function rushRedImages() {
 		"/src/img/productImages/1588462321862.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1588462321864.jpg";
+		"/src/img/productImages/1588462321863.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1588462321863.jpg";
+		"/src/img/productImages/1588462321864.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -144,7 +144,7 @@ function changeRustRedImage2() {
 function changeRustRedImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588462321864.jpg");
+		"/src/img/productImages/1588462321863.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -162,7 +162,7 @@ function changeRustRedImage3() {
 function changeRustRedImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588462321863.jpg");
+		"/src/img/productImages/1588462321864.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -254,10 +254,10 @@ function mossGreenImages() {
 		"/src/img/productImages/1588460890879.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1588460904321.jpg";
+		"/src/img/productImages/1588460897805.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1588460897805.jpg";
+		"/src/img/productImages/1588460904321.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -279,12 +279,12 @@ function mossGreenImages() {
 	document.getElementById("rustRed").style.border = "#d3d3d3 0.1rem solid";
 
 	// Configuration Buttons (8GB or 12GB)
-	const eightGB = document.getElementById("eightGB");
-	eightGB.style.border = "#111 0.14rem dotted";
-	document.getElementById("twelveGB").style.display = "none";
+	const twelveGB = document.getElementById("twelveGB");
+	twelveGB.style.border = "#111 0.14rem dotted";
+	document.getElementById("eightGB").style.display = "none";
 
-	eightGB.addEventListener("click", () => {
-		eightGB.style.border = "#111 0.14rem dotted";
+	twelveGB.addEventListener("click", () => {
+		twelveGB.style.border = "#111 0.14rem dotted";
 	});
 
 	/*===== BUTTON LISTENERS =====*/
@@ -352,7 +352,7 @@ function changeMossGreenImage2() {
 function changeMossGreenImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588460904321.jpg");
+		"/src/img/productImages/1588460897805.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -370,7 +370,7 @@ function changeMossGreenImage3() {
 function changeMossGreenImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588460897805.jpg");
+		"/src/img/productImages/1588460904321.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");

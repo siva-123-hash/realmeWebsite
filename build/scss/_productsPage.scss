@@ -848,6 +848,30 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#mossGreen:hover,
+							#rustRed:hover,
+							#pearlWhite:hover,
+							#popWhite:hover,
+							#closerBlack:hover,
+							#closerWhite:hover,
+							#soulWhite:hover,
+							#watchSProBlack:hover,
+							#discoGreen:hover,
+							#partyYellow:hover,
+							#white:hover,
+							#Q2Black:hover,
+							#Q2blue:hover,
+							#proWatch2Black:hover,
+							#supersonicBlack:hover,
+							#supersonicBlue:hover,
+							#mirrorSilver:hover,
+							#crossBlack:hover,
+							#crossBlue:hover,
+							#mirrorBlue:hover {
+								transition: all 0.25s ease-in-out;
+								border: $baseColor_black 0.1rem solid;
+							}
 						}
 
 						.buttonSection1 {
@@ -994,6 +1018,15 @@
 									font-size: $fontSize_small;
 									font-family: $fontStyle_header;
 								}
+							}
+
+							#mossGreen:hover,
+							#rustRed:hover,
+							#closerBlack:hover,
+							#closerWhite:hover,
+							#soulWhite:hover {
+								transition: all 0.25s ease-in-out;
+								border: $baseColor_black 0.1rem solid;
 							}
 						}
 
@@ -1324,6 +1357,21 @@
 									font-family: $fontStyle_header;
 								}
 							}
+
+							#infiniteBlack:hover,
+							#infiniteBlue:hover,
+							#punkBlack:hover,
+							#closerWhite:hover,
+							#soulWhite:hover,
+							#cyberSliver:hover,
+							#punkBlackTwo:hover,
+							#cyberBlack:hover,
+							#lunaWhite:hover,
+							#cosmosBlack:hover,
+							#voyagerGrey:hover {
+								transition: all 0.25s ease-in-out;
+								border: $baseColor_black 0.1rem solid;
+							}
 						}
 					}
 
@@ -1384,6 +1432,18 @@
 								color: $baseColor_lightGrey2;
 								border: $baseColor_lightGrey2 0.14rem dotted;
 							}
+
+							button:hover,
+							#fourGB:hover,
+							#sixGB:hover,
+							#eightGB2:hover,
+							#GB:hover,
+							#GB2:hover,
+							#masterEditionGB:hover,
+							#masterEditionGB2:hover {
+								transition: all 0.25s ease-in-out;
+								border: $baseColor_black 0.1rem solid;
+							}
 						}
 
 						.buttonSection1 {
@@ -1409,6 +1469,13 @@
 								// display: none;
 								border: $baseColor_black 0.14rem dotted;
 							}
+
+							button:hover,
+							#eightGB:hover,
+							#twelveGB:hover {
+								transition: all 0.25s ease-in-out;
+								border: $baseColor_black 0.1rem solid;
+							}
 						}
 
 						.buttonSection2 {
@@ -1423,6 +1490,11 @@
 								color: $baseColor_black;
 								font-size: $fontSize_small;
 								font-family: $fontStyle_header;
+								border: $baseColor_black 0.1rem solid;
+							}
+
+							button:hover {
+								transition: all 0.25s ease-in-out;
 								border: $baseColor_black 0.1rem solid;
 							}
 						}
