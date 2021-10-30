@@ -3948,6 +3948,7 @@ function lunaWhiteImages() {
             `;
 
 		GB2Btn.style.opacity = "0.5";
+		GBtn.style.opacity = "1";
 		GBtn.style.border = "#111 0.14rem dotted";
 		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
 	});
@@ -3972,6 +3973,7 @@ function lunaWhiteImages() {
             `;
 
 		GB2Btn.style.opacity = "1";
+		GBtn.style.opacity = "0.5";
 		GBtn.style.border = "#d3d3d3 0.14rem dotted";
 		GB2Btn.style.border = "#111 0.14rem dotted";
 	});
@@ -4351,6 +4353,7 @@ function voyagerGreyImages() {
             `;
 
 		GB2Btn.style.opacity = "0.5";
+		GBtn.style.opacity = "1";
 		GBtn.style.border = "#111 0.14rem dotted";
 		GB2Btn.style.border = "#d3d3d3 0.14rem dotted";
 	});
@@ -4382,6 +4385,7 @@ function voyagerGreyImages() {
             `;
 
 		GB2Btn.style.opacity = "1";
+		GBtn.style.opacity = "0.5";
 		GBtn.style.border = "#d3d3d3 0.14rem dotted";
 		GB2Btn.style.border = "#111 0.14rem dotted";
 	});
