@@ -6,20 +6,20 @@
 function rushRedImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1594595141366.jpg";
+		"../img/productImages/1594595141366.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1594595141366.jpg";
+		"../img/productImages/1594595141366.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1588462321862.jpg";
+		"../img/productImages/1588462321862.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1588462321863.jpg";
+		"../img/productImages/1588462321863.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1588462321864.jpg";
+		"../img/productImages/1588462321864.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -108,7 +108,7 @@ function rushRedImages() {
 function changeRustRedImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1594595141366.jpg");
+		"../img/productImages/1594595141366.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -126,7 +126,7 @@ function changeRustRedImage1() {
 function changeRustRedImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588462321862.jpg");
+		"../img/productImages/1588462321862.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -144,7 +144,7 @@ function changeRustRedImage2() {
 function changeRustRedImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588462321863.jpg");
+		"../img/productImages/1588462321863.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -162,7 +162,7 @@ function changeRustRedImage3() {
 function changeRustRedImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588462321864.jpg");
+		"../img/productImages/1588462321864.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -244,20 +244,20 @@ function addOnOptionX50Pro() {
 function mossGreenImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1594595165858.jpg";
+		"../img/productImages/1594595165858.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1594595165858.jpg";
+		"../img/productImages/1594595165858.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1588460890879.jpg";
+		"../img/productImages/1588460890879.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1588460897805.jpg";
+		"../img/productImages/1588460897805.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1588460904321.jpg";
+		"../img/productImages/1588460904321.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -316,7 +316,7 @@ function mossGreenImages() {
 function changeMossGreenImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1594595165858.jpg");
+		"../img/productImages/1594595165858.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -334,7 +334,7 @@ function changeMossGreenImage1() {
 function changeMossGreenImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588460890879.jpg");
+		"../img/productImages/1588460890879.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -352,7 +352,7 @@ function changeMossGreenImage2() {
 function changeMossGreenImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588460897805.jpg");
+		"../img/productImages/1588460897805.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -370,7 +370,7 @@ function changeMossGreenImage3() {
 function changeMossGreenImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1588460904321.jpg");
+		"../img/productImages/1588460904321.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -393,7 +393,7 @@ function changeMossGreenImage4() {
 function changePearlWhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143987209.jpg");
+		"../img/productImages/1579143987209.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -411,7 +411,7 @@ function changePearlWhiteImage1() {
 function changePearlWhiteImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143991578.jpg");
+		"../img/productImages/1579143991578.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -429,7 +429,7 @@ function changePearlWhiteImage2() {
 function changePearlWhiteImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579143997163.jpg");
+		"../img/productImages/1579143997163.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -447,7 +447,7 @@ function changePearlWhiteImage3() {
 function changePearlWhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1579144001179.jpg");
+		"../img/productImages/1579144001179.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -469,7 +469,7 @@ function changePearlWhiteImage4() {
 function changeBudsAirNeoImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427823443.jpg");
+		"../img/productImages/1590427823443.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -487,7 +487,7 @@ function changeBudsAirNeoImage1() {
 function changeBudsAirNeoImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427859232.jpg");
+		"../img/productImages/1590427859232.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -505,7 +505,7 @@ function changeBudsAirNeoImage2() {
 function changeBudsAirNeoImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427885449.jpg");
+		"../img/productImages/1590427885449.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -523,7 +523,7 @@ function changeBudsAirNeoImage3() {
 function changeBudsAirNeoImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1590427923863.jpg");
+		"../img/productImages/1590427923863.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -546,20 +546,20 @@ function changeBudsAirNeoImage4() {
 function supersonicBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815878085.png";
+		"../img/productImages/1620815878085.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620815878085.png";
+		"../img/productImages/1620815878085.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620815888325.png";
+		"../img/productImages/1620815888325.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620815896630.png";
+		"../img/productImages/1620815896630.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620815912069.png";
+		"../img/productImages/1620815912069.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -652,7 +652,7 @@ function supersonicBlackImages() {
 function changeSupersonicBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815878085.png");
+		"../img/productImages/1620815878085.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -670,7 +670,7 @@ function changeSupersonicBlackImage1() {
 function changeSupersonicBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815888325.png");
+		"../img/productImages/1620815888325.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -688,7 +688,7 @@ function changeSupersonicBlackImage2() {
 function changeSupersonicBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815896630.png");
+		"../img/productImages/1620815896630.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -706,7 +706,7 @@ function changeSupersonicBlackImage3() {
 function changeSupersonicBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815912069.png");
+		"../img/productImages/1620815912069.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -726,20 +726,20 @@ function changeSupersonicBlackImage4() {
 function supersonicBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815930056.png";
+		"../img/productImages/1620815930056.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620815930056.png";
+		"../img/productImages/1620815930056.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620815941197.png";
+		"../img/productImages/1620815941197.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620815951235.png";
+		"../img/productImages/1620815951235.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620815961273.png";
+		"../img/productImages/1620815961273.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -831,7 +831,7 @@ function supersonicBlueImages() {
 function changeSupersonicBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815930056.png");
+		"../img/productImages/1620815930056.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -849,7 +849,7 @@ function changeSupersonicBlueImage1() {
 function changeSupersonicBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815941197.png");
+		"../img/productImages/1620815941197.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -867,7 +867,7 @@ function changeSupersonicBlueImage2() {
 function changeSupersonicBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815951235.png");
+		"../img/productImages/1620815951235.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -885,7 +885,7 @@ function changeSupersonicBlueImage3() {
 function changeSupersonicBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620815961273.png");
+		"../img/productImages/1620815961273.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -964,20 +964,20 @@ function minusQuantity() {
 function mirrorSilverImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382475348.jpg";
+		"../img/productImages/1603382475348.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1603382475348.jpg";
+		"../img/productImages/1603382475348.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1601966616655.jpg";
+		"../img/productImages/1601966616655.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1601966732625.jpg";
+		"../img/productImages/1601966732625.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1601966615626.jpg";
+		"../img/productImages/1601966615626.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1037,7 +1037,7 @@ function mirrorSilverImages() {
 function changeMirrorSilverImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382475348.jpg");
+		"../img/productImages/1603382475348.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1055,7 +1055,7 @@ function changeMirrorSilverImage1() {
 function changeMirrorSilverImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966616655.jpg");
+		"../img/productImages/1601966616655.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1073,7 +1073,7 @@ function changeMirrorSilverImage2() {
 function changeMirrorSilverImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966732625.jpg");
+		"../img/productImages/1601966732625.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1091,7 +1091,7 @@ function changeMirrorSilverImage3() {
 function changeMirrorSilverImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966615626.jpg");
+		"../img/productImages/1601966615626.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1111,20 +1111,20 @@ function changeMirrorSilverImage4() {
 function mirrorBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382496106.jpg";
+		"../img/productImages/1603382496106.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1603382496106.jpg";
+		"../img/productImages/1603382496106.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1601966674798.jpg";
+		"../img/productImages/1601966674798.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1601966673382.jpg";
+		"../img/productImages/1601966673382.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1601966673792.jpg";
+		"../img/productImages/1601966673792.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1184,7 +1184,7 @@ function mirrorBlueImages() {
 function changeMirrorBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1603382496106.jpg");
+		"../img/productImages/1603382496106.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1202,7 +1202,7 @@ function changeMirrorBlueImage1() {
 function changeMirrorBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966674798.jpg");
+		"../img/productImages/1601966674798.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1220,7 +1220,7 @@ function changeMirrorBlueImage2() {
 function changeMirrorBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966673382.jpg");
+		"../img/productImages/1601966673382.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1238,7 +1238,7 @@ function changeMirrorBlueImage3() {
 function changeMirrorBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1601966673792.jpg");
+		"../img/productImages/1601966673792.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1290,20 +1290,20 @@ function minusQuantity() {
 function crossBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505271357.png";
+		"../img/productImages/1619505271357.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619505271357.png";
+		"../img/productImages/1619505271357.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619505271038.png";
+		"../img/productImages/1619505271038.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619505271020.png";
+		"../img/productImages/1619505271020.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619505271401.png";
+		"../img/productImages/1619505271401.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1404,7 +1404,7 @@ function crossBlackImages() {
 function changeCrossBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505271357.png");
+		"../img/productImages/1619505271357.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1422,7 +1422,7 @@ function changeCrossBlackImage1() {
 function changeCrossBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505271038.png");
+		"../img/productImages/1619505271038.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1440,7 +1440,7 @@ function changeCrossBlackImage2() {
 function changeCrossBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505271020.png");
+		"../img/productImages/1619505271020.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1458,7 +1458,7 @@ function changeCrossBlackImage3() {
 function changeCrossBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505271401.png");
+		"../img/productImages/1619505271401.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1478,20 +1478,20 @@ function changeCrossBlackImage4() {
 function crossBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505327029.png";
+		"../img/productImages/1619505327029.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619505327029.png";
+		"../img/productImages/1619505327029.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619505326663.png";
+		"../img/productImages/1619505326663.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619505326482.png";
+		"../img/productImages/1619505326482.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619505327225.png";
+		"../img/productImages/1619505327225.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -1592,7 +1592,7 @@ function crossBlueImages() {
 function changeCrossBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505327029.png");
+		"../img/productImages/1619505327029.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1610,7 +1610,7 @@ function changeCrossBlueImage1() {
 function changeCrossBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505326663.png");
+		"../img/productImages/1619505326663.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1628,7 +1628,7 @@ function changeCrossBlueImage2() {
 function changeCrossBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505326482.png");
+		"../img/productImages/1619505326482.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1646,7 +1646,7 @@ function changeCrossBlueImage3() {
 function changeCrossBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619505327225.png");
+		"../img/productImages/1619505327225.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1724,7 +1724,7 @@ function minusQuantity() {
 function changeWatchSProBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615876911131.png");
+		"../img/productImages/1615876911131.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1742,7 +1742,7 @@ function changeWatchSProBlackImage1() {
 function changeWatchSProBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615876917898.png");
+		"../img/productImages/1615876917898.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1760,7 +1760,7 @@ function changeWatchSProBlackImage2() {
 function changeWatchSProBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615876924153.png");
+		"../img/productImages/1615876924153.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1778,7 +1778,7 @@ function changeWatchSProBlackImage3() {
 function changeWatchSProBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615876929447.png");
+		"../img/productImages/1615876929447.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1800,7 +1800,7 @@ function changeWatchSProBlackImage4() {
 function changeSmartCameraImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607070370773.jpg");
+		"../img/productImages/1607070370773.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1818,7 +1818,7 @@ function changeSmartCameraImage1() {
 function changeSmartCameraImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607070370770.jpg");
+		"../img/productImages/1607070370770.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1836,7 +1836,7 @@ function changeSmartCameraImage2() {
 function changeSmartCameraImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607070370670.jpg");
+		"../img/productImages/1607070370670.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1854,7 +1854,7 @@ function changeSmartCameraImage3() {
 function changeSmartCameraImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607070370777.jpg");
+		"../img/productImages/1607070370777.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1876,7 +1876,7 @@ function changeSmartCameraImage4() {
 function changeProWatch2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623741774266.png");
+		"../img/productImages/1623741774266.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1894,7 +1894,7 @@ function changeProWatch2BlackImage1() {
 function changeProWatch2BlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623741781871.png");
+		"../img/productImages/1623741781871.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1912,7 +1912,7 @@ function changeProWatch2BlackImage2() {
 function changeProWatch2BlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623741789492.png");
+		"../img/productImages/1623741789492.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -1930,7 +1930,7 @@ function changeProWatch2BlackImage3() {
 function changeProWatch2BlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623741797625.png");
+		"../img/productImages/1623741797625.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -1949,7 +1949,7 @@ function changeProWatch2BlackImage4() {
 function changeWatch2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623736010026.png");
+		"../img/productImages/1623736010026.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -1967,7 +1967,7 @@ function changeWatch2BlackImage1() {
 function changeWatch2BlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623736041812.png");
+		"../img/productImages/1623736041812.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -1985,7 +1985,7 @@ function changeWatch2BlackImage2() {
 function changeWatch2BlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623736048630.png");
+		"../img/productImages/1623736048630.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2003,7 +2003,7 @@ function changeWatch2BlackImage3() {
 function changeWatch2BlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1623736055449.png");
+		"../img/productImages/1623736055449.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2026,20 +2026,20 @@ function changeWatch2BlackImage4() {
 function closerBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615884298148.png";
+		"../img/productImages/1615884298148.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615884298148.png";
+		"../img/productImages/1615884298148.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615883712278.png";
+		"../img/productImages/1615883712278.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615883712422.png";
+		"../img/productImages/1615883712422.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615883712435.png";
+		"../img/productImages/1615883712435.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -2081,7 +2081,7 @@ function closerBlackImages() {
 function changeCloserBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615884298148.png");
+		"../img/productImages/1615884298148.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2099,7 +2099,7 @@ function changeCloserBlackImage1() {
 function changeCloserBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615883712278.png");
+		"../img/productImages/1615883712278.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2117,7 +2117,7 @@ function changeCloserBlackImage2() {
 function changeCloserBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615883712422.png");
+		"../img/productImages/1615883712422.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2135,7 +2135,7 @@ function changeCloserBlackImage3() {
 function changeCloserBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615883712435.png");
+		"../img/productImages/1615883712435.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2155,20 +2155,20 @@ function changeCloserBlackImage4() {
 function closerWhiteImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png";
+		"../img/productImages/1615892685998.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1615892685998.png";
+		"../img/productImages/1615892685998.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1615892685990.png";
+		"../img/productImages/1615892685990.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1615892685606.png";
+		"../img/productImages/1615892685606.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1615892685743.png";
+		"../img/productImages/1615892685743.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -2209,7 +2209,7 @@ function closerWhiteImages() {
 function changeCloserWhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685998.png");
+		"../img/productImages/1615892685998.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2227,7 +2227,7 @@ function changeCloserWhiteImage1() {
 function changeCloserWhiteImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685990.png");
+		"../img/productImages/1615892685990.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2245,7 +2245,7 @@ function changeCloserWhiteImage2() {
 function changeCloserWhiteImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685606.png");
+		"../img/productImages/1615892685606.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2263,7 +2263,7 @@ function changeCloserWhiteImage3() {
 function changeCloserWhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1615892685743.png");
+		"../img/productImages/1615892685743.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2285,7 +2285,7 @@ function changeCloserWhiteImage4() {
 function changeBudsAir2WhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1605438557032.jpg");
+		"../img/productImages/1605438557032.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2303,7 +2303,7 @@ function changeBudsAir2WhiteImage1() {
 function changeBudsAir2WhiteImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1605438556895.jpg");
+		"../img/productImages/1605438556895.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2321,7 +2321,7 @@ function changeBudsAir2WhiteImage2() {
 function changeBudsAir2WhiteImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1605438556894.jpg");
+		"../img/productImages/1605438556894.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2339,7 +2339,7 @@ function changeBudsAir2WhiteImage3() {
 function changeBudsAir2WhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1605438556927.jpg");
+		"../img/productImages/1605438556927.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2362,20 +2362,20 @@ function changeBudsAir2WhiteImage4() {
 function discoGreenImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080800022.jpg";
+		"../img/productImages/1607080800022.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1607080800022.jpg";
+		"../img/productImages/1607080800022.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1607080799876.jpg";
+		"../img/productImages/1607080799876.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1607080799879.jpg";
+		"../img/productImages/1607080799879.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1607080799911.jpg";
+		"../img/productImages/1607080799911.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -2417,7 +2417,7 @@ function discoGreenImages() {
 function changeBudsWirelessProDiscoGreenImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080800022.jpg");
+		"../img/productImages/1607080800022.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2435,7 +2435,7 @@ function changeBudsWirelessProDiscoGreenImage1() {
 function changeBudsWirelessProDiscoGreenImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799876.jpg");
+		"../img/productImages/1607080799876.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2453,7 +2453,7 @@ function changeBudsWirelessProDiscoGreenImage2() {
 function changeBudsWirelessProDiscoGreenImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799879.jpg");
+		"../img/productImages/1607080799879.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2471,7 +2471,7 @@ function changeBudsWirelessProDiscoGreenImage3() {
 function changeBudsWirelessProDiscoGreenImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607080799911.jpg");
+		"../img/productImages/1607080799911.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2491,20 +2491,20 @@ function changeBudsWirelessProDiscoGreenImage4() {
 function partyYellowImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004937.jpg";
+		"../img/productImages/1607087004937.jpg";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1607087004937.jpg";
+		"../img/productImages/1607087004937.jpg";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1607087004829.jpg";
+		"../img/productImages/1607087004829.jpg";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1607087004830.jpg";
+		"../img/productImages/1607087004830.jpg";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1607087004831.jpg";
+		"../img/productImages/1607087004831.jpg";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -2546,7 +2546,7 @@ function partyYellowImages() {
 function changeBudsWirelessProPartyYellowImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004937.jpg");
+		"../img/productImages/1607087004937.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2564,7 +2564,7 @@ function changeBudsWirelessProPartyYellowImage1() {
 function changeBudsWirelessProPartyYellowImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004829.jpg");
+		"../img/productImages/1607087004829.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2582,7 +2582,7 @@ function changeBudsWirelessProPartyYellowImage2() {
 function changeBudsWirelessProPartyYellowImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004830.jpg");
+		"../img/productImages/1607087004830.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2600,7 +2600,7 @@ function changeBudsWirelessProPartyYellowImage3() {
 function changeBudsWirelessProPartyYellowImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1607087004831.jpg");
+		"../img/productImages/1607087004831.jpg");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2623,20 +2623,20 @@ function changeBudsWirelessProPartyYellowImage4() {
 function Q2BlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732700547.png";
+		"../img/productImages/1620732700547.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620732700547.png";
+		"../img/productImages/1620732700547.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1620732709556.png";
+		"../img/productImages/1620732709556.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1620732718791.png";
+		"../img/productImages/1620732718791.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1620732728527.png";
+		"../img/productImages/1620732728527.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -2678,7 +2678,7 @@ function Q2BlackImages() {
 function changeBudsQ2BlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732700547.png");
+		"../img/productImages/1620732700547.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2696,7 +2696,7 @@ function changeBudsQ2BlackImage1() {
 function changeBudsQ2BlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732709556.png");
+		"../img/productImages/1620732709556.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2714,7 +2714,7 @@ function changeBudsQ2BlackImage2() {
 function changeBudsQ2BlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732718791.png");
+		"../img/productImages/1620732718791.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2732,7 +2732,7 @@ function changeBudsQ2BlackImage3() {
 function changeBudsQ2BlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732728527.png");
+		"../img/productImages/1620732728527.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2752,20 +2752,20 @@ function changeBudsQ2BlackImage4() {
 function Q2BlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732298988.png";
+		"../img/productImages/1620732298988.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1620732298988.png";
+		"../img/productImages/1620732298988.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1621465492685.png";
+		"../img/productImages/1621465492685.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1621465503600.png";
+		"../img/productImages/1621465503600.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1621465512024.png";
+		"../img/productImages/1621465512024.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML = "realme Buds Q2 ( Blue )";
@@ -2807,7 +2807,7 @@ function Q2BlueImages() {
 function changeBudsQ2BlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1620732298988.png");
+		"../img/productImages/1620732298988.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -2825,7 +2825,7 @@ function changeBudsQ2BlueImage1() {
 function changeBudsQ2BlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1621465492685.png");
+		"../img/productImages/1621465492685.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -2843,7 +2843,7 @@ function changeBudsQ2BlueImage2() {
 function changeBudsQ2BlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1621465503600.png");
+		"../img/productImages/1621465503600.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -2861,7 +2861,7 @@ function changeBudsQ2BlueImage3() {
 function changeBudsQ2BlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1621465512024.png");
+		"../img/productImages/1621465512024.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -2926,20 +2926,20 @@ function addOnOption() {
 function infiniteBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586852.png";
+		"../img/productImages/1616130586852.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1616130586852.png";
+		"../img/productImages/1616130586852.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1616130586647.png";
+		"../img/productImages/1616130586647.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1616130586063.png";
+		"../img/productImages/1616130586063.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1616130586939.png";
+		"../img/productImages/1616130586939.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3008,7 +3008,7 @@ function infiniteBlackImages() {
 function changeInfiniteBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586852.png");
+		"../img/productImages/1616130586852.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3026,7 +3026,7 @@ function changeInfiniteBlackImage1() {
 function changeInfiniteBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586647.png");
+		"../img/productImages/1616130586647.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3044,7 +3044,7 @@ function changeInfiniteBlackImage2() {
 function changeInfiniteBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586063.png");
+		"../img/productImages/1616130586063.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3062,7 +3062,7 @@ function changeInfiniteBlackImage3() {
 function changeInfiniteBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586939.png");
+		"../img/productImages/1616130586939.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3082,20 +3082,20 @@ function changeInfiniteBlackImage4() {
 function infiniteBlueImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130629963.png";
+		"../img/productImages/1616130629963.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1616130629963.png";
+		"../img/productImages/1616130629963.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1616130629450.png";
+		"../img/productImages/1616130629450.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1616130628986.png";
+		"../img/productImages/1616130628986.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1616130629823.png";
+		"../img/productImages/1616130629823.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3165,7 +3165,7 @@ function infiniteBlueImages() {
 function changeInfiniteBlueImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130629963.png");
+		"../img/productImages/1616130629963.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3183,7 +3183,7 @@ function changeInfiniteBlueImage1() {
 function changeInfiniteBlueImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130629450.png");
+		"../img/productImages/1616130629450.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3201,7 +3201,7 @@ function changeInfiniteBlueImage2() {
 function changeInfiniteBlueImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130628986.png");
+		"../img/productImages/1616130628986.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3219,7 +3219,7 @@ function changeInfiniteBlueImage3() {
 function changeInfiniteBlueImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130629823.png");
+		"../img/productImages/1616130629823.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3239,20 +3239,20 @@ function changeInfiniteBlueImage4() {
 function punkBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130377618.png";
+		"../img/productImages/1616130377618.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1616130377618.png";
+		"../img/productImages/1616130377618.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1616130377721.png";
+		"../img/productImages/1616130377721.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1616130586063.png";
+		"../img/productImages/1616130586063.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619767353251.png";
+		"../img/productImages/1619767353251.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3322,7 +3322,7 @@ function punkBlackImages() {
 function changePunkBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130377618.png");
+		"../img/productImages/1616130377618.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3340,7 +3340,7 @@ function changePunkBlackImage1() {
 function changePunkBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130377721.png");
+		"../img/productImages/1616130377721.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3358,7 +3358,7 @@ function changePunkBlackImage2() {
 function changePunkBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1616130586063.png");
+		"../img/productImages/1616130586063.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3376,7 +3376,7 @@ function changePunkBlackImage3() {
 function changePunkBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767353251.png");
+		"../img/productImages/1619767353251.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3399,20 +3399,20 @@ function changePunkBlackImage4() {
 function cyberSliverImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740999.png";
+		"../img/productImages/1619511740999.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619511740999.png";
+		"../img/productImages/1619511740999.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619511740905.png";
+		"../img/productImages/1619511740905.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619511739936.png";
+		"../img/productImages/1619511739936.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619511754390.png";
+		"../img/productImages/1619511754390.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3523,7 +3523,7 @@ function cyberSliverImages() {
 function changeCyberSliverImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740999.png");
+		"../img/productImages/1619511740999.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3541,7 +3541,7 @@ function changeCyberSliverImage1() {
 function changeCyberSliverImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511740905.png");
+		"../img/productImages/1619511740905.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3559,7 +3559,7 @@ function changeCyberSliverImage2() {
 function changeCyberSliverImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511739936.png");
+		"../img/productImages/1619511739936.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3577,7 +3577,7 @@ function changeCyberSliverImage3() {
 function changeCyberSliverImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619511754390.png");
+		"../img/productImages/1619511754390.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3597,20 +3597,20 @@ function changeCyberSliverImage4() {
 function punkBlackTwoImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767353492.png";
+		"../img/productImages/1619767353492.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619767353492.png";
+		"../img/productImages/1619767353492.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619767353311.png";
+		"../img/productImages/1619767353311.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619767352493.png";
+		"../img/productImages/1619767352493.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619767353251.png";
+		"../img/productImages/1619767353251.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3719,7 +3719,7 @@ function punkBlackTwoImages() {
 function changePunkBlackTwoImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767353492.png");
+		"../img/productImages/1619767353492.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3737,7 +3737,7 @@ function changePunkBlackTwoImage1() {
 function changePunkBlackTwoImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767353311.png");
+		"../img/productImages/1619767353311.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3755,7 +3755,7 @@ function changePunkBlackTwoImage2() {
 function changePunkBlackTwoImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767352493.png");
+		"../img/productImages/1619767352493.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3773,7 +3773,7 @@ function changePunkBlackTwoImage3() {
 function changePunkBlackTwoImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619767353251.png");
+		"../img/productImages/1619767353251.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -3793,20 +3793,20 @@ function changePunkBlackTwoImage4() {
 function cyberBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608253062.png";
+		"../img/productImages/1619608253062.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1619608253062.png";
+		"../img/productImages/1619608253062.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1619608252874.png";
+		"../img/productImages/1619608252874.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1619608252130.png";
+		"../img/productImages/1619608252130.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1619608252614.png";
+		"../img/productImages/1619608252614.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -3915,7 +3915,7 @@ function cyberBlackImages() {
 function changeCyberBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608253062.png");
+		"../img/productImages/1619608253062.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -3933,7 +3933,7 @@ function changeCyberBlackImage1() {
 function changeCyberBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252874.png");
+		"../img/productImages/1619608252874.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -3951,7 +3951,7 @@ function changeCyberBlackImage2() {
 function changeCyberBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252130.png");
+		"../img/productImages/1619608252130.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -3969,7 +3969,7 @@ function changeCyberBlackImage3() {
 function changeCyberBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1619608252614.png");
+		"../img/productImages/1619608252614.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -4042,20 +4042,20 @@ function realme8GB2() {
 function lunaWhiteImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1631211582787.png";
+		"../img/productImages/1631211582787.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1631211582787.png";
+		"../img/productImages/1631211582787.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1631211591897.png";
+		"../img/productImages/1631211591897.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1631211602157.png";
+		"../img/productImages/1631211602157.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1631211612032.png";
+		"../img/productImages/1631211612032.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -4164,7 +4164,7 @@ function lunaWhiteImages() {
 function changeLunaWhiteImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631211582787.png");
+		"../img/productImages/1631211582787.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -4182,7 +4182,7 @@ function changeLunaWhiteImage1() {
 function changeLunaWhiteImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631211591897.png");
+		"../img/productImages/1631211591897.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -4200,7 +4200,7 @@ function changeLunaWhiteImage2() {
 function changeLunaWhiteImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631211602157.png");
+		"../img/productImages/1631211602157.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -4218,7 +4218,7 @@ function changeLunaWhiteImage3() {
 function changeLunaWhiteImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631211612032.png");
+		"../img/productImages/1631211612032.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -4238,20 +4238,20 @@ function changeLunaWhiteImage4() {
 function cosmosBlackImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1634037855775.png";
+		"../img/productImages/1634037855775.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1634037855775.png";
+		"../img/productImages/1634037855775.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1634037861502.png";
+		"../img/productImages/1634037861502.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1634037866456.png";
+		"../img/productImages/1634037866456.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1634037871962.png";
+		"../img/productImages/1634037871962.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -4366,7 +4366,7 @@ function cosmosBlackImages() {
 function changeCosmosBlackImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1634037855775.png");
+		"../img/productImages/1634037855775.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -4384,7 +4384,7 @@ function changeCosmosBlackImage1() {
 function changeCosmosBlackImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1634037861502.png");
+		"../img/productImages/1634037861502.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -4402,7 +4402,7 @@ function changeCosmosBlackImage2() {
 function changeCosmosBlackImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1634037866456.png");
+		"../img/productImages/1634037866456.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -4420,7 +4420,7 @@ function changeCosmosBlackImage3() {
 function changeCosmosBlackImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1634037871962.png");
+		"../img/productImages/1634037871962.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
@@ -4440,20 +4440,20 @@ function changeCosmosBlackImage4() {
 function voyagerGreyImages() {
 	// Main product images
 	document.getElementById("mainImage").src =
-		"/src/img/productImages/1631212312546.png";
+		"../img/productImages/1631212312546.png";
 
 	// More products images
 	document.getElementById("moreImage1").src =
-		"/src/img/productImages/1631212312546.png";
+		"../img/productImages/1631212312546.png";
 
 	document.getElementById("moreImage2").src =
-		"/src/img/productImages/1631212321826.png";
+		"../img/productImages/1631212321826.png";
 
 	document.getElementById("moreImage3").src =
-		"/src/img/productImages/1631212329842.png";
+		"../img/productImages/1631212329842.png";
 
 	document.getElementById("moreImage4").src =
-		"/src/img/productImages/1631212338445.png";
+		"../img/productImages/1631212338445.png";
 
 	// Product Title change
 	document.getElementById("productTitle").innerHTML =
@@ -4576,7 +4576,7 @@ function voyagerGreyImages() {
 function changeVoyagerGreyImage1() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631212312546.png");
+		"../img/productImages/1631212312546.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn1");
@@ -4594,7 +4594,7 @@ function changeVoyagerGreyImage1() {
 function changeVoyagerGreyImage2() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631212321826.png");
+		"../img/productImages/1631212321826.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn2");
@@ -4612,7 +4612,7 @@ function changeVoyagerGreyImage2() {
 function changeVoyagerGreyImage3() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631212329842.png");
+		"../img/productImages/1631212329842.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn3");
@@ -4630,7 +4630,7 @@ function changeVoyagerGreyImage3() {
 function changeVoyagerGreyImage4() {
 	// changes the main product image ot the selected image
 	const mainImage = (document.getElementById("mainImage").src =
-		"/src/img/productImages/1631212338445.png");
+		"../img/productImages/1631212338445.png");
 
 	// Creates the border style for other additional images
 	const borderLine = document.getElementById("btn4");
