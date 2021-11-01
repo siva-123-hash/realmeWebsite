@@ -1362,42 +1362,47 @@ header {
 			margin: 0 auto;
 			flex-direction: column;
 
-			.recommendedDropdown,
-			.supportDropdown,
-			.aboutRealmeDropdown,
-			.contactRealmeDropdown {
+			.recommended,
+			.support,
+			.aboutRealme,
+			.contactRealme {
 				position: relative;
 				margin-top: 0.25rem;
 				display: inline-block;
 
-				.button {
+				.buttonDiv {
 					display: flex;
 					margin: auto 0;
 					padding: 0 0.5rem;
 					justify-content: space-between;
 
-					.dropbtn {
+					.recommendedbtn,
+					.supportbtn,
+					.aboutRealmebtn,
+					.contactRealmebtn {
 						border: none;
 						font-weight: 600;
 						text-align: left;
 						background: none;
 						padding: 0.5rem;
 						color: $baseColor_black;
-						font-size: $fontSize_small;
+						font-size: $fontSize_xSmall;
 						font-family: $fontStyle_option1;
 					}
 
-					span {
+					#dropdownIcon {
+						border: none;
 						margin: auto 0;
+						background: none;
 						color: $baseColor_black;
-						font-size: $fontSize_large;
+						font-size: $fontSize_normal;
 					}
 				}
 
-				.recommendedContent,
-				.supportDropdown,
-				.aboutRealmeDropdown,
-				.contactRealmeDropdown {
+				.content {
+					display: none;
+					z-index: 1;
+					overflow: auto;
 					padding: 0 1.5rem;
 
 					li {
@@ -1405,6 +1410,7 @@ header {
 						line-height: 1.75rem;
 
 						a {
+							display: block;
 							text-align: left;
 							text-decoration: none;
 							color: $baseColor_black;
