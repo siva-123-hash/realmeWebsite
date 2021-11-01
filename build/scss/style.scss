@@ -1394,7 +1394,10 @@ header {
 					}
 				}
 
-				.recommendedContent {
+				.recommendedContent,
+				.supportDropdown,
+				.aboutRealmeDropdown,
+				.contactRealmeDropdown {
 					padding: 0 1.5rem;
 
 					li {
@@ -1414,10 +1417,6 @@ header {
 						}
 					}
 				}
-			}
-
-			.recommendedDropdown {
-				display: none;
 			}
 
 			.socialLinks {
