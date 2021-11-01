@@ -1359,11 +1359,15 @@ header {
 			display: flex;
 			margin: 0 auto;
 			flex-direction: column;
+			border: #ff002f 0.25rem solid;
 
-			.dropdown {
+			.recommendedDropdown,
+			.supportDropdown,
+			.aboutRealmeDropdown,
+			.contactRealmeDropdown {
 				position: relative;
+				margin-top: 0.25rem;
 				display: inline-block;
-				border: #ff002f 0.25rem solid;
 
 				.button {
 					display: flex;
@@ -1389,7 +1393,7 @@ header {
 					}
 				}
 
-				.dropdown-content {
+				.recommendedContent {
 					padding: 0 1.5rem;
 
 					li {
