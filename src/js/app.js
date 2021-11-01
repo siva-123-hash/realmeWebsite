@@ -1,3 +1,22 @@
+/*======================== Mobile View Footer Links ==========================*/
+/* Recommended Content Links */
+function recommendedDropdown() {
+	document.getElementById("recommendedContent").classList.toggle("show");
+}
+
+// Closes the Recommended Content links if the user clicks outside of it
+window.onclick = function (event) {
+	if (!event.target.matches(".recommendedContent")) {
+		var dropdowns = document.getElementsByClassName("recommendedContent");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains("show")) {
+				openDropdown.classList.remove("show");
+			}
+		}
+	}
+};
 /*=====================================================================*/
 /*======================== realme X50 Pro 5G ==========================*/
 /*=====================================================================*/
@@ -1682,6 +1701,7 @@ function configThreeGBOption() {
                 <i class="bi bi-currency-pound"></i>109
             `;
 }
+
 function configFourGBTwoOption() {
 	document.getElementById("fourGB2").style.border = "#111 0.1rem solid";
 	document.getElementById("threeGB").style.border = "#d3d3d3 0.1rem solid";
