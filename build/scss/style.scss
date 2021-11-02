@@ -38,6 +38,10 @@ a:hover {
 	color: $secondary_orange;
 }
 
+.show {
+	display: flex;
+}
+
 /*============================== NAVIGATION MENU =============================*/
 header {
 	padding-top: 0.5rem;
@@ -114,6 +118,10 @@ header {
 				a:hover {
 					color: $secondary_orange;
 				}
+			}
+
+			#homeButton {
+				display: none;
 			}
 		}
 	}
@@ -1149,11 +1157,25 @@ header {
 @media (max-width: 575px) {
 	/*============ NAVIGATION MENU =============*/
 	header {
+		padding: 0;
 		nav {
+			.topSection,
+			.borderLineMid {
+				display: none;
+			}
 			.bottomSection {
+				padding: 0.5rem;
 				.menuLink {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
+					display: none;
+					flex-direction: column;
+					grid-row-gap: 0.75rem;
+				}
+
+				#homeButton {
+					border: none;
+					display: block;
+					background: none;
+					font-size: $fontSize_large-0;
 				}
 			}
 		}
@@ -1593,18 +1615,6 @@ header {
 
 // Small devices (Landscape phone, 576px and up)
 @media (max-width: 576px) {
-	/*============ NAVIGATION MENU =============*/
-	header {
-		nav {
-			.bottomSection {
-				.menuLink {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-		}
-	}
-
 	/*============ SMARTPHONE =============*/
 	.smartphones {
 		padding: 1rem;
@@ -1972,18 +1982,6 @@ header {
 
 // Between Mobile & Tablet View Responsiveness (Mobile & Tablet, 576px - 768px)
 @media screen and (max-width: 767px) {
-	/*============ NAVIGATION MENU =============*/
-	header {
-		nav {
-			.bottomSection {
-				.menuLink {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-		}
-	}
-
 	/*============ SMARTPHONE =============*/
 	.smartphones {
 		padding: 1rem;
@@ -2158,18 +2156,6 @@ header {
 
 // Between Mobile & Tablet View Responsiveness (Mobile & Tablet, 576px - 768px)
 @media screen and (max-width: 768px) {
-	/*============ NAVIGATION MENU =============*/
-	header {
-		nav {
-			.bottomSection {
-				.menuLink {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-		}
-	}
-
 	/*============ SMARTPHONE =============*/
 	.smartphones {
 		padding: 1rem;
@@ -2344,18 +2330,6 @@ header {
 
 // Medium devices (Tablet, 576px and up)
 @media screen and (max-width: 992px) {
-	/*============ NAVIGATION MENU =============*/
-	header {
-		nav {
-			.bottomSection {
-				.menuLink {
-					display: grid;
-					grid-template-columns: repeat(2, 1fr);
-				}
-			}
-		}
-	}
-
 	/*============ ACCESSORIES =============*/
 	.accessories {
 		padding: 1rem;

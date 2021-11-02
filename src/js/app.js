@@ -1,5 +1,51 @@
 /*======================== MOBILE VIEW ==========================*/
-// (HERO)
+const plus = document.getElementById("plus");
+const minus = document.getElementById("minus");
+const quantityAmount = document.getElementById("quantityAmount");
+const quantity = document.getElementById("quantity");
+const totalPriceTextBox = document.getElementById("totalPrice");
+let defaultPriceValue = document.getElementById("totalPrice").innerText;
+console.log(defaultPriceValue);
+
+let a = 1;
+let b = 2;
+
+plus.addEventListener("click", () => {
+	a++;
+	quantityAmount.innerText = a;
+
+	// Checkout section quantity amount
+	quantity.innerText = a;
+
+	// Checkout section Default product price
+	let defaultPrice = parseFloat(defaultPriceValue);
+	let newTotalPrice = defaultPrice * b;
+	b++;
+	console.log(newTotalPrice);
+	totalPriceTextBox.innerText = newTotalPrice;
+});
+
+minus.addEventListener("click", () => {
+	if (a > 1) {
+		a--;
+		quantityAmount.innerText = a;
+
+		// Checkout section quantity amount
+		quantity.innerText = a;
+	}
+});
+
+/*======================== MOBILE VIEW ==========================*/
+// (HEADER)
+function revealNavigation() {
+	var homeBtn = document.getElementById("menuLink");
+	homeBtn.style.display = "block";
+
+	// Remove the Navigation Menu
+	homeBtn.addEventListener("click", () => {
+		homeBtn.style.display = "none";
+	});
+}
 /*=====================================================================*/
 /*======================== realme X50 Pro 5G ==========================*/
 /*=====================================================================*/
