@@ -2541,32 +2541,6 @@ header {
 		}
 	}
 
-	/*============ SALE =============*/
-	.goneInFlash {
-		padding: 1rem;
-		background: $backgroundColor_lightGrey;
-
-		.display {
-			.content {
-				display: grid;
-				grid-template-columns: repeat(4, 1fr);
-			}
-		}
-	}
-
-	/*============ SMARTPHONE =============*/
-	.smartphones {
-		padding: 1rem;
-		background: $backgroundColor_lightGrey;
-
-		.display {
-			.content {
-				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-			}
-		}
-	}
-
 	/*============ ACCESSORIES =============*/
 	.accessories {
 		padding: 1rem;
