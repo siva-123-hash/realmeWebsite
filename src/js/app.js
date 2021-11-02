@@ -1,11 +1,5 @@
 /*======================== MOBILE VIEW ==========================*/
 // (FOOTER)
-function recommendedDropdown() {
-	// document.getElementById("recommendedSection").classList.add("show");
-	document.getElementById("recommendedSection").style.border =
-		"#111 0.1rem solid";
-}
-
 /*=====================================================================*/
 /*======================== realme X50 Pro 5G ==========================*/
 /*=====================================================================*/

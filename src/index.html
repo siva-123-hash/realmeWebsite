@@ -1058,17 +1058,15 @@
 						</div>
 					</div>
 				</div>
-				<div class="contentMobileView">
-					<div class="recommended">
+				<div class="contentMobileView" id="contentMobileView">
+					<div class="recommendedMB">
 						<div class="buttonDiv">
-							<button class="recommendedbtn" onclick="recommendedDropdown()">
-								Recommended
-							</button>
+							<button class="recommendedbtn">Recommended</button>
 							<button id="dropdownIcon">
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
-						<ul class="content" id="recommendedSection">
+						<ul class="contentLinks" id="recommendedSection">
 							<li>
 								<a href="https://www.realme.com/pl/realme-8-5g" target="blank"
 									>realme 8 5G</a
@@ -1137,7 +1135,7 @@
 							</li>
 						</ul>
 					</div>
-					<!-- <div class="support">
+					<div class="supportMB">
 						<div class="buttonDiv">
 							<button onclick="supportDropdown()" class="supportbtn">
 								Support
@@ -1146,7 +1144,7 @@
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
-						<div id="supportDropdown" class="content">
+						<div id="supportDropdown" class="contentLinks">
 							<li>
 								<a href="https://www.realme.com/uk/support/faq" target="blank"
 									>FAQ</a
@@ -1185,7 +1183,7 @@
 							</li>
 						</div>
 					</div>
-					<div class="aboutRealme">
+					<div class="aboutRealmeMB">
 						<div class="buttonDiv">
 							<button onclick="aboutRealme()" class="aboutRealmebtn">
 								About realme
@@ -1194,7 +1192,7 @@
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
-						<div id="aboutRealmeDropdown" class="content">
+						<div id="aboutRealmeDropdown" class="contentLinks">
 							<li>
 								<a href="https://www.realme.com/uk/brand" target="blank"
 									>Our Brand</a
@@ -1202,7 +1200,7 @@
 							</li>
 						</div>
 					</div>
-					<div class="contactRealme">
+					<div class="contactRealmeMB">
 						<div class="buttonDiv">
 							<button onclick="contactRealme()" class="contactRealmebtn">
 								Contact realme
@@ -1211,7 +1209,7 @@
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
-						<div id="contactRealmeDropdown" class="content">
+						<div id="contactRealmeDropdown" class="contentLinks">
 							<li>
 								<a href="" target="blank">service.eu@realme.com</a>
 							</li>
@@ -1219,8 +1217,8 @@
 								<a href="" target="blank">orders.eu@realme.com</a>
 							</li>
 						</div>
-					</div> -->
-					<div class="socialLinks">
+					</div>
+					<div class="socialLinksMB">
 						<button>
 							<a href="" target="blank"
 								><i class="bi bi-headset"></i><strong>CHAT SUPPORT</strong>
@@ -1275,17 +1273,11 @@
 
 		<!--===== MAIN JS =====-->
 		<!-- Main Javascript & jQuery -->
-		<script src="/src/js/app.js"></script>
+		<script src="../js/app.js"></script>
 
 		<!-- AOS CDN.js Reveal Animation -->
 		<script>
 			AOS.init();
-
-			function recommendedDropdown() {
-				// document.getElementById("recommendedSection").classList.add("show");
-				document.getElementById("recommendedSection").style.border =
-					"#111 0.1rem solid";
-			}
 		</script>
 
 		<!-- Bootstrap JavaScript -->

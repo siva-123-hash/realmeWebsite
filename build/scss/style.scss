@@ -952,7 +952,7 @@ header {
 	.info {
 		margin: auto;
 		display: flex;
-		padding: 0 10rem;
+		padding: 0 5rem;
 		text-align: center;
 		justify-content: space-around;
 
@@ -1273,6 +1273,13 @@ header {
 		}
 	}
 
+	/*============ DELIVERY =============*/
+	.delivery {
+		.info {
+			padding: 0 1rem;
+		}
+	}
+
 	/*============ PRODUCTS PAGE =============*/
 	.productInfo {
 		.display {
@@ -1327,14 +1334,8 @@ header {
 		}
 	}
 
-	.show {
-		display: flex;
-	}
-
 	/*============ FOOTER =============*/
 	.footer {
-		border: #ff002f 0.25rem solid;
-
 		.content {
 			display: none;
 			.recommended,
@@ -1352,10 +1353,10 @@ header {
 			margin: 0 auto;
 			flex-direction: column;
 
-			.recommended,
-			.support,
-			.aboutRealme,
-			.contactRealme {
+			.recommendedMB,
+			.supportMB,
+			.aboutRealmeMB,
+			.contactRealmeMB {
 				position: relative;
 				display: inline-block;
 
@@ -1391,15 +1392,7 @@ header {
 					}
 				}
 
-				.contentNone {
-					display: block;
-				}
-
-				#recommendedSection {
-					display: none;
-				}
-
-				.content {
+				.contentLinks {
 					z-index: 1;
 					display: flex;
 					overflow: auto;
@@ -1426,7 +1419,7 @@ header {
 				}
 			}
 
-			.socialLinks {
+			.socialLinksMB {
 				margin: 0 auto;
 				margin-top: 3rem;
 				margin-bottom: 1rem;
@@ -1521,7 +1514,7 @@ header {
 }
 
 // Between Mobile & Tablet View Responsiveness (Mobile & Tablet, 576px - 768px)
-@media screen and (max-width: 577px) {
+@media screen and (max-width: 767px) {
 	/*============ NAVIGATION MENU =============*/
 	header {
 		nav {
@@ -1536,6 +1529,8 @@ header {
 
 	/*============ SALE =============*/
 	.goneInFlash {
+		margin: auto;
+		border: #ff002f 0.25rem solid;
 		.display {
 			.content {
 				display: grid;
@@ -1558,6 +1553,7 @@ header {
 	.smartphones {
 		padding: 1rem;
 		background: $backgroundColor_lightGrey;
+		border: #a2e603 0.25rem solid;
 
 		.display {
 			.content {
@@ -1646,6 +1642,13 @@ header {
 		}
 	}
 
+	/*============ DELIVERY =============*/
+	.delivery {
+		.info {
+			padding: 0 1rem;
+		}
+	}
+
 	/*============ PRODUCTS PAGE =============*/
 	.productInfo {
 		.display {
@@ -1671,8 +1674,8 @@ header {
 							.buttonSection1,
 							.buttonSection2 {
 								display: grid;
-								grid-template-columns: repeat(2, 1fr);
-								grid-column-gap: 2rem;
+								grid-template-columns: 1fr;
+								grid-column-gap: 1rem;
 							}
 						}
 
@@ -1681,7 +1684,7 @@ header {
 							.buttonSection1,
 							.buttonSection2 {
 								display: grid;
-								grid-template-columns: repeat(2, 1fr);
+								grid-template-columns: 1fr;
 								grid-column-gap: 2rem;
 							}
 						}
@@ -1690,7 +1693,7 @@ header {
 							.addToCart,
 							.addToCart1 {
 								display: grid;
-								grid-template-columns: repeat(2, 1fr);
+								grid-template-columns: 1fr;
 								grid-column-gap: 1rem;
 							}
 						}
@@ -1699,11 +1702,182 @@ header {
 			}
 		}
 	}
+
 	/*============ FOOTER =============*/
 	.footer {
 		.content {
-			display: grid;
-			grid-template-columns: 1fr;
+			display: none;
+			.recommended,
+			.support,
+			.aboutRealme,
+			.contactRealme,
+			.socialLinks {
+				display: none;
+				margin: 0 auto;
+			}
+		}
+
+		.contentMobileView {
+			display: flex;
+			margin: 0 auto;
+			flex-direction: column;
+
+			.recommendedMB,
+			.supportMB,
+			.aboutRealmeMB,
+			.contactRealmeMB {
+				position: relative;
+				display: inline-block;
+
+				.buttonDiv {
+					display: flex;
+					margin: auto 0;
+					padding: 0 0.5rem;
+					margin-top: 0.5rem;
+					justify-content: space-between;
+
+					.recommendedbtn,
+					.supportbtn,
+					.aboutRealmebtn,
+					.contactRealmebtn {
+						border: none;
+						padding: 0.5rem;
+						cursor: pointer;
+						font-weight: 600;
+						text-align: left;
+						background: none;
+						color: $baseColor_black;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_option1;
+						cursor: pointer;
+					}
+
+					#dropdownIcon {
+						border: none;
+						margin: auto 0;
+						background: none;
+						color: $baseColor_black;
+						font-size: $fontSize_normal;
+					}
+				}
+
+				.contentLinks {
+					z-index: 1;
+					display: flex;
+					overflow: auto;
+					padding: 0 1.5rem;
+					flex-direction: column;
+
+					li {
+						list-style: none;
+						line-height: 1.75rem;
+
+						a {
+							display: block;
+							text-align: left;
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_xSmall;
+							font-family: $fontStyle_header;
+						}
+
+						a:hover {
+							color: $secondary_orange;
+						}
+					}
+				}
+			}
+
+			.socialLinksMB {
+				margin: 0 auto;
+				margin-top: 3rem;
+				margin-bottom: 1rem;
+
+				button {
+					background: none;
+					padding: 0.5rem 1rem;
+					border: $baseColor_black 0.1rem solid;
+
+					a {
+						font-weight: 400;
+						text-decoration: none;
+						color: $baseColor_black;
+						font-family: $fontStyle_header;
+
+						.bi {
+							margin-right: 0.5rem;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+						}
+					}
+				}
+
+				h2 {
+					margin-top: 1.5rem;
+					text-align: center;
+					line-height: 0.7rem;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightBlack;
+					font-family: $fontStyle_header;
+				}
+
+				.socialLinks {
+					display: flex;
+					padding: 0;
+					margin-top: 1rem;
+					justify-content: space-between;
+
+					a {
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+					}
+				}
+			}
+		}
+
+		.contentBottom {
+			.top {
+				margin: 0 auto;
+				width: fit-content;
+			}
+
+			.borderlineMid {
+				margin-top: 0.75rem;
+				margin-bottom: 0.25rem;
+			}
+
+			.bottom {
+				display: flex;
+				margin: 0 auto;
+				padding-top: 0.5rem;
+				width: fit-content;
+				flex-direction: column;
+
+				h2 {
+					display: none;
+				}
+
+				.right {
+					padding-top: 0rem;
+					padding-bottom: 0.75rem;
+				}
+
+				#secondFooterTitle {
+					display: block;
+					font-weight: 300;
+					text-align: left;
+					margin: 0 auto;
+					padding: 0.5rem 0;
+					width: fit-content;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightBlack;
+					font-family: $fontStyle_header;
+
+					.far {
+						margin-right: 0.2rem;
+					}
+				}
+			}
 		}
 	}
 }
@@ -1909,6 +2083,13 @@ header {
 					}
 				}
 			}
+		}
+	}
+
+	/*============ DELIVERY =============*/
+	.delivery {
+		.info {
+			padding: 0 1rem;
 		}
 	}
 
