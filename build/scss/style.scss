@@ -1144,8 +1144,8 @@ header {
 	}
 }
 
-// Small devices (Landscape phone, 576px and up)
-@media (max-width: 576px) {
+// Extra Small devices (Landscape phone, 576px and up)
+@media (max-width: 575px) {
 	/*============ NAVIGATION MENU =============*/
 	header {
 		nav {
@@ -1160,20 +1160,391 @@ header {
 
 	/*============ SALE =============*/
 	.goneInFlash {
-		margin: auto;
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				flex-direction: column;
+			}
+		}
+	}
+
+	/*============ SMARTPHONE =============*/
+	.smartphones {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+
+				.left {
+					display: flex;
+					flex-direction: column;
+					grid-row-gap: 1rem;
+					align-items: flex-start;
+				}
+			}
+
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.accessories {
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+
+				.left {
+					display: flex;
+					flex-direction: column;
+					grid-row-gap: 1rem;
+					align-items: flex-start;
+				}
+			}
+
+			.content {
+				display: grid;
+				margin-top: 2rem;
+				grid-template-columns: 1fr;
+				grid-gap: 1rem;
+
+				.product,
+				.productIMGBackground,
+				.productIMGBackground1 {
+					.content {
+						.text {
+							h2 {
+								margin-top: 1.5rem;
+								font-size: $fontSize_normal;
+
+								span {
+									font-size: $fontSize_small;
+								}
+							}
+
+							.subtitle {
+								margin-top: 0.5rem;
+								font-size: $fontSize_small;
+							}
+
+							.price {
+								height: 100%;
+								margin-top: 1.5rem;
+								font-size: $fontSize_small;
+							}
+						}
+
+						a {
+							list-style: none;
+							text-decoration: none;
+
+							img {
+								width: 100%;
+								height: 200px;
+								object-fit: contain;
+							}
+						}
+					}
+				}
+			}
+
+			.contentBottom {
+				display: flex;
+				flex-direction: column;
+				grid-gap: 0.5rem;
+
+				.product {
+					height: 100%;
+
+					.content {
+						height: 100%;
+					}
+				}
+			}
+		}
+	}
+
+	/*============ ACTIVITIES =============*/
+	.activities {
 		.display {
 			.content {
 				display: grid;
 				grid-template-columns: 1fr;
-				grid-template-rows: repeat(4, 1fr);
+				grid-row-gap: 1rem;
 
-				.product {
-					img {
-						width: 100%;
-						height: 300px;
-						margin-top: 1rem;
-						object-fit: contain;
+				.rightSide {
+					.discountHeader {
+						a {
+							h2 {
+								bottom: 350px;
+							}
+						}
 					}
+				}
+			}
+		}
+	}
+
+	/*============ DELIVERY =============*/
+	.delivery {
+		.info {
+			padding: 0 1rem;
+		}
+	}
+
+	/*============ PRODUCTS PAGE =============*/
+	.productInfo {
+		.display {
+			.middleSection {
+				display: flex;
+				flex-direction: column;
+
+				.Images {
+					display: flex;
+					flex-direction: column;
+
+					margin-top: 2rem;
+				}
+
+				.Description {
+					margin-top: 2rem;
+
+					.configuration {
+						.color {
+							margin-top: 2rem;
+
+							.buttonSection,
+							.buttonSection1,
+							.buttonSection2 {
+								display: grid;
+								grid-template-columns: 1fr;
+								grid-column-gap: 1rem;
+							}
+						}
+
+						.configuration {
+							.buttonSection,
+							.buttonSection1,
+							.buttonSection2 {
+								display: grid;
+								grid-template-columns: 1fr;
+								grid-column-gap: 2rem;
+							}
+						}
+
+						.checkOutInfo {
+							.addToCart,
+							.addToCart1 {
+								display: grid;
+								grid-template-columns: 1fr;
+								grid-column-gap: 1rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*============ FOOTER =============*/
+	.footer {
+		.content {
+			display: none;
+			.recommended,
+			.support,
+			.aboutRealme,
+			.contactRealme,
+			.socialLinks {
+				display: none;
+				margin: 0 auto;
+			}
+		}
+
+		.contentMobileView {
+			display: flex;
+			margin: 0 auto;
+			flex-direction: column;
+
+			.recommendedMB,
+			.supportMB,
+			.aboutRealmeMB,
+			.contactRealmeMB {
+				position: relative;
+				display: inline-block;
+
+				.buttonDiv {
+					display: flex;
+					margin: auto 0;
+					padding: 0 0.5rem;
+					margin-top: 0.5rem;
+					justify-content: space-between;
+
+					.recommendedbtn,
+					.supportbtn,
+					.aboutRealmebtn,
+					.contactRealmebtn {
+						border: none;
+						padding: 0.5rem;
+						cursor: pointer;
+						font-weight: 600;
+						text-align: left;
+						background: none;
+						color: $baseColor_black;
+						font-size: $fontSize_small;
+						font-family: $fontStyle_option1;
+						cursor: pointer;
+					}
+
+					#dropdownIcon {
+						border: none;
+						margin: auto 0;
+						background: none;
+						color: $baseColor_black;
+						font-size: $fontSize_normal;
+					}
+				}
+
+				.contentLinks {
+					z-index: 1;
+					display: flex;
+					overflow: auto;
+					padding: 0 1.5rem;
+					flex-direction: column;
+
+					li {
+						list-style: none;
+						line-height: 1.75rem;
+
+						a {
+							display: block;
+							text-align: left;
+							text-decoration: none;
+							color: $baseColor_black;
+							font-size: $fontSize_xSmall;
+							font-family: $fontStyle_header;
+						}
+
+						a:hover {
+							color: $secondary_orange;
+						}
+					}
+				}
+			}
+
+			.socialLinksMB {
+				margin: 0 auto;
+				margin-top: 3rem;
+				margin-bottom: 1rem;
+
+				button {
+					background: none;
+					padding: 0.5rem 1rem;
+					border: $baseColor_black 0.1rem solid;
+
+					a {
+						font-weight: 400;
+						text-decoration: none;
+						color: $baseColor_black;
+						font-family: $fontStyle_header;
+
+						.bi {
+							margin-right: 0.5rem;
+							color: $baseColor_black;
+							font-size: $fontSize_normal;
+						}
+					}
+				}
+
+				h2 {
+					margin-top: 1.5rem;
+					text-align: center;
+					line-height: 0.7rem;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightBlack;
+					font-family: $fontStyle_header;
+				}
+
+				.socialLinks {
+					display: flex;
+					padding: 0;
+					margin-top: 1rem;
+					justify-content: space-between;
+
+					a {
+						color: $baseColor_black;
+						font-size: $fontSize_large;
+					}
+				}
+			}
+		}
+
+		.contentBottom {
+			.top {
+				margin: 0 auto;
+				width: fit-content;
+			}
+
+			.borderlineMid {
+				margin-top: 0.75rem;
+				margin-bottom: 0.25rem;
+			}
+
+			.bottom {
+				display: flex;
+				margin: 0 auto;
+				padding-top: 0.5rem;
+				width: fit-content;
+				flex-direction: column;
+
+				h2 {
+					display: none;
+				}
+
+				.right {
+					padding-top: 0rem;
+					padding: 0 1.5rem;
+					padding-bottom: 0.75rem;
+				}
+
+				#secondFooterTitle {
+					display: block;
+					font-weight: 300;
+					text-align: left;
+					margin: 0 auto;
+					padding: 0.5rem 0;
+					width: fit-content;
+					font-size: $fontSize_xSmall;
+					color: $baseColor_lightBlack;
+					font-family: $fontStyle_header;
+
+					.far {
+						margin-right: 0.2rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Small devices (Landscape phone, 576px and up)
+@media (max-width: 576px) {
+	/*============ NAVIGATION MENU =============*/
+	header {
+		nav {
+			.bottomSection {
+				.menuLink {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
 				}
 			}
 		}
@@ -1520,6 +1891,7 @@ header {
 
 				.right {
 					padding-top: 0rem;
+					padding: 0 1.5rem;
 					padding-bottom: 0.75rem;
 				}
 
@@ -1557,21 +1929,80 @@ header {
 		}
 	}
 
-	/*============ SALE =============*/
-	.goneInFlash {
-		margin: auto;
-		.display {
-			.content {
-				display: grid;
-				grid-template-columns: 1fr;
-				grid-template-rows: repeat(4, 1fr);
+	/*============ HERO =============*/
+	.hero {
+		.carousel-inner {
+			.carousel-item {
+				img {
+					width: 100%;
+					height: 350px;
+					max-height: 1200px;
+					object-fit: cover;
+				}
 
-				.product {
-					img {
-						width: 100%;
-						height: 300px;
+				.content {
+					bottom: 175px;
+					left: -320px;
+
+					h2 {
+						font-size: $fontSize_large;
+					}
+
+					p {
+						margin-top: 0.5rem;
+						font-size: $fontSize_normal;
+					}
+				}
+
+				.content1 {
+					bottom: 30px;
+					right: -235px;
+
+					h2 {
+						font-size: $fontSize_large-0;
+
+						span {
+							font-size: $fontSize_large;
+							border: $baseColor_black 0.15rem solid;
+						}
+					}
+
+					h5 {
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						font-size: $fontSize_small;
+					}
+
+					h3 {
+						font-size: $fontSize_large;
+					}
+				}
+
+				.content2 {
+					bottom: 50px;
+					right: -225px;
+
+					h2 {
+						font-size: $fontSize_large-1;
+
+						span {
+							font-size: $fontSize_large;
+						}
+					}
+
+					h5 {
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						font-size: $fontSize_small;
+					}
+
+					h3 {
 						margin-top: 1rem;
-						object-fit: contain;
+						font-size: $fontSize_large;
 					}
 				}
 			}
@@ -1610,7 +2041,7 @@ header {
 						.text {
 							h2 {
 								margin-top: 1.5rem;
-								font-size: $fontSize_normal;
+								font-size: $fontSize_large;
 
 								span {
 									font-size: $fontSize_small;
@@ -1619,13 +2050,13 @@ header {
 
 							.subtitle {
 								margin-top: 0.5rem;
-								font-size: $fontSize_small;
+								font-size: $fontSize_normal;
 							}
 
 							.price {
 								height: 100%;
 								margin-top: 1.5rem;
-								font-size: $fontSize_small;
+								font-size: $fontSize_normal;
 							}
 						}
 
@@ -1644,8 +2075,8 @@ header {
 			}
 
 			.contentBottom {
-				grid-template-columns: 1fr;
-				grid-gap: 0.5rem;
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 0.75rem;
 
 				.product {
 					height: 100%;
@@ -1711,8 +2142,8 @@ header {
 							.buttonSection1,
 							.buttonSection2 {
 								display: grid;
-								grid-template-columns: 1fr;
-								grid-column-gap: 1rem;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 2rem;
 							}
 						}
 
@@ -1721,7 +2152,7 @@ header {
 							.buttonSection1,
 							.buttonSection2 {
 								display: grid;
-								grid-template-columns: 1fr;
+								grid-template-columns: repeat(2, 1fr);
 								grid-column-gap: 2rem;
 							}
 						}
@@ -1730,7 +2161,7 @@ header {
 							.addToCart,
 							.addToCart1 {
 								display: grid;
-								grid-template-columns: 1fr;
+								grid-template-columns: repeat(2, 1fr);
 								grid-column-gap: 1rem;
 							}
 						}
@@ -1743,184 +2174,281 @@ header {
 	/*============ FOOTER =============*/
 	.footer {
 		.content {
-			display: none;
-			.recommended,
-			.support,
-			.aboutRealme,
-			.contactRealme,
-			.socialLinks {
-				display: none;
-				margin: 0 auto;
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-content: space-between;
+		}
+	}
+}
+
+// Between Mobile & Tablet View Responsiveness (Mobile & Tablet, 576px - 768px)
+@media screen and (max-width: 768px) {
+	/*============ NAVIGATION MENU =============*/
+	header {
+		nav {
+			.bottomSection {
+				.menuLink {
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+				}
 			}
 		}
+	}
 
-		.contentMobileView {
-			display: flex;
-			margin: 0 auto;
-			flex-direction: column;
+	/*============ HERO =============*/
+	.hero {
+		.carousel-inner {
+			.carousel-item {
+				img {
+					width: 100%;
+					height: 350px;
+					max-height: 1200px;
+					object-fit: cover;
+				}
 
-			.recommendedMB,
-			.supportMB,
-			.aboutRealmeMB,
-			.contactRealmeMB {
-				position: relative;
-				display: inline-block;
+				.content {
+					bottom: 175px;
+					left: -320px;
 
-				.buttonDiv {
-					display: flex;
-					margin: auto 0;
-					padding: 0 0.5rem;
-					margin-top: 0.5rem;
-					justify-content: space-between;
-
-					.recommendedbtn,
-					.supportbtn,
-					.aboutRealmebtn,
-					.contactRealmebtn {
-						border: none;
-						padding: 0.5rem;
-						cursor: pointer;
-						font-weight: 600;
-						text-align: left;
-						background: none;
-						color: $baseColor_black;
-						font-size: $fontSize_small;
-						font-family: $fontStyle_option1;
-						cursor: pointer;
+					h2 {
+						font-size: $fontSize_large;
 					}
 
-					#dropdownIcon {
-						border: none;
-						margin: auto 0;
-						background: none;
-						color: $baseColor_black;
+					p {
+						margin-top: 0.5rem;
 						font-size: $fontSize_normal;
 					}
 				}
 
-				.contentLinks {
-					z-index: 1;
-					display: flex;
-					overflow: auto;
-					padding: 0 1.5rem;
-					flex-direction: column;
+				.content1 {
+					bottom: 30px;
+					right: -235px;
 
-					li {
-						list-style: none;
-						line-height: 1.75rem;
+					h2 {
+						font-size: $fontSize_large-0;
 
-						a {
-							display: block;
-							text-align: left;
-							text-decoration: none;
-							color: $baseColor_black;
-							font-size: $fontSize_xSmall;
-							font-family: $fontStyle_header;
-						}
-
-						a:hover {
-							color: $secondary_orange;
+						span {
+							font-size: $fontSize_large;
+							border: $baseColor_black 0.15rem solid;
 						}
 					}
-				}
-			}
 
-			.socialLinksMB {
-				margin: 0 auto;
-				margin-top: 3rem;
-				margin-bottom: 1rem;
+					h5 {
+						font-size: $fontSize_normal;
+					}
 
-				button {
-					background: none;
-					padding: 0.5rem 1rem;
-					border: $baseColor_black 0.1rem solid;
+					p {
+						font-size: $fontSize_small;
+					}
 
-					a {
-						font-weight: 400;
-						text-decoration: none;
-						color: $baseColor_black;
-						font-family: $fontStyle_header;
-
-						.bi {
-							margin-right: 0.5rem;
-							color: $baseColor_black;
-							font-size: $fontSize_normal;
-						}
+					h3 {
+						font-size: $fontSize_large;
 					}
 				}
 
-				h2 {
-					margin-top: 1.5rem;
-					text-align: center;
-					line-height: 0.7rem;
-					font-size: $fontSize_xSmall;
-					color: $baseColor_lightBlack;
-					font-family: $fontStyle_header;
-				}
+				.content2 {
+					bottom: 50px;
+					right: -225px;
 
-				.socialLinks {
-					display: flex;
-					padding: 0;
-					margin-top: 1rem;
-					justify-content: space-between;
+					h2 {
+						font-size: $fontSize_large-1;
 
-					a {
-						color: $baseColor_black;
+						span {
+							font-size: $fontSize_large;
+						}
+					}
+
+					h5 {
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						font-size: $fontSize_small;
+					}
+
+					h3 {
+						margin-top: 1rem;
 						font-size: $fontSize_large;
 					}
 				}
 			}
 		}
+	}
 
-		.contentBottom {
-			.top {
-				margin: 0 auto;
-				width: fit-content;
+	/*============ SMARTPHONE =============*/
+	.smartphones {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+			}
+		}
+	}
+
+	/*============ ACCESSORIES =============*/
+	.accessories {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
+		.display {
+			.content {
+				display: grid;
+				margin-top: 2rem;
+				grid-template-columns: 1fr;
+				grid-gap: 1rem;
+
+				.product,
+				.productIMGBackground,
+				.productIMGBackground1 {
+					.content {
+						.text {
+							h2 {
+								margin-top: 1.5rem;
+								font-size: $fontSize_large;
+
+								span {
+									font-size: $fontSize_small;
+								}
+							}
+
+							.subtitle {
+								margin-top: 0.5rem;
+								font-size: $fontSize_normal;
+							}
+
+							.price {
+								height: 100%;
+								margin-top: 1.5rem;
+								font-size: $fontSize_normal;
+							}
+						}
+
+						a {
+							list-style: none;
+							text-decoration: none;
+
+							img {
+								width: 100%;
+								height: 200px;
+								object-fit: contain;
+							}
+						}
+					}
+				}
 			}
 
-			.borderlineMid {
-				margin-top: 0.75rem;
-				margin-bottom: 0.25rem;
-			}
+			.contentBottom {
+				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 0.75rem;
 
-			.bottom {
-				display: flex;
-				margin: 0 auto;
-				padding-top: 0.5rem;
-				width: fit-content;
-				flex-direction: column;
+				.product {
+					height: 100%;
 
-				h2 {
-					display: none;
-				}
-
-				.right {
-					padding-top: 0rem;
-					padding-bottom: 0.75rem;
-				}
-
-				#secondFooterTitle {
-					display: block;
-					font-weight: 300;
-					text-align: left;
-					margin: 0 auto;
-					padding: 0.5rem 0;
-					width: fit-content;
-					font-size: $fontSize_xSmall;
-					color: $baseColor_lightBlack;
-					font-family: $fontStyle_header;
-
-					.far {
-						margin-right: 0.2rem;
+					.content {
+						height: 100%;
 					}
 				}
 			}
 		}
 	}
+
+	/*============ ACTIVITIES =============*/
+	.activities {
+		.display {
+			.content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-row-gap: 1rem;
+
+				.rightSide {
+					.discountHeader {
+						a {
+							h2 {
+								bottom: 350px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*============ DELIVERY =============*/
+	.delivery {
+		.info {
+			padding: 0 1rem;
+		}
+	}
+
+	/*============ PRODUCTS PAGE =============*/
+	.productInfo {
+		.display {
+			.middleSection {
+				display: flex;
+				flex-direction: column;
+
+				.Images {
+					display: flex;
+					flex-direction: column;
+
+					margin-top: 2rem;
+				}
+
+				.Description {
+					margin-top: 2rem;
+
+					.configuration {
+						.color {
+							margin-top: 2rem;
+
+							.buttonSection,
+							.buttonSection1,
+							.buttonSection2 {
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 2rem;
+							}
+						}
+
+						.configuration {
+							.buttonSection,
+							.buttonSection1,
+							.buttonSection2 {
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 2rem;
+							}
+						}
+
+						.checkOutInfo {
+							.addToCart,
+							.addToCart1 {
+								display: grid;
+								grid-template-columns: repeat(2, 1fr);
+								grid-column-gap: 1rem;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	/*============ FOOTER =============*/
+	.footer {
+		.content {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			justify-content: space-between;
+		}
+	}
 }
 
 // Medium devices (Tablet, 576px and up)
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 	/*============ NAVIGATION MENU =============*/
 	header {
 		nav {
@@ -2015,19 +2543,13 @@ header {
 
 	/*============ SALE =============*/
 	.goneInFlash {
+		padding: 1rem;
+		background: $backgroundColor_lightGrey;
+
 		.display {
 			.content {
 				display: grid;
-				grid-template-columns: repeat(2, 1fr);
-
-				.product {
-					img {
-						width: 100%;
-						height: 300px;
-						margin-top: 1rem;
-						object-fit: contain;
-					}
-				}
+				grid-template-columns: repeat(4, 1fr);
 			}
 		}
 	}
@@ -2039,7 +2561,8 @@ header {
 
 		.display {
 			.content {
-				grid-template-columns: 1fr;
+				display: grid;
+				grid-template-columns: repeat(2, 1fr);
 			}
 		}
 	}
