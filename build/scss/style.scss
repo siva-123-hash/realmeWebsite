@@ -1187,6 +1187,18 @@ header {
 		border: #a2e603 0.25rem solid;
 
 		.display {
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+
+				.left {
+					display: flex;
+					flex-direction: column;
+					grid-row-gap: 1rem;
+					align-items: flex-start;
+				}
+			}
+
 			.content {
 				display: grid;
 				grid-template-columns: 1fr;
@@ -1196,10 +1208,21 @@ header {
 
 	/*============ ACCESSORIES =============*/
 	.accessories {
-		padding: 1rem;
 		background: $backgroundColor_lightGrey;
 
 		.display {
+			.navigation {
+				display: flex;
+				justify-content: space-between;
+
+				.left {
+					display: flex;
+					flex-direction: column;
+					grid-row-gap: 1rem;
+					align-items: flex-start;
+				}
+			}
+
 			.content {
 				display: grid;
 				margin-top: 2rem;
@@ -1248,6 +1271,15 @@ header {
 
 			.contentBottom {
 				grid-template-columns: 1fr;
+				grid-gap: 0.5rem;
+
+				.product {
+					height: 100%;
+
+					.content {
+						height: 100%;
+					}
+				}
 			}
 		}
 	}
@@ -1617,6 +1649,15 @@ header {
 
 			.contentBottom {
 				grid-template-columns: 1fr;
+				grid-gap: 0.5rem;
+
+				.product {
+					height: 100%;
+
+					.content {
+						height: 100%;
+					}
+				}
 			}
 		}
 	}
@@ -2061,6 +2102,15 @@ header {
 
 			.contentBottom {
 				grid-template-columns: repeat(2, 1fr);
+				grid-gap: 0.75rem;
+
+				.product {
+					height: 100%;
+
+					.content {
+						height: 100%;
+					}
+				}
 			}
 		}
 	}
