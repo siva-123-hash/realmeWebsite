@@ -733,14 +733,14 @@ header {
 			}
 
 			.productIMGBackground {
-				background-image: url(../otherImages/1626338409118.jpg);
+				background-image: url("https://image05.realme.net/general/20210715/1626338409118.jpg");
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
 			}
 
 			.productIMGBackground1 {
-				background-image: url(../otherImages/1626338418290.jpg);
+				background-image: url("https://image05.realme.net/general/20210715/1626338418290.jpg");
 				background-size: cover;
 				background-position: center;
 				background-repeat: no-repeat;
@@ -899,7 +899,7 @@ header {
 /*============================== DARE TO LEAP ==================================*/
 .dareToLeap {
 	height: 425px;
-	background-image: url(../otherImages/2560-9addad5b18.jpg);
+	background-image: url(/src/img/otherImages/2560-9addad5b18.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -1244,20 +1244,6 @@ header {
 						}
 					}
 				}
-
-				.productIMGBackground {
-					background-image: url(otherImages/1626338409118.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
-				}
-
-				.productIMGBackground1 {
-					background-image: url(otherImages/1626338418290.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
-				}
 			}
 
 			.contentBottom {
@@ -1341,6 +1327,10 @@ header {
 		}
 	}
 
+	.show {
+		display: flex;
+	}
+
 	/*============ FOOTER =============*/
 	.footer {
 		border: #ff002f 0.25rem solid;
@@ -1367,14 +1357,13 @@ header {
 			.aboutRealme,
 			.contactRealme {
 				position: relative;
-				margin-top: 0.25rem;
 				display: inline-block;
 
 				.buttonDiv {
 					display: flex;
 					margin: auto 0;
-					margin-top: 1rem;
 					padding: 0 0.5rem;
+					margin-top: 0.5rem;
 					justify-content: space-between;
 
 					.recommendedbtn,
@@ -1382,14 +1371,15 @@ header {
 					.aboutRealmebtn,
 					.contactRealmebtn {
 						border: none;
+						padding: 0.5rem;
+						cursor: pointer;
 						font-weight: 600;
 						text-align: left;
 						background: none;
-						padding: 0.5rem;
 						color: $baseColor_black;
 						font-size: $fontSize_small;
 						font-family: $fontStyle_option1;
-						border: #ff002f 0.25rem solid;
+						cursor: pointer;
 					}
 
 					#dropdownIcon {
@@ -1403,6 +1393,10 @@ header {
 
 				.contentNone {
 					display: block;
+				}
+
+				#recommendedSection {
+					display: none;
 				}
 
 				.content {
@@ -1622,20 +1616,6 @@ header {
 							}
 						}
 					}
-				}
-
-				.productIMGBackground {
-					background-image: url(otherImages/1626338409118.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
-				}
-
-				.productIMGBackground1 {
-					background-image: url(otherImages/1626338418290.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
 				}
 			}
 
@@ -1902,20 +1882,6 @@ header {
 							}
 						}
 					}
-				}
-
-				.productIMGBackground {
-					background-image: url(otherImages/1626338409118.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
-				}
-
-				.productIMGBackground1 {
-					background-image: url(otherImages/1626338418290.jpg);
-					background-size: cover;
-					background-position: center;
-					background-repeat: no-repeat;
 				}
 			}
 

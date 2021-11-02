@@ -1,8 +1,9 @@
 /*======================== MOBILE VIEW ==========================*/
 // (FOOTER)
 function recommendedDropdown() {
-	// document.getElementById("recommendedSection").classList.toggle("contentNone");
-	document.getElementById("recommendedSection").style.display = "block";
+	// document.getElementById("recommendedSection").classList.add("show");
+	document.getElementById("recommendedSection").style.border =
+		"#111 0.1rem solid";
 }
 
 /*=====================================================================*/

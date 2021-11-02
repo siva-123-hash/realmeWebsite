@@ -1061,14 +1061,14 @@
 				<div class="contentMobileView">
 					<div class="recommended">
 						<div class="buttonDiv">
-							<button onclick="recommendedDropdown()" class="recommendedbtn">
+							<button class="recommendedbtn" onclick="recommendedDropdown()">
 								Recommended
 							</button>
-							<button id="dropdownIcon" onclick="recommendedDropdown()">
+							<button id="dropdownIcon">
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
-						<div id="recommendedSection" class="content">
+						<ul class="content" id="recommendedSection">
 							<li>
 								<a href="https://www.realme.com/pl/realme-8-5g" target="blank"
 									>realme 8 5G</a
@@ -1135,14 +1135,14 @@
 									>More Phones +</a
 								>
 							</li>
-						</div>
+						</ul>
 					</div>
-					<div class="support">
+					<!-- <div class="support">
 						<div class="buttonDiv">
 							<button onclick="supportDropdown()" class="supportbtn">
 								Support
 							</button>
-							<button id="dropdownIcon" onclick="recommendedDropdown()">
+							<button id="dropdownIcon">
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
@@ -1190,7 +1190,7 @@
 							<button onclick="aboutRealme()" class="aboutRealmebtn">
 								About realme
 							</button>
-							<button id="dropdownIcon" onclick="recommendedDropdown()">
+							<button id="dropdownIcon">
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
@@ -1207,7 +1207,7 @@
 							<button onclick="contactRealme()" class="contactRealmebtn">
 								Contact realme
 							</button>
-							<button id="dropdownIcon" onclick="recommendedDropdown()">
+							<button id="dropdownIcon">
 								<i class="bi bi-caret-down"></i>
 							</button>
 						</div>
@@ -1219,7 +1219,7 @@
 								<a href="" target="blank">orders.eu@realme.com</a>
 							</li>
 						</div>
-					</div>
+					</div> -->
 					<div class="socialLinks">
 						<button>
 							<a href="" target="blank"
@@ -1275,11 +1275,17 @@
 
 		<!--===== MAIN JS =====-->
 		<!-- Main Javascript & jQuery -->
-		<script src="../js/app.js"></script>
+		<script src="/src/js/app.js"></script>
 
 		<!-- AOS CDN.js Reveal Animation -->
 		<script>
 			AOS.init();
+
+			function recommendedDropdown() {
+				// document.getElementById("recommendedSection").classList.add("show");
+				document.getElementById("recommendedSection").style.border =
+					"#111 0.1rem solid";
+			}
 		</script>
 
 		<!-- Bootstrap JavaScript -->
