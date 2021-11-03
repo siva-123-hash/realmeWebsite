@@ -53,5 +53,5 @@ To mention a few:
 3. Implementing a checkout and product review page/section. 
 
 # Deployment
-Deployed with github pages.
+Deployed with github pages here.
 https://todd-owen-mpeli.github.io/realmeWebsite/src/index.html
