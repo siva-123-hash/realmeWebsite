@@ -28,4 +28,9 @@ I learned a lot building this application more importantly git commit documentat
 
 Alternatively, theres a lot of other lessons a learned, but to mention a few:
 
-1. Javascript functions, HTML DOM and Browser BOM. (Specifically the product pages, product images & changing the product image color for the correct product colour)
+1. Javascript functions, HTML DOM and Browser BOM. (Specifically the product pages & product images & changing the product image color for the correct product colour)
+2. Creating a remote repository to learn a better development workflow process.
+3. Using gitpage to deploy the website.
+4. Responsive website using Bootstrap 5 class intergration for mobile & tablet view-width breakpoints.
+5. SCSS File Structure, _font.scss, color.scss etc. Creating seperate SCSS files for different attributes for better CSS opimazation.
+6. Using Git operations to create a local repo. Also general git operations link, init, add, status, commit, remote, push and pull.
