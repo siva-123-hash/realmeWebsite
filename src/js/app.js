@@ -26,12 +26,20 @@ plus.addEventListener("click", () => {
 });
 
 minus.addEventListener("click", () => {
+	let defaultPrice = parseFloat(defaultPriceValue);
+	console.log(defaultPrice);
 	if (a > 1) {
 		a--;
 		quantityAmount.innerText = a;
 
 		// Checkout section quantity amount
 		quantity.innerText = a;
+
+		// Checkout section Default product price
+		let currentTotalPrice = document.getElementById("totalPrice").innerText;
+		let newCurrentTotalPrice = parseFloat(currentTotalPrice);
+		let newTotalPrice = newCurrentTotalPrice - defaultPrice;
+		totalPriceTextBox.innerText = newTotalPrice;
 	}
 });
 
