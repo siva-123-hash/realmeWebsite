@@ -62,7 +62,8 @@ To mention a few:
 2. The footer section navigation links (Recommended, Support....) In the mobile view the user will have to click to reveal the links or to hide them. But I can't create the JavaScript function to execute that.
 3. For all the product pages seen in the landing page. when it comes to the quantity amount. when increasing the quantity and decreasing it. I cannot display the correct price.
 4. More Team-orientated Git operations specifically branch and merge this will initialize a more realistic team development workflow process.
-5. Lastly, they are minor visual issues that honestly I have no solution to solve.
+5. The countdown feature/timer on all the sale sections doesn't work. (I don't know how to make one being honest)
+6. Lastly, they are minor visual issues that honestly I have no solution to solve.
 
 # realme Buds Q2 Product Page (I created 2/2)
 
