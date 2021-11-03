@@ -15,7 +15,7 @@ My main responsibilities will be converting client briefs & project details into
 
 1. Please note that my demo website was built during the October Halloween Sale. Thus the real realme website will be different at the time of your viewing. (As seen below)
 
-<img src="src/img/realme%20website%20Product%20Images.png" width="100%" height="400px">
+<img src="src/img/realme%20website%20Product%20Images.png" width="100%" height="500px">
 
 # Project Context
 As like most people I have a smartphone. realme is a Chinese smartphone manufacturer and a subsidiary of BBK Electronics. And for this project I proceed as if the smartphone manufacturer were seeking to build a UK version of their smartphone website.
@@ -28,6 +28,12 @@ My objective was to build a realme website which is exactly the same as the curr
 Although, I understand of software development life cycle, example agile , scrum or waterfall. For this demo project it would be difficult for me to display my knowledge of these development methodologies.
 
 Therefore, if you look though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
+
+# realme 8 Pro Product Page (I created 1/2)
+
+1. This is one of the product pages I created for my realme smartphone website Demo.
+
+<img src="src/img/realme%20website%20Product%20page%20Images%201.png" width="100%" height="700px">
 
 # Lessons Learned
 I learned a lot building this application more importantly git commit documentation. I was connecting from a branch into a main development repo and getting used to clearly documenting after every change I made was a learning process.
@@ -51,6 +57,12 @@ To mention a few:
 3. For all the product pages seen in the landing page. when it comes to the quantity amount. when increasing the quantity and decreasing it. I cannot display the correct price.
 4. More Team-orientated Git operations specifically branch and merge this will initialize a more realistic team development workflow process.
 5. Lastly, they are minor visual issues that honestly I have no solution to solve.
+
+# realme Buds Q2 Product Page (I created 2/2)
+
+1. This is another one of the product pages I created for my realme smartphone website Demo.
+
+<img src="src/img/realme%20website%20Product%20page%20Images%202.png" width="100%" height="700px">
 
 # Potential Future Features
 
