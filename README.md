@@ -6,6 +6,7 @@ As a junior software Developer my main responsibilites would be:
 various web projects.
 
 As a junior member, client briefs & project details will larging be all pre-determined. Meaning I won't be responsible for designing an entire website functionality.
+
 Although I will be required to have an minimum understanding of design principles, example the difference between **padding** and **margin**.
 
 My main responsibilities will be converting client briefs & project details into concept designs with the goal of reaching production and finally live service. 
