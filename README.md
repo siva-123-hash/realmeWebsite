@@ -24,4 +24,8 @@ Although, I have an understanding of software development life cycle, example ag
 Therefore, if you look though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
 
 # Lessons Learned
-I learned a lot building this application. More importantly is git commit documentation, as if I was connecting from a branch into a main development repo. Getting used to clearly documenting every changes made is something difficult.
+I learned a lot building this application more importantly git commit documentation. I was connecting from a branch into a main development repo and getting used to clearly documenting after every change I made was a learning process.
+
+Alternatively, theres a lot of other lessons a learned, but to mention a few:
+
+1. Javascript functions, HTML DOM and Browser BOM. (Specifically the product pages, product images & changing the product image color for the correct product colour)
