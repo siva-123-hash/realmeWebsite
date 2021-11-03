@@ -22,7 +22,10 @@ plus.addEventListener("click", () => {
 	let newTotalPrice = defaultPrice * b;
 	b++;
 	console.log(newTotalPrice);
-	totalPriceTextBox.innerText = newTotalPrice;
+	totalPriceTextBox.innerHTML =
+		`
+                <i class="bi bi-currency-pound"></i>
+            ` + newTotalPrice;
 });
 
 minus.addEventListener("click", () => {
@@ -39,7 +42,10 @@ minus.addEventListener("click", () => {
 		let currentTotalPrice = document.getElementById("totalPrice").innerText;
 		let newCurrentTotalPrice = parseFloat(currentTotalPrice);
 		let newTotalPrice = newCurrentTotalPrice - defaultPrice;
-		totalPriceTextBox.innerText = newTotalPrice;
+		totalPriceTextBox.innerHTML =
+			`
+                <i class="bi bi-currency-pound"></i>
+            ` + newTotalPrice;
 	}
 });
 
