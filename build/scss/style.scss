@@ -1231,6 +1231,40 @@ header {
 						font-size: $fontSize_normal;
 					}
 				}
+
+				.content2 {
+					display: flex;
+					bottom: 375px;
+					left: 0px;
+					right: 0px;
+					margin-top: 15rem;
+					flex-direction: column;
+
+					h2 {
+						color: $baseColor_white;
+						font-size: $fontSize_large-1;
+
+						span {
+							color: $baseColor_white;
+							font-size: $fontSize_normal;
+						}
+					}
+
+					h5 {
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+					}
+
+					p {
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+					}
+
+					h3 {
+						color: $baseColor_white;
+						font-size: $fontSize_normal;
+					}
+				}
 			}
 		}
 	}
@@ -2222,6 +2256,7 @@ header {
 			}
 
 			.contentBottom {
+				display: grid;
 				grid-template-columns: repeat(2, 1fr);
 				grid-gap: 0.75rem;
 
@@ -2339,7 +2374,6 @@ header {
 			.content {
 				display: grid;
 				margin-top: 2rem;
-				grid-template-columns: 1fr;
 				grid-gap: 1rem;
 
 				.product,
@@ -2383,7 +2417,6 @@ header {
 			}
 
 			.contentBottom {
-				grid-template-columns: repeat(2, 1fr);
 				grid-gap: 0.75rem;
 
 				.product {
