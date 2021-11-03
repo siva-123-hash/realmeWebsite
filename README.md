@@ -1,4 +1,4 @@
-# realme smartphone Wwbsite (Demo)
+# realme smartphone website (Demo)
 This is a realme website project I created to demonstrate my HTML, CSS, SCSS, Javascript/jQuery, Git/ Github and gereal web development skills.
 As a junior software Developer my main responsibilites would be:
 
