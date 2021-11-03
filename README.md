@@ -33,7 +33,13 @@ Therefore, if you look though my **git commit submit history** I tried to make c
 
 1. This is one of the product pages I created for my realme smartphone website Demo.
 
-<img src="src/img/realme%20website%20Product%20page%20Images%201.png" width="100%" height="700px">
+<img src="src/img/realme%20website%20Product%20page%20Images%201.png" width="100%" height="750px">
+
+2. This is Mobile view of my realme smartphone website Demo.
+
+As you can see they is multiple screenshots of the website. One is a product page image (left) and the rest is the landing page.
+
+<img src="src/img/realme%20website%20Mobile%20View%20Image.png" width="100%" height="600px">
 
 # Lessons Learned
 I learned a lot building this application more importantly git commit documentation. I was connecting from a branch into a main development repo and getting used to clearly documenting after every change I made was a learning process.
