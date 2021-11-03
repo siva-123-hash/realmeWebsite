@@ -1659,13 +1659,15 @@
 					}
 
 					.addToCart {
-						display: flex;
+						display: grid;
 						margin-top: 1rem;
+						grid-template-columns: repeat(2, 1fr);
+						grid-column-gap: 1rem;
 						justify-content: space-around;
 
 						button {
 							background: none;
-							padding: 1rem 6rem;
+							padding: 1rem 2rem;
 							border: $baseColor_black 0.1rem solid;
 
 							h2 {
