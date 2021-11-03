@@ -11,6 +11,12 @@ Although I will be required to have an minimum understanding of design principle
 
 My main responsibilities will be converting client briefs & project details into concept designs with the goal of reaching production and finally live service. 
 
+# My Project(Right) vs realme UK Website
+
+1. Please note that my demo website was build during the October Halloween Sale. Thus the real realme website will be different at the time of your viewing.(As seen below)
+
+<img src="src/img/realme%20website%20Product%20Images.png" width="100%" height="400px">
+
 # Project Context
 As like most people I have a smartphone. realme is a Chinese smartphone manufacturer and a subsidiary of BBK Electronics. And for this project I proceed as if the smartphone manufacturer were seeking to build a UK version of their smartphone website.
 
