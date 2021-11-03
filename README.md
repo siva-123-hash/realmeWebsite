@@ -13,7 +13,7 @@ My main responsibilities will be converting client briefs & project details into
 
 # realme UK Website (Left) vs My Project (Right)
 
-1. Please note that my demo website was built during the October Halloween Sale. Thus the real realme website will be different at the time of your viewing.(As seen below)
+1. Please note that my demo website was built during the October Halloween Sale. Thus the real realme website will be different at the time of your viewing. (As seen below)
 
 <img src="src/img/realme%20website%20Product%20Images.png" width="100%" height="400px">
 
