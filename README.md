@@ -10,3 +10,9 @@ As a junior member, client briefs & project details will larging be all pre-dete
 Although I will be required to have an minimum understanding of design principles, example the difference between **padding** and **margin**.
 
 My main responsibilities will be converting client briefs & project details into concept designs with the goal of reaching production and finally live service. 
+
+# Project Context
+As like most people I have a smartphone. realme is a Chinese smartphone manufacturer and a subsidiary of BBK Electronics. And for this project I proceed as if the smartphone manufacturer were seeking to build a UK version of their smartphone website.
+
+I was included into the development team and which was given a client brief, project details and a Adobe XD design file. These hypothetical details in this demo project is the actual realme UK website located here: https://www.realme.com/uk/
+
