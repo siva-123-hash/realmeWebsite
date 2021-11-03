@@ -43,7 +43,8 @@ To mention a few:
 1. The hero section images have a mobile version of the same images. However I cannot seem to load the mobile version images in a mobile view.
 2. The footer section navigation links (Reccomented, Suport....) In the mobile view the user will have to click to reveal the links or to hide them. But i can't create the javascript function to execute that.
 3. For all the product pages seen in the landing page. when it comes to the quantity amount. when increasing the quantity and decreasing it. I cannot display the correct price.
-4. Lastly, they are minor visual issues that honestly I have no solution to solve.
+4. More Team-orientated Git operations specifically branch and merge this will initialize a more realistic team development workflow process.
+5. Lastly, they are minor visual issues that honestly I have no solution to solve.
 
 # Potential Future Features
 
