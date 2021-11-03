@@ -42,7 +42,14 @@ To mention a few:
 
 1. The hero section images have a mobile version of the same images. However I cannot seem to load the mobile version images in a mobile view.
 2. The footer section navigation links (Reccomented, Suport....) In the mobile view the user will have to click to reveal the links or to hide them. But i can't create the javascript function to execute that.
-3. For all the product pages seen in the landing page. when it comes to the quantity amount. when increasing the quantity and decreasing it. I cannot display the correct price. 
+3. For all the product pages seen in the landing page. when it comes to the quantity amount. when increasing the quantity and decreasing it. I cannot display the correct price.
+4. Lastly, they are minor visual issues that honestly I have no solution to solve.
+
+# Potential Future Features
+
+1. To solve the current issues in the current iteration of this demo website.
+2. Secondly to re-building the entire realme demo website with React and Node.js. 
+3. Implementing a checkout and product review page/section. 
 
 # Deployment
 Deployed with github pages.
