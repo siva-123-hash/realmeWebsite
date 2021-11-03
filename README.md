@@ -22,3 +22,6 @@ My objective was to build a realme website which is exactly the same as the curr
 Although, I have an understanding of software development life cycle, example agile , scrum or waterfall. For this demo project it would be deficult for me to display my knowledge of these development methodologies.
 
 Therefore, if you look though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
+
+# Lessons Learned
+I learned a lot building this application. More importantly is git commit documentation, as if I was connecting from a branch into a main development repo. Getting used to clearly documenting every changes made is something difficult.
