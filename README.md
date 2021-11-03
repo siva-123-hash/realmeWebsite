@@ -34,3 +34,11 @@ Alternatively, theres a lot of other lessons a learned, but to mention a few:
 4. Responsive website using Bootstrap 5 class intergration for mobile & tablet view-width breakpoints.
 5. SCSS File Structure, _font.scss, color.scss etc. Creating seperate SCSS files for different attributes for better CSS opimazation.
 6. Using Git operations to create a local repo. Also general git operations link, init, add, status, commit, remote, push and pull.
+
+# Improvements
+Although my realme website Demo is functional and provides the minimum viable product of reflecting the real, realme UK website. They are tons of issues that still need improvement.
+
+To mention a few:
+
+1. The hero section images have a mobile version of the same images. However I cannot seem to load the mobile version images in a mobile view.
+2. The footer section navigation links (Reccomented, Suport....) In the mobile view the user will have to click to reveal the links or to hide them. But i can't create the javascript function to execute that. 
