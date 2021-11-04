@@ -30,7 +30,9 @@ I was included into the development team assigned for this project. Which was gi
 My objective was to build a realme website following a design brief. 
 Which is the current realme UK website.
 
-Although, I understand of software development life cycle, example agile , scrum or waterfall. 
+More specifically converting wireframes and designs into functioning interfaces .
+
+Although, I understand the different software development life cycles; agile , scrum and waterfall. 
 For this demo project it would be difficult for me to display my knowledge of these development workflow methodologies.
 
 Therefore, looking though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
