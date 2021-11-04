@@ -20,9 +20,11 @@ My main responsibilities will be converting client briefs & project details into
 <img src="src/img/realme%20website%20Product%20Images.png" width="100%" height="500px">
 
 # Project Context
-As like most people I have a smartphone. realme is a Chinese smartphone manufacturer and a subsidiary of BBK Electronics. And for this project I proceed as if the smartphone manufacturer were seeking to build a UK version of their smartphone website.
+As like most people we all have a smartphones. 
+realme is a Chinese smartphone manufacturer and a subsidiary of BBK Electronics. 
+For this project the smartphone manufacturer were seeking to build a UK version of their smartphone website.
 
-I was included into the development team, and which was given a client brief, project details and a Adobe XD design file. These hypothetical details in this demo project is the actual realme UK website located here: https://www.realme.com/uk/
+I was included into the development team assigned for this project. Which was given a client brief, project details and a Adobe XD design file. These hypothetical details in this demo project is the actual realme UK website located here: https://www.realme.com/uk/
 
 # My Objective
 My objective was to build a realme website which is exactly the same as the current realme UK website. My development process was to develop the website as if I was on a development team following a design brief.
