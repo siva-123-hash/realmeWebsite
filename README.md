@@ -27,11 +27,13 @@ For this project the smartphone manufacturer were seeking to build a UK version 
 I was included into the development team assigned for this project. Which was given a client brief, project details and a Adobe XD design file. These hypothetical details in this demo project is the actual realme UK website located here: https://www.realme.com/uk/
 
 # My Objective
-My objective was to build a realme website which is exactly the same as the current realme UK website. My development process was to develop the website as if I was on a development team following a design brief.
+My objective was to build a realme website following a design brief. 
+Which is the current realme UK website.
 
-Although, I understand of software development life cycle, example agile , scrum or waterfall. For this demo project it would be difficult for me to display my knowledge of these development methodologies.
+Although, I understand of software development life cycle, example agile , scrum or waterfall. 
+For this demo project it would be difficult for me to display my knowledge of these development workflow methodologies.
 
-Therefore, if you look though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
+Therefore, looking though my **git commit submit history** I tried to make clear documentation of each changes made throughout the development process.
 
 # realme 8 Pro Product Page (I created 1/2)
 
