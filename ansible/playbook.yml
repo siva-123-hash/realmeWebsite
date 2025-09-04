@@ -1,0 +1,15 @@
+- name: Deploy Realme Mobile App
+  hosts: all
+  become: yes
+  tasks:
+    - name: Ensure Docker is installed
+      apt:
+        name: docker.io
+        state: present
+        update_cache: yes
+
+    - name: Pull latest Realme image
+      shell: docker pull realme/mobile:v1
+
+    - name: Run Realme container
+      shell: docker run -d --name realme-app --restart always -p 8082:8080 realme/mobile:v1
